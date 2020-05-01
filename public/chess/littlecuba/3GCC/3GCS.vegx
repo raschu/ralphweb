@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Tournament>
+	<Name>3. Gersau-Cuba Cup</Name><HostFederation>SUI</HostFederation><Place>Gersau</Place><Date Begin="20/01/2019" End="20/01/2019"/><Schedule></Schedule><Arbiters Chief="Marzell Camenzind" Deputy="Ralph Schuler"/><PlaySystem>
+		<RateMove>90 minutes + 30 seconds per move</RateMove><PairingSystem>10</PairingSystem><RRorder></RRorder><RoundsNumber>7</RoundsNumber><ScoreSystem Win="1" Draw="0.5" Loss="0" PAB="0"/>
+	</PlaySystem><InitialRanking>3</InitialRanking><TieBreakers>
+		<TieBreak>  Buc1  </TieBreak><TieBreak>  BucT  </TieBreak>
+	</TieBreakers><AssignedBoards></AssignedBoards><CurrentRound>7</CurrentRound><CompletedRounds>7</CompletedRounds><ProgramVersion>Vega 8.0.0</ProgramVersion><Parameters>
+		<RegistrationClosed>TRUE</RegistrationClosed><UseAdjustedScore>TRUE</UseAdjustedScore><NoTieBreakByeDraw>FALSE</NoTieBreakByeDraw><VesusID>0</VesusID><ServerFolder></ServerFolder><AcceleratedRounds>
+			<AcceleratedSystem>0</AcceleratedSystem><IsSetAcceleration>FALSE</IsSetAcceleration><NumberAcceleratedRounds>0</NumberAcceleratedRounds><Baku_GA>0</Baku_GA><IdLimit High="0" Low="0"/><DecreasedAcceleration>FALSE</DecreasedAcceleration><PointsGroup Top="0" Middle="0" Bottom="0"/>
+		</AcceleratedRounds>
+	</Parameters><Players>
+		<Player>
+			<Name>DAVE SCHULER</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>HANSJÖRG NIEDEREGGER</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>MARZELL CAMENZIND</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>RALPH SCHULER</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>ROLAND BEELER</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>THOMAS DITTLI</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>URS FOEHN</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>VERA BANZ</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>f</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>WERNER CAMENZIND</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>YASHICA SUGAN</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>f</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player>
+	</Players><Rounds>
+		<Pairing>
+			<Pair Board="1" White="6" Black="1" Result="10" Type="1"/><Pair Board="2" White="2" Black="7" Result="01" Type="1"/><Pair Board="3" White="8" Black="3" Result="01" Type="1"/><Pair Board="4" White="4" Black="9" Result="10" Type="1"/><Pair Board="5" White="10" Black="5" Result="10" Type="1"/>
+		</Pairing><Pairing>
+			<Pair Board="1" White="3" Black="6" Result="01" Type="1"/><Pair Board="2" White="7" Black="4" Result="01" Type="1"/><Pair Board="3" White="1" Black="10" Result="01" Type="1"/><Pair Board="4" White="9" Black="2" Result="01" Type="1"/><Pair Board="5" White="5" Black="8" Result="10" Type="1"/>
+		</Pairing><Pairing>
+			<Pair Board="1" White="4" Black="10" Result="10" Type="1"/><Pair Board="2" White="6" Black="5" Result="10" Type="1"/><Pair Board="3" White="2" Black="3" Result="01" Type="1"/><Pair Board="4" White="8" Black="7" Result="01" Type="1"/><Pair Board="5" White="9" Black="1" Result="01" Type="1"/>
+		</Pairing><Pairing>
+			<Pair Board="1" White="6" Black="4" Result="10" Type="1"/><Pair Board="2" White="10" Black="7" Result="10" Type="1"/><Pair Board="3" White="3" Black="1" Result="10" Type="1"/><Pair Board="4" White="5" Black="2" Result="01" Type="1"/><Pair Board="5" White="8" Black="9" Result="01" Type="1"/>
+		</Pairing><Pairing>
+			<Pair Board="1" White="10" Black="6" Result="01" Type="1"/><Pair Board="2" White="4" Black="3" Result="10" Type="1"/><Pair Board="3" White="7" Black="9" Result="10" Type="1"/><Pair Board="4" White="2" Black="8" Result="10" Type="1"/><Pair Board="5" White="1" Black="5" Result="01" Type="1"/>
+		</Pairing><Pairing>
+			<Pair Board="1" White="7" Black="6" Result="01" Type="1"/><Pair Board="2" White="2" Black="4" Result="01" Type="1"/><Pair Board="3" White="3" Black="10" Result="01" Type="1"/><Pair Board="4" White="9" Black="5" Result="10" Type="1"/><Pair Board="5" White="1" Black="8" Result="10" Type="1"/>
+		</Pairing><Pairing>
+			<Pair Board="1" White="6" Black="2" Result="10" Type="1"/><Pair Board="2" White="4" Black="1" Result="10" Type="1"/><Pair Board="3" White="8" Black="10" Result="10" Type="1"/><Pair Board="4" White="9" Black="3" Result="01" Type="1"/><Pair Board="5" White="5" Black="7" Result="01" Type="1"/>
+		</Pairing>
+	</Rounds>
+</Tournament>

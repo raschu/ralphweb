@@ -1,0 +1,30 @@
+<div id="wrap">
+<!--header -->
+<div id="header">			
+<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+<p id="slogan">Download</p>		
+<% INCLUDE mainmenu.tt %>	
+</div>
+<!-- menu -->
+<% INCLUDE empty_menu.tt %>		
+<!-- content-wrap starts here -->
+<div id="content-wrap">
+<div id="main">
+<h2>UCI FICS Bot</h2>
+<p>
+If you want let play an UCI chess engine on a ICS Server, then my Perl script could be for you. All you need are these three files, an <a href="https://chessprogramming.wikispaces.com/UCI">UCI engine</a> and <a href="https://www.unix-ag.uni-kl.de/~chess/soft/timeseal/">timeseal</a> (for other Server than FICS you could alternatively use <a href="http://perldoc.perl.org/IO/Socket.html">IO::Socket</a> or <a href="http://www.chessclub.com/help/timestamp">timestamp</a> on ICC).
+</p>
+
+<p>
+<a href="https://github.com/raschu/FICS-bot/blob/master/ficsbot/bot.pl">bot.pl</a><br/>
+<a href="https://github.com/raschu/FICS-bot/blob/master/ficsbot/bot.ini">bot.ini</a><br/>
+<a href="https://github.com/raschu/FICS-bot/blob/master/ficsbot/FICSlogin.txt">FICSlogin.txt</a><br/>
+</p>
+
+<p>
+<script src="https://gist.github.com/raschu/5589aa903e5041aa3935.js"></script>
+</p>
+</div>
+<!-- content-wrap ends here -->	
+</div>
+<% INCLUDE footer.tt %>

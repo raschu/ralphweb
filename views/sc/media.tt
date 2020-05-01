@@ -1,0 +1,51 @@
+
+<div id="wrap">
+
+		<!--header -->
+		<div id="header">			
+
+			<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+			<p id="slogan">SC:Kantonsranking in den Medien</p>		
+
+			<% INCLUDE mainmenu.tt %>		
+
+		</div>
+		
+		<!-- menu -->	
+			<% INCLUDE sc/menu.tt %>
+			<!-- content-wrap starts here -->
+			<div id="content-wrap">
+
+				<div id="sidebar">
+
+								
+				</div>
+				<div id="main">
+					<h2>Schweizer Fernsehen</h2>
+						<p>
+							<a href="/showmedia/sf1.png"><img src="/images/media/sf1_tn.jpg" alt="Schweizer Fernsehen"/></a>
+
+						</p>	
+					<h2>Bote der Urschweiz</h2>
+						<p>
+						<a href="/showmedia/bote1.jpg"><img src="/images/media/bote1_tn.jpg" alt="Bote der Urschweiz"/></a>
+						<a href="/showmedia/bote2.pdf"><img src="/images/media/bote2_tn.png" alt="Bote der Urschweiz"/></a>
+						</p>
+						<h2>Urner Wochenblatt</h2>
+							<p>
+							<a href="/showmedia/uriwoba.pdf"><img src="/images/media/uriwoba_tn.png" alt="Urner Wochenblatt"/></a>
+							</p>	
+						
+						
+							<h2>Titelbild der alten Website</h2>
+								<p>
+									<a href="/showmedia/t005.jpg"><img src="/images/media/t005_tn.jpg" alt="alte Website"/></a>
+
+								</p>		
+
+				</div>
+
+			<!-- content-wrap ends here -->	
+			</div>
+
+			<% INCLUDE footer.tt %>

@@ -1,0 +1,72 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>ICC Interfaces Ranking</h2>
+						
+						<table>
+						
+						<% FOR r IN data.keys.sort %>
+						<tr>
+						<td>Rank: <% data.$r.cnt %>/<% data.$r.allcnt %>, Rating: <b><% data.$r.rating %></b>, Comparisons: <% data.$r.ratingcnt %>
+						</td>
+						
+						</tr>
+						<tr>
+						<td>
+						<a href="http://youtu.be/<% data.$r.id %>" target="_blank"><img src="/icc_contest/utubethumbs/hqdefault/<% data.$r.id %>.jpg"</img></a>
+						</td>
+						</tr>
+						
+						
+						<% END %>
+						</table>
+						
+					</div>
+					<div id="sidebar">
+					<h3>Leaderboard</h3>
+											<ul class="sidemenu">
+														<li><a href="/icc_interfaces/ranking/0">1 - 10</a></li>
+														<li><a href="/icc_interfaces/ranking/10">11 - 20</a></li>
+														<li><a href="/icc_interfaces/ranking/20">21 - 30</a></li>
+														<li><a href="/icc_interfaces/ranking/30">31 - 40</a></li>
+														<li><a href="/icc_interfaces/ranking/40">41 - 50</a></li>
+														<li><a href="/icc_interfaces/ranking/50">51 - 60</a></li>
+														<li><a href="/icc_interfaces/ranking/60">61 - 70</a></li>
+														<li><a href="/icc_interfaces/ranking/70">71 - 80</a></li>
+														<li><a href="/icc_interfaces/ranking/80">81 - 90</a></li>
+														<li><a href="/icc_interfaces/ranking/90">91 - 100</a></li>
+                                                        <li><a href="/icc_interfaces/ranking/100">101 - 110</a></li>
+                                                        <li><a href="/icc_interfaces/ranking/110">111 - 120</a></li>
+                                                        <li><a href="/icc_interfaces/ranking/120">121 - 130</a></li>
+                                                        <li><a href="/icc_interfaces/ranking/130">131 - 140</a></li>
+												
+											</ul>
+					<h3>Comparisons</h3>
+					
+									<ul class="sidemenu">
+										<li><a href="/icc_interfaces/compare">Compare the Interfaces</a></li>
+										
+									</ul>		
+				
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

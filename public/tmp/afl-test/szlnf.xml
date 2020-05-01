@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<plugins>
+  <pyqgis_plugin name='LNF SZ' version='2.0.2'>
+    <description>Plugin for checking quality rules when LNF data are captured</description>
+    <version>2.1.0</version>
+    <qgis_minimum_version>2.6</qgis_minimum_version>
+    <qgis_maximum_version>2.99</qgis_maximum_version>
+    <homepage>http://ralphschuler.ch</homepage>
+    <file_name>lnfschwyzplugin.zip</file_name>
+    <author_name>Sandro Mani / Sourcepole AG</author_name>
+    <download_url>http://ralphschuler.ch/tmp/afl-test/lnfschwyzplugin.zip</download_url>
+    <uploaded_by>builder</uploaded_by>
+    <create_date>2015-04-29</create_date>
+    <update_date>2016-06-21</update_date>
+    <experimental>False</experimental>
+  </pyqgis_plugin>
+</plugins>

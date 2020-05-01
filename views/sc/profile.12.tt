@@ -1,0 +1,259 @@
+<div id="wrap">
+		<!--header -->
+		<div id="header">			
+			<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+			<p id="slogan">SC:<% edition %> Kantonsranking</p>		
+			<% INCLUDE mainmenu.tt %>	
+		</div>
+		<!-- menu -->
+		<% INCLUDE sc/menu.tt %>		
+			<!-- content-wrap starts here -->
+			<div id="content-wrap">
+				<div id="main">
+					<h2>Profil von <% nick %></h2>
+		              <p>
+			
+						 <table cellspacing="3" class="rlist" border="0">
+						<tr class="rlist">
+						<td width="150">SC:<% edition %> Name</td>
+						<td align="right"><strong><% nick %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						<tr class="rlist">
+						<td>Kanton</td>
+						<td align="right"><img src="/images/sc/ico<% ktn %>.png" border=\"0\"><strong>&nbsp;<% ktn %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						<% IF beaq > 0 %>
+						<tr class="rlist">
+						<td>Beaver Creek Quali</td>
+						<td align="right"><strong>0<% beaq.substr(0, 1) %>:<% beaq.substr(1, 2) %>.<% beaq.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkbeaq %>)</td>
+						<td align="right">(<% rabeaq %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/beaq"><img src="/images/sc/pers_stats.jpg" /></a></a></td>
+						</tr>
+                        <% END %>
+						<% IF bear > 0 %>
+						<tr class="rlist">
+						<td>Beaver Creek Rennen</td>
+						<td align="right"><strong>0<% bear.substr(0, 1) %>:<% bear.substr(1, 2) %>.<% bear.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkbear %>)</td>
+						<td align="right">(<% rabear %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/beaq"><img src="/images/sc/pers_stats.jpg" /></a></a></td>
+						</tr>
+                        <% END %>						
+                        <% IF vadq > 0 %>
+						<tr class="rlist">
+						<td>Val d'Isère Quali</td>
+						<td align="right"><strong>0<% vadq.substr(0, 1) %>:<% vadq.substr(1, 2) %>.<% vadq.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkvadq %>)</td>
+						<td align="right">(<% ravadq %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/vadq"><img src="/images/sc/pers_stats.jpg" /></a></a></td>
+						</tr>
+                                                <% END %>
+
+                                                <% IF vadr > 0 %>
+						<tr class="rlist">
+						<td>Val d'Isère Rennen</td>
+						<td align="right"><strong>0<% vadr.substr(0, 1) %>:<% vadr.substr(1, 2) %>.<% vadr.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkvadr %>)</td>
+						<td align="right">(<% ravadr %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/vadr"><img src="/images/sc/pers_stats.jpg" /></a></a></td>
+						</tr>
+                                                <% END %>
+
+                                                <% IF groq > 0 %>
+						<tr class="rlist">
+						<td>Gröden Quali</td>
+						<td align="right"><strong>0<% groq.substr(0, 1) %>:<% groq.substr(1, 2) %>.<% groq.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkgroq %>)</td>
+						<td align="right">(<% ragroq %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/groq"><img src="/images/sc/pers_stats.jpg" /></a></a></td>
+						</tr>
+                                                <% END %>
+ 
+                                                <% IF gror > 0 %>
+						<tr class="rlist">
+						<td>Gröden Rennen</td>
+						<td align="right"><strong>0<% gror.substr(0, 1) %>:<% gror.substr(1, 2) %>.<% gror.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkgror %>)</td>
+						<td align="right">(<% ragror %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/gror"><img src="/images/sc/pers_stats.jpg" /></a></a></td>
+						</tr>
+                                                <% END %>
+                                                
+                                                <% IF borq > 0 %>
+						<tr class="rlist">
+						<td>Bormio Quali</td>
+						<td align="right"><strong>0<% borq.substr(0, 1) %>:<% borq.substr(1, 2) %>.<% borq.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkborq %>)</td>
+						<td align="right">(<% raborq %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/borq"><img src="/images/sc/pers_stats.jpg" /></a></td>
+						</tr>
+                                                <% END %>
+
+                                                <% IF borr > 0 %>
+						<tr class="rlist">
+						<td>Bormio Rennen</td>
+						<td align="right"><strong>0<% borr.substr(0, 1) %>:<% borr.substr(1, 2) %>.<% borr.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkborr %>)</td>
+						<td align="right">(<% raborr %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/borr"><img src="/images/sc/pers_stats.jpg" /></a></td>
+						</tr>
+                                                <% END %>
+
+                                                <% IF wenq > 0 %>
+						<tr class="rlist">
+						<td>Wengen Quali</td>
+						<td align="right"><strong>0<% wenq.substr(0, 1) %>:<% wenq.substr(1, 2) %>.<% wenq.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkwenq %>)</td>
+						<td align="right">(<% rawenq %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/wenq"><img src="/images/sc/pers_stats.jpg" /></a></td>
+						</tr>
+                                                <% END %>
+
+                                                <% IF wenr > 0 %>
+						<tr class="rlist">
+						<td>Wengen Rennen</td>
+						<td align="right"><strong>0<% wenr.substr(0, 1) %>:<% wenr.substr(1, 2) %>.<% wenr.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkwenr %>)</td>
+						<td align="right">(<% rawenr %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/wenr"><img src="/images/sc/pers_stats.jpg" /></a></td>
+						</tr>
+                                                <% END %>
+
+                                                <% IF kitq > 0 %>
+						<tr class="rlist">
+						<td>Kitzbühel Quali</td>
+						<td align="right"><strong>0<% kitq.substr(0, 1) %>:<% kitq.substr(1, 2) %>.<% kitq.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkkitq %>)</td>
+						<td align="right">(<% rakitq %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/kitq"><img src="/images/sc/pers_stats.jpg" /></a></td>
+						</tr>
+                                                <% END %>
+
+                                                <% IF kitr > 0 %>
+						<tr class="rlist">
+						<td>Kitzbühel Rennen</td>
+						<td align="right"><strong>0<% kitr.substr(0, 1) %>:<% kitr.substr(1, 2) %>.<% kitr.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkkitr %>)</td>
+						<td align="right">(<% rakitr %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/kitr"><img src="/images/sc/pers_stats.jpg" /></a></td>
+						</tr>
+                                                <% END %>
+
+                                                <% IF garq > 0 %>
+						<tr class="rlist">
+						<td>Garmisch Quali</td>
+						<td align="right"><strong>0<% garq.substr(0, 1) %>:<% garq.substr(1, 2) %>.<% garq.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkgarq %>)</td>
+						<td align="right">(<% ragarq %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/garq"><img src="/images/sc/pers_stats.jpg" /></a></td>
+						</tr>
+
+                                                <% END %>
+
+                                                <% IF garr > 0 %>
+						<tr class="rlist">
+						<td>Garmisch Rennen</td>
+						<td align="right"><strong>0<% garr.substr(0, 1) %>:<% garr.substr(1, 2) %>.<% garr.substr(3, 3) %></strong></td>
+						<td align="right">(<% rkgarr %>)</td>
+						<td align="right">(<% ragarr %>)</td>
+						<td align="right"><a href="/profile/12/<% nick %>/garr"><img src="/images/sc/pers_stats.jpg" /></a></td>
+						</tr>
+                                                <% END %>
+						<!--                                               
+                                        	<tr class="rlist">
+						<td>Weltcup Position</td>
+						<td align="right"><strong><% wcpos %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+                                        	<tr class="rlist">
+						<td>Weltcup Punkte</td>
+						<td align="right"><strong><% wcpts %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+                                        	<tr class="rlist">
+						<td>Kilometer</td>
+						<td align="right"><strong><% kilometers %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						<tr class="rlist">
+						<td>Anzahl Rennen</td>
+						<td align="right"><strong><% racesFinished %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						<tr class="rlist">
+						<td>Anzahl Stürze</td>
+						<td align="right"><strong><% crashes %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						<tr class="rlist">
+						<td>Sturzquote</td>
+						<td align="right"><strong><% quota %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+                                                -->
+						<tr class="rlist">
+						<td>Geschlecht</td>
+						<td align="right"><strong><% sex %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						<tr class="rlist">
+						<td>Geburtsdatum</td>
+						<td align="right"><strong><% birthday %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						<tr class="rlist">
+						<td><span style="background-color: yellow">Markierung</span> <a href="#" title="Wenn eingeschaltet, sieht man den Rennläufer auf den Tabellen gelb markiert">(?)</a></td>
+						<td align="right"><% toggletextmark %></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						<tr class="rlist">
+						<td>Facebook</td>
+						<td align="right"><strong><% fbid %></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						<tr class="rlist">
+						<td>Statistiken</td>
+						<td align="right"><strong><a href="http://ftv.sc12.greentube.com/webmagic/PlayerProfile?nick=<% nick %>&m=stats"><% nick %><img src="/images/external_link_icon.gif" border="0"></strong></td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						</tr>
+						</table>
+						<p><img src='<% charturl %>' border='0' alt="&nbsp;"></p>
+		              	
+		              </p>
+				
+				<p align="center"><a href="/rss/sc/12/<% nick %>"><img src="/images/rss-icon.png" alt="Bestzeiten von <% nick %> abonnieren" title="Bestzeiten von <% nick %> abonnieren"></a><br/><br/><script>function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><style> html .fb_share_link { padding:2px 0 0 20px; height:16px; background:url(http://static.ak.facebook.com/images/share/facebook_share_icon.gif?6:26981) no-repeat top left; }</style><a rel="nofollow" href="http://www.facebook.com/share.php?u=http://ralphschuler.ch/profile/12/<% nick %>" onclick="return fbs_click()" target="_blank" class="fb_share_link">Auf Facebook teilen</a></p>				
+				
+				
+				</div>
+			<!-- content-wrap ends here -->	
+			</div>
+			<% INCLUDE footer.tt %>

@@ -1,0 +1,78 @@
+    <div id="wrap">
+            <!--header -->
+            <div id="header">           
+                <h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>                
+                <p id="slogan">Some kewl Hyperlinks</p>     
+                <% INCLUDE mainmenu.tt %>   
+            </div>
+            <!-- menu -->   
+            <div  id="menu">
+            </div>      
+                <!-- content-wrap starts here -->
+                <div id="content-wrap">
+                    <div id="main">
+                        <h2>Some kewl Hyperlinks</h2>
+                        <h3>Geek Stuff</h3>
+                        <ul>
+                            <li><a href="http://www.perl.org/">The Perl Programming Language</a></li>
+							<li><a href="http://wiht.link/perl-resources">Perl Guide and Resources</a></li>
+                            <li><a href="http://cpanmin.us/">App::cpanminus</a></li>
+                            <li><a href="http://perlbrew.pl/">Perlbrew</a></li>
+							<li><a href="https://nodejs.org/">Node.js</a></li>
+                            <li><a href="http://www.rexify.org/">Rexify</a></li>
+                            <li><a href="http://fiddler2.com/">Fiddler</a></li>
+                            <li><a href="https://addons.mozilla.org/DE/firefox/addon/httpfox/">HttpFox</a></li>
+							<li><a href="https://addons.mozilla.org/de/firefox/addon/firebug/">Firebug</a></li>
+                            <li><a href="https://www.docker.com/">Docker</a></li>
+                            <li><a href="http://brew.sh/">Homebrew</a></li>
+                            <li><a href="http://www.raspberrypi.org/">Rasberry Pi</a></li>
+                            <li><a href="http://www.debian.org/">Debian</a></li>
+                            <li><a href="http://linuxmint.com/">Linux Mint</a></li>
+                            <li><a href="http://perldancer.org/">Dancer Web Framework</a></li>
+                            <li><a href="http://mojolicio.us">Mojolicious</a></li>
+                            <li><a href="http://projects.tynsoe.org/en/geektool/download.php">Geek Tool</a></li>
+                            <li><a href="http://www.vim.org">vim</a></li>
+                            <li><a href="http://www.ukwebhostreview.com/web-hosting-guide/">UK Web Host Review</a></li>
+                        </ul>
+                        <h3>Chess</h3>
+                        <a href="https://store.chessclub.com/rewardsref/index/refer/id/1714"><img src="http://www.chessclub.com/uploads/content/banner_001_My-favorite-chess-site.png"></a>
+                        <ul>
+                            <li><a href="http://www.chess.com/">Chess.com</a></li>
+                            <li><a href="http://www.freechess.org/">Free Internet Chess Server (FICS)</a></li>
+                            <li><a href="http://www.ch67.com/">Channel 67</a></li>
+                            <li><a href="http://lanternchess.com/">Lantern Chess</a></li>
+                            <li><a href="http://www.vegachess.com/">Vega Chess Pairing Program</a></li>
+                            <li><a href="http://gorgonian.weebly.com/">Gorgonian's Chess Site</a></li>
+                        </ul>
+                        <h3>Miscellaneous</h3>
+                        <ul>
+                            <li><a href="http://isaf2020.ch">ISAF2020</a></li>
+                            <li><a href="http://pc-innerschwyz.ch">PC-Innerschwyz</a></li>
+                            <li><a href="http://schach-goldauschwyz.ch">Schachvereinigung Goldau-Schwyz</a></li>
+                            <li><a href="http://www.mythenregion.ch/">Mythen Region</a></li>
+                            <li><a href="https://picasaweb.google.com/117090350678341441133">Picture Galery of Lukas Schelbert</a></li>
+                            <li><a href="http://www.sweety.ch/">sweety.ch</a></li>
+                            <li><a href="https://www.schulerfotos.ch/">Schulerfotos.ch</a>
+                            <li><a href="http://www.cornelsuter.ch/">Cornel Suter</a></li>
+                            <li><a href="http://www.gehoerlosenzentrale.ch/">Gehörlosenzentrale</a></li>
+                            <li><a href="http://www.metalinside.ch/">Metalinside</a></li>
+                            <li><a href="http://ralphschuler.ch/chess/littlecuba/2GersauerCubaSchachturnier/standing.html">2. Gersauer Cuba-Schachturnier</a></li>
+                        </ul>
+                        <h3>Ski Challenge</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/hashtag/sckantonsranking">#sckantonsranking auf facebook</a></li>
+                            <li><a href="https://twitter.com/hashtag/sckantonsranking?src=hash">#sckantonsranking auf twitter</a></li>  
+                            <li><a href="https://www.facebook.com/pages/Kantonsranking-der-Ski-Challenge/133107930077362">Facebook Seite Kantonsranking</a></li>
+                            <li><a href="https://www.ski-challenge.com/download/">Download SC:16</a></li>
+                            <li><a href="http://forum.skicha.com/viewforum.php?f=473">Inoffizielles Skichallenge-Forum</a></li>
+                            <li><a href="http://www.scteam.ch/">SCTEAM - Die Schweizer Ski.Challenge-Community</a></li>
+                            <li><a href="http://www.skichallenge.happytec.at/banner_generate.php">HAPPYTEC.at :: SC:Banner Generator</a></li>
+                            <li><a href="http://www.skirudi.info/">Hol dir seine Ski!</a></li>
+                            <li><a href="https://www.reto-hoehener.ch/scticker/index.html">ScTicker - Ski Challenge Ticker</a></li>
+                            <li><a href="http://scoldiesrennschnecken.blogspot.co.at/">Ski Challenge Oldies Blog</a></li>
+                        </ul>
+                    </div>
+                <!-- content-wrap ends here --> 
+                </div>
+                <% INCLUDE footer.tt %>
+

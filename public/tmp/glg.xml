@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" version="1.0.0">
+  <sld:NamedLayer>
+    <sld:Name>tabula-30C-section_3857</sld:Name>
+    <sld:UserStyle>
+      <sld:Name>tabula-30C-section_3857</sld:Name>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <sld:Name>&gt; 40 %</sld:Name>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>40</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>45.9</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MinScaleDenominator>1000.0</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>2.1873365E7</sld:MaxScaleDenominator>
+          <sld:PointSymbolizer>
+            <sld:Graphic>
+              <sld:Mark>
+                <sld:WellKnownName>circle</sld:WellKnownName>
+                <sld:Fill>
+                  <sld:CssParameter name="fill">#7a0177</sld:CssParameter>
+                  <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                </sld:Fill>
+                <sld:Stroke>
+                  <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+                  <sld:CssParameter name="stroke-width">1.600000</sld:CssParameter>
+                </sld:Stroke>
+              </sld:Mark>
+              <sld:Size>100.000000</sld:Size>
+            </sld:Graphic>
+          </sld:PointSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <sld:Name>20 % - 40 %</sld:Name>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>20</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>40</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MinScaleDenominator>1000.0</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>2.1873365E7</sld:MaxScaleDenominator>
+          <sld:PointSymbolizer>
+            <sld:Graphic>
+              <sld:Mark>
+                <sld:WellKnownName>circle</sld:WellKnownName>
+                <sld:Fill>
+                  <sld:CssParameter name="fill">#f768a1</sld:CssParameter>
+                  <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                </sld:Fill>
+                <sld:Stroke>
+                  <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+                  <sld:CssParameter name="stroke-width">1.600000</sld:CssParameter>
+                </sld:Stroke>
+              </sld:Mark>
+              <sld:Size>48.000000</sld:Size>
+            </sld:Graphic>
+          </sld:PointSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <sld:Name>&lt; 20 %</sld:Name>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>0.4</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>20</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MinScaleDenominator>1000.0</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>2.1873365E7</sld:MaxScaleDenominator>
+          <sld:PointSymbolizer>
+            <sld:Graphic>
+              <sld:Mark>
+                <sld:WellKnownName>circle</sld:WellKnownName>
+                <sld:Fill>
+                  <sld:CssParameter name="fill">#feebe2</sld:CssParameter>
+                  <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                </sld:Fill>
+                <sld:Stroke>
+                  <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+                  <sld:CssParameter name="stroke-width">1.600000</sld:CssParameter>
+                </sld:Stroke>
+              </sld:Mark>
+              <sld:Size>24.000000</sld:Size>
+            </sld:Graphic>
+          </sld:PointSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <sld:Name>&gt; 40 %</sld:Name>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>40</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>45.9</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MinScaleDenominator>2.1873365E7</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>6.0E8</sld:MaxScaleDenominator>
+          <sld:PointSymbolizer>
+            <sld:Graphic>
+              <sld:Mark>
+                <sld:WellKnownName>circle</sld:WellKnownName>
+                <sld:Fill>
+                  <sld:CssParameter name="fill">#7a0177</sld:CssParameter>
+                  <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                </sld:Fill>
+                <sld:Stroke>
+                  <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+                  <sld:CssParameter name="stroke-width">1.600000</sld:CssParameter>
+                </sld:Stroke>
+              </sld:Mark>
+              <sld:Size>60.000000</sld:Size>
+            </sld:Graphic>
+          </sld:PointSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <sld:Name>20 % - 40 %</sld:Name>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThan>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>20</ogc:Literal>
+              </ogc:PropertyIsGreaterThan>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>40</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MinScaleDenominator>2.1873365E7</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>6.0E8</sld:MaxScaleDenominator>
+          <sld:PointSymbolizer>
+            <sld:Graphic>
+              <sld:Mark>
+                <sld:WellKnownName>circle</sld:WellKnownName>
+                <sld:Fill>
+                  <sld:CssParameter name="fill">#f768a1</sld:CssParameter>
+                  <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                </sld:Fill>
+                <sld:Stroke>
+                  <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+                  <sld:CssParameter name="stroke-width">1.600000</sld:CssParameter>
+                </sld:Stroke>
+              </sld:Mark>
+              <sld:Size>24.000000</sld:Size>
+            </sld:Graphic>
+          </sld:PointSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <sld:Name>&lt; 20 %</sld:Name>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsGreaterThanOrEqualTo>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>0.4</ogc:Literal>
+              </ogc:PropertyIsGreaterThanOrEqualTo>
+              <ogc:PropertyIsLessThanOrEqualTo>
+                <ogc:PropertyName>CS_rate</ogc:PropertyName>
+                <ogc:Literal>20</ogc:Literal>
+              </ogc:PropertyIsLessThanOrEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MinScaleDenominator>2.1873365E7</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>6.0E8</sld:MaxScaleDenominator>
+          <sld:PointSymbolizer>
+            <sld:Graphic>
+              <sld:Mark>
+                <sld:WellKnownName>circle</sld:WellKnownName>
+                <sld:Fill>
+                  <sld:CssParameter name="fill">#feebe2</sld:CssParameter>
+                  <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
+                </sld:Fill>
+                <sld:Stroke>
+                  <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+                  <sld:CssParameter name="stroke-width">1.600000</sld:CssParameter>
+                </sld:Stroke>
+              </sld:Mark>
+              <sld:Size>12.000000</sld:Size>
+            </sld:Graphic>
+          </sld:PointSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+    </sld:UserStyle>
+  </sld:NamedLayer>
+</sld:StyledLayerDescriptor>
+

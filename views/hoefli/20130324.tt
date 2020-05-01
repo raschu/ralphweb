@@ -1,0 +1,138 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>1. H&ouml;fli Rapid Schachturnier, 24. M&auml;rz 2013</h2>
+						
+						<p>Am 24. M&auml;rz fand im Restaurant H&ouml;fli in Schwyz das erste Rapid Schachturnier statt. An diesem verregneten, kalten Nachmittag fanden sich 6 Wagemutige ein, um sich im Spiel der K&ouml;nige zu messen. Daneben trudelten nach und nach auch noch eine Handvoll interessierter Kibitzer ein.<br><br>
+						
+						<img style="float:left;margin-right:5px" src="/images/hoefli/20130324_154152.jpg" alt=""><span>nicht nur die K&ouml;pfe rauchten</span><br><br>
+						
+						<img style="float:left;margin-right:5px" src="/images/hoefli/20130324_154200.jpg" alt=""><span>Roli Beeler erteilte eine gratis Schachlektion ;-)</span><br><br>
+						
+						<h3>Positionsanalysen</h3>
+						<iframe name='iframe1' height='407' width='539' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://ralphschuler.ch/chess/hoefli/hoefli2013_010.html'>your web browser and/or your host do not support iframes as required to display the chessboard</iframe>
+						
+						<h3>Tabelle / Resultate</h3>
+						<table style="margin-left:10px" cellspacing="3" cellpadding="3" width="450"> 
+						<tr>
+							<th align="center">No.</th>
+							<th align="left">Spieler</th>
+							<th align="center">1</th>							
+							<th align="center">2</th>
+							<th align="center">3</th>								
+							<th align="center">4</th>							
+							<th align="center">5</th>
+							<th align="center">6</th>
+							<th align="center">Punkte</th>
+							<th align="center">SoBerg</th>
+							<th align="center">Rang</th>
+						</tr>						
+						<tr>
+							<td align="center">5</td>
+							<td align="left">Ralph</td>
+							<td align="center">1.0</td>							
+							<td align="center">1.0</td>
+							<td align="center">1.0</td>								
+							<td align="center">1.0</td>							
+							<td align="center">&nbsp;</td>
+							<td align="center">1.0</td>
+							<td align="center">5.0</td>
+							<td align="center">&nbsp;</td>
+							<td align="center">1</td>
+						</tr>
+						<tr>
+							<td align="center">1</td>
+							<td align="left">Wisel</td>
+							<td align="center">&nbsp;</td>							
+							<td align="center">1.0</td>
+							<td align="center">0.5</td>								
+							<td align="center">0.0</td>							
+							<td align="center">0.0</td>
+							<td align="center">1.0</td>
+							<td align="center">2.5</td>
+							<td align="center">&nbsp;</td>
+							<td align="center">2</td>
+						</tr>
+						<tr>
+							<td align="center">4</td>
+							<td align="left">Thomas</td>
+							<td align="center">1.0</td>							
+							<td align="center">1.0</td>
+							<td align="center">0.0</td>								
+							<td align="center">&nbsp;</td>							
+							<td align="center">0.0</td>
+							<td align="center">0.0</td>
+							<td align="center">2.0</td>
+							<td align="center">4.5</td>
+							<td align="center">3</td>
+						</tr>
+						<tr>
+							<td align="center">3</td>
+							<td align="left">Rob</td>
+							<td align="center">0.5</td>							
+							<td align="center">0.0</td>
+							<td align="center">&nbsp;</td>								
+							<td align="center">1.0</td>							
+							<td align="center">0.0</td>
+							<td align="center">0.5</td>
+							<td align="center">2.0</td>
+							<td align="center">4.0</td>
+							<td align="center">4</td>
+						</tr>
+						<tr>
+							<td align="center">2</td>
+							<td align="left">Sascha</td>
+							<td align="center">0.0</td>							
+							<td align="center">&nbsp;</td>
+							<td align="center">1.0</td>								
+							<td align="center">0.0</td>							
+							<td align="center">0.0</td>
+							<td align="center">1.0</td>
+							<td align="center">2.0</td>
+							<td align="center">3.5</td>
+							<td align="center">5</td>
+						</tr>
+						<tr>
+							<td align="center">6</td>
+							<td align="left">Urs</td>
+							<td align="center">0.0</td>							
+							<td align="center">0.0</td>
+							<td align="center">0.5</td>								
+							<td align="center">1.0</td>							
+							<td align="center">0.0</td>
+							<td align="center">&nbsp;</td>
+							<td align="center">1.5</td>
+							<td align="center">&nbsp;</td>
+							<td align="center">6</td>
+						</tr>
+						</table><br><br>
+					</div>
+					<div id="sidebar">
+						<h3>H&ouml;fli Schachturnier</h3>
+						<ul class="sidemenu">
+							<li><a href="/hoefli">&Uuml;bersicht</a></li>
+						</ul>
+
+				
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

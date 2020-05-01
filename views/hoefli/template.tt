@@ -1,0 +1,95 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>1. H&ouml;fli Rapid Schachturnier, 24. M&auml;rz 2013</h2>
+						
+						<p>Am 24. M&auml;rz fand im Restaurant H&ouml;fli in Schwyz das erste Rapid Schachturnier statt. An diesem verregneten, kalten Nachmittag fanden sich 6 Wagemutige ein, um sich im Spiel der K&ouml;nige zu messen. Daneben trudelten nach und nach auch noch eine Handvoll interessierter Kibitzer ein.<br><br>
+						
+						<img style="float:left;margin-right:5px" src="/images/hoefli/20130324_154152.jpg" alt=""><span>nicht nur die K&ouml;pfe rauchten</span><br><br>
+						
+						<img style="float:left;margin-right:5px" src="/images/hoefli/20130324_154200.jpg" alt=""><span>Roli Beeler erteilte eine gratis Schachlektion ;-)</span><br><br>
+						
+						<h3>Positionsanalysen</h3>
+						<iframe name='iframe1' height='407' width='539' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://ralphschuler.ch/chess/hoefli/hoefli2013_010.html'>your web browser and/or your host do not support iframes as required to display the chessboard</iframe>
+						
+						<h3>Tabelle / Resultate</h3>
+												<pre>
+												<table style="margin-left:10px" cellspacing="1" cellpadding="1" width="450"> 
+
+													<tr><td bgColor="silver">Rg.</td><td bgColor="silver">ID</td><td colspan="3" bgColor="silver">Spieler</td><td bgColor="silver" align="center">Pkt</td><td bgColor="silver" align="center">Buchholz</td><td bgColor="silver" align="center">direkte B.</td><td bgColor="silver" align="center">SoBerg</td><td bgColor="silver" align="center">ARO</td><td bgColor="silver" align="center">Turnierleistung</td><td bgColor="silver" align="center">Siege</td></tr>
+
+
+													<tr>
+													<td bgColor="silver" align="center">1</td><td>2</td><td>Rob</td><td> </td><td> 1654F</td><td align="center">4</td><td align="center">11</td><td align="center">0</td><td align="center">7&frac12;</td><td align="center">1595</td><td align="center">1835</td><td align="center">4</td></tr>
+
+
+													<tr>
+													<td bgColor="silver" align="center">2</td><td>1</td><td>Ralph</td><td> </td><td> 1702F</td><td align="center">3&frac12;</td><td align="center">11&frac12;</td><td align="center">0</td><td align="center">8&frac14;</td><td align="center">1585</td><td align="center">1734</td><td align="center">3</td></tr>
+
+													<tr>
+
+													<td bgColor="silver" align="center">3</td><td>6</td><td>Wisel</td><td> </td><td> 1516F</td><td align="center">3</td><td align="center">12</td><td align="center">1</td><td align="center">4&frac12;</td><td align="center">1622</td><td align="center">1694</td><td align="center">3</td></tr>
+
+													<td bgColor="silver" align="center">4</td><td>5</td><td>Urs</td><td> </td><td> 1552F</td><td align="center">3</td><td align="center">12</td><td align="center">0</td><td align="center">5</td><td align="center">1615</td><td align="center">1687</td><td align="center">3</td></tr>
+
+
+													<tr>
+													<td bgColor="silver" align="center">5</td><td>4</td><td>Sascha</td><td> </td><td> 1573F</td><td align="center">1</td><td align="center">14</td><td align="center">0</td><td align="center">&frac12;</td><td align="center">1611</td><td align="center">1371</td><td align="center">1</td></tr>
+
+													<tr>
+
+													<td bgColor="silver" align="center">6</td><td>3</td><td>Beat</td><td> </td><td> 1633F</td><td align="center">&frac12;</td><td align="center">14&frac12;</td><td align="center">0</td><td align="center">1&frac34;</td><td align="center">1599</td><td align="center">1233</td><td align="center">0</td></tr>
+
+													</table>
+
+													<table style="margin-left:10px" cellspacing="1" cellpadding="1" width="450"> 
+													<tr><td bgColor="silver">ID</td><td  colspan="3" bgColor="silver">Spieler</td><td bgColor="silver" colspan="5">gespielte Runden</td><td bgColor="silver" align="center">Pkt</td></tr>
+
+													<tr><td bgColor="silver" align="center">1</td><td>Ralph</td><td> </td><td> 1702F</td><td>+S2</td><td>+W6</td><td>+S4</td><td>=W3</td><td>-S5</td><td align="center">3&frac12;</td></tr>
+
+
+													<tr><td bgColor="silver" align="center">2</td><td>Rob</td><td> </td><td> 1654F</td><td>-W1</td><td>+S4</td><td>+W5</td><td>+S6</td><td>+W3</td><td align="center">4</td></tr>
+
+													<tr><td bgColor="silver" align="center">3</td><td>Beat</td><td> </td><td> 1633F</td><td>-W4</td><td>-S5</td><td>-W6</td><td>=S1</td><td>-S2</td><td align="center">&frac12;</td></tr>
+
+
+													<tr><td bgColor="silver" align="center">4</td><td>Sascha</td><td> </td><td> 1573F</td><td>+S3</td><td>-W2</td><td>-W1</td><td>-S5</td><td>-W6</td><td align="center">1</td></tr>
+
+													<tr><td bgColor="silver" align="center">5</td><td>Urs</td><td> </td><td> 1552F</td><td>-S6</td><td>+W3</td><td>-S2</td><td>+W4</td><td>+W1</td><td align="center">3</td></tr>
+
+
+													<tr><td bgColor="silver" align="center">6</td><td>Wisel</td><td> </td><td> 1516F</td><td>+W5</td><td>-S1</td><td>+S3</td><td>-W2</td><td>+S4</td><td align="center">3</td></tr>
+
+													</table>
+													</pre>
+												<br><br>
+					</div>
+					<div id="sidebar">
+						<h3>H&ouml;fli Schachturnier</h3>
+						<ul class="sidemenu">
+							<li><a href="/hoefli">&Uuml;bersicht</a></li>
+						</ul>
+
+				
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

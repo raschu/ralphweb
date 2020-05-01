@@ -1,0 +1,79 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            ff:f8:3d:f2:69:1a:70:bf
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=ch, L=Seewen, O=Folex AG, CN=Folex AG VPN CA/emailAddress=mailadmin@celfa.com
+        Validity
+            Not Before: Feb 17 08:27:35 2014 GMT
+            Not After : Jan  1 00:00:00 2038 GMT
+        Subject: C=ch, L=Seewen, O=Folex AG, CN=Folex AG VPN CA/emailAddress=mailadmin@celfa.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ae:30:50:25:25:88:dd:64:08:c2:67:48:44:70:
+                    c4:d5:98:04:54:4b:e1:8e:f1:30:ce:84:40:64:2f:
+                    54:9f:84:47:0f:72:65:7e:4b:5c:68:b0:69:a6:0d:
+                    5b:d0:15:25:48:d6:32:6c:06:29:f8:fd:bf:3c:06:
+                    a8:88:85:90:a1:f8:73:5d:dc:ae:f1:20:14:21:98:
+                    ea:29:2d:9b:38:31:2f:33:69:1f:af:f4:8c:9c:96:
+                    75:22:61:1e:07:79:74:38:92:e2:d3:c5:67:71:5b:
+                    69:c7:c2:80:9f:71:05:f4:c9:b8:04:31:e6:68:fa:
+                    e8:47:17:14:b1:cf:dc:cc:1b:5d:22:44:ee:98:60:
+                    95:91:e3:c6:2b:05:04:09:bb:a5:45:59:13:15:3e:
+                    b5:82:d7:d2:ad:6f:8d:41:2b:09:e3:7e:9c:df:52:
+                    21:33:ad:fe:1d:97:47:ca:44:5a:7e:da:8f:2e:5b:
+                    74:8c:56:31:7f:ed:8b:ff:3d:6b:73:e7:24:89:5b:
+                    ae:80:7e:b1:38:cc:9b:ca:78:9f:f2:5b:90:e0:32:
+                    dd:d0:c4:5a:2c:04:36:a5:c0:6f:92:8f:09:d0:5b:
+                    49:60:ad:46:30:25:07:aa:22:42:44:c5:cd:50:f8:
+                    82:a8:81:5d:3d:19:c8:7c:5f:7e:1c:c6:7e:87:ed:
+                    56:8d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                0A:4F:36:01:FE:9C:17:7C:BD:6D:AF:25:72:65:DE:05:F1:9C:9F:64
+            X509v3 Basic Constraints: 
+                CA:TRUE
+            X509v3 Subject Alternative Name: 
+                IP Address:127.0.0.1
+    Signature Algorithm: sha1WithRSAEncryption
+         70:48:1c:c5:ea:49:a5:c5:e0:bb:2e:50:ac:0c:b3:30:5a:1a:
+         44:3e:7f:a6:ad:8e:16:d5:7e:9f:fb:d0:1f:f8:99:0c:44:8f:
+         7a:db:ed:6e:35:4b:80:c8:63:87:57:78:c7:15:b1:6f:e5:f4:
+         1d:38:c0:5e:e5:37:f4:d8:d3:b4:f4:42:91:82:7d:0b:8b:ca:
+         4b:3f:a9:4a:6b:d5:9c:80:21:cc:b1:b8:62:d2:3c:79:69:0e:
+         ff:aa:05:6a:ac:a3:80:9f:d5:f5:45:08:19:be:cf:9e:8d:b8:
+         ae:a1:43:c3:fe:7b:44:ae:b2:be:c0:e5:22:bd:6b:e1:02:8c:
+         55:7d:f4:2e:ec:95:89:ab:f3:15:ee:c0:d9:dd:99:9e:67:ff:
+         11:85:cc:4d:00:6a:5d:b2:37:aa:93:4b:02:64:21:d4:c0:8f:
+         1e:9d:a6:07:49:de:09:db:7c:c6:e5:d4:06:1a:da:f0:75:52:
+         ff:75:ae:d3:ce:f2:58:c2:a1:35:3c:b4:ab:81:cb:cf:5d:51:
+         d3:dc:ee:aa:1c:6a:c0:35:1e:cd:b6:d5:f1:de:df:da:4e:86:
+         a5:54:dc:ae:39:ca:e8:82:f1:15:af:c1:0c:30:67:b7:7b:ff:
+         f3:e3:e3:ed:0d:21:33:97:bf:00:52:dd:22:17:62:b0:62:bb:
+         49:dd:85:b5
+-----BEGIN CERTIFICATE-----
+MIIDoTCCAomgAwIBAgIJAP/4PfJpGnC/MA0GCSqGSIb3DQEBBQUAMG8xCzAJBgNV
+BAYTAmNoMQ8wDQYDVQQHDAZTZWV3ZW4xETAPBgNVBAoMCEZvbGV4IEFHMRgwFgYD
+VQQDDA9Gb2xleCBBRyBWUE4gQ0ExIjAgBgkqhkiG9w0BCQEWE21haWxhZG1pbkBj
+ZWxmYS5jb20wHhcNMTQwMjE3MDgyNzM1WhcNMzgwMTAxMDAwMDAwWjBvMQswCQYD
+VQQGEwJjaDEPMA0GA1UEBwwGU2Vld2VuMREwDwYDVQQKDAhGb2xleCBBRzEYMBYG
+A1UEAwwPRm9sZXggQUcgVlBOIENBMSIwIAYJKoZIhvcNAQkBFhNtYWlsYWRtaW5A
+Y2VsZmEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArjBQJSWI
+3WQIwmdIRHDE1ZgEVEvhjvEwzoRAZC9Un4RHD3JlfktcaLBppg1b0BUlSNYybAYp
++P2/PAaoiIWQofhzXdyu8SAUIZjqKS2bODEvM2kfr/SMnJZ1ImEeB3l0OJLi08Vn
+cVtpx8KAn3EF9Mm4BDHmaProRxcUsc/czBtdIkTumGCVkePGKwUECbulRVkTFT61
+gtfSrW+NQSsJ436c31IhM63+HZdHykRaftqPLlt0jFYxf+2L/z1rc+ckiVuugH6x
+OMybynif8luQ4DLd0MRaLAQ2pcBvko8J0FtJYK1GMCUHqiJCRMXNUPiCqIFdPRnI
+fF9+HMZ+h+1WjQIDAQABo0AwPjAdBgNVHQ4EFgQUCk82Af6cF3y9ba8lcmXeBfGc
+n2QwDAYDVR0TBAUwAwEB/zAPBgNVHREECDAGhwR/AAABMA0GCSqGSIb3DQEBBQUA
+A4IBAQBwSBzF6kmlxeC7LlCsDLMwWhpEPn+mrY4W1X6f+9Af+JkMRI962+1uNUuA
+yGOHV3jHFbFv5fQdOMBe5Tf02NO09EKRgn0Li8pLP6lKa9WcgCHMsbhi0jx5aQ7/
+qgVqrKOAn9X1RQgZvs+ejbiuoUPD/ntErrK+wOUivWvhAoxVffQu7JWJq/MV7sDZ
+3ZmeZ/8RhcxNAGpdsjeqk0sCZCHUwI8enaYHSd4J23zG5dQGGtrwdVL/da7TzvJY
+wqE1PLSrgcvPXVHT3O6qHGrANR7NttXx3t/aToalVNyuOcrogvEVr8EMMGe3e//z
+4+PtDSEzl78AUt0iF2KwYrtJ3YW1
+-----END CERTIFICATE-----

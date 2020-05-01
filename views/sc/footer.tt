@@ -1,0 +1,18 @@
+<!--footer starts here-->
+				<div id="footer">
+		            <p>
+				    &copy; 2011-2015 <strong>Ralph Schuler</strong>
+		            &nbsp;&nbsp;&nbsp;&nbsp;
+				Powered by <a href="http://perldancer.org/">Dancer</a> <% dancer_version %>
+	            </p>
+				
+				<div align="justify" style="font-size:8px;color:black">
+											<br>Beim Kantonsranking handelt es sich um ein Fan-Projekt der Greentube Ski-Challenge SC:16. SKI CHALLENGE wurde von der Greentube AG, Wien entwickelt; die Urheberrechte und Leistungsschutzrechte an diesem Spiel liegen
+				bei der Greentube AG;
+				"SC 16 SKI CHALLENGE" ist eine eingetragene Marke
+				der Greentube AG, Wien.
+											</div>
+				
+				
+				</div>
+                                

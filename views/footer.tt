@@ -1,0 +1,9 @@
+<!--footer starts here-->
+				<div id="footer">
+		            <p>
+				    &copy; 1997-2019 <strong>Ralph Schuler</strong>
+		            &nbsp;&nbsp;&nbsp;&nbsp;
+				Powered by <a href="http://perldancer.org/">Dancer</a> <% dancer_version %>
+	            </p>
+				</div>
+                                

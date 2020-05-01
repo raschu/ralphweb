@@ -1,0 +1,61 @@
+          <h2>Geburtagsparty Ralph (Rälphl) Schuler</h2>
+
+   
+
+				<form action="/ralph40anmeldung" method="post">
+										
+					<h3>Anmeldung</h3>
+					Vorname / Name<br/>
+					<input name="vona123" type="text" size="30" maxlength="30"> / <input name="nana123" type="text" size="30" maxlength="30"><br/><br/>
+					Teilnahme<br/>
+					<select name="tn123" id="ktn">
+						<option value="">Bitte wählen ... </option>
+						<option value="ja">ich nehme gerne teil</option>
+						<option value="nein">leider kann ich nicht teilnehmen</option>
+					</select><br/><br/>
+					Anzahl Personen<br/>
+					<select name="ap123" id="ktn">
+						<option value="">Bitte wählen ... </option>
+						<option value="1">1 Person</option>
+						<option value="2">2 Personen</option>
+						<option value="3">3 Personen</option>
+						<option value="4">4 Personen</option>
+						<option value="5">5 Personen</option>
+						<option value="6">6 Personen</option>
+						<option value="7">7 Personen</option>
+						<option value="8">8 Personen</option>
+						<option value="9">9 Personen</option>
+						<option value="10">10 Personen</option>
+						<option value="0">ich kann nicht teilnehmen</option>
+					</select><br/>	<br/>				
+					Bemerkungen<br/>
+					<textarea name="c123" cols="30" rows="4"></textarea><br/>					
+					<br>
+					<input class="button" type="submit">
+					</form>
+				<br>
+				
+				<div id="googlemaps">
+				<h3>Karte</h3>
+				<script type="text/javascript" src="http://map.search.ch/api/map.js"></script>
+				<script type="text/javascript">new SearchChMap({center:"Wyl,-Brunnen"});</script>
+				<div id="mapcontainer" style="width:480px;height:360px;border:1px solid #888">
+				<noscript>
+				<div>
+				<a target="_top" href="http://map.search.ch/Wyl,-Brunnen">
+				<img src="http://map.search.ch/chmap.de.jpg?layer=sym,fg,copy,ruler,circle&amp;zd=2&amp;x=0m&amp;y=0m&amp;w=480&amp;h=360&amp;poi=verkehr&amp;base=6440+Brunnen%2FWil"
+				     style="border:0" id="mapimg" alt="Wil, Brunnen" /></a>
+				</div></noscript>
+				</div>
+				<a href="http://map.search.ch/Wyl,-Brunnen">Grosse Kartenansicht</a>
+				</div>
+					<br>
+				<div id="googlemaps">
+				<h3>Informationen</h3>
+				Datum: Samstag, 24. August 2013, ab 11.00 Uhr bis Open-End<br><br>
+				Wo: Besenbeiz Wyl, Familie Frank, 6440 Ingenbohl<br><br>
+				Anfahrt: Es sind genug Parkplätze vorhanden. Wer eine Fahrgelegenheit sucht, bitte in den Bemerkungen im Anmeldeformular angeben.<br><br>
+				Mittagessen um ca. 12.00 Uhr inkl. Salatbuffet
+				</div>
+			
+				

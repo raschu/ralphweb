@@ -1,0 +1,35 @@
+<% #FILTER collapse %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="Description" content="ralphschuler.ch" />
+<meta name="Keywords" content="Ralph Schuler Ralf Kantonsrangliste Ski Challenge Kantonsranking sc15 sc16 SC:14 SC:15 SC:16 Höfli Schach Hoefli Schachturnier Schwyz" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Ralph Schuler" />
+<meta name="Robots" content="index,follow" />
+<!-- Website Template by styleshout http://www.styleshout.com -->
+<link rel="stylesheet" href="/css/Envision.css" type="text/css" />
+<title>ralphschuler.ch</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-831574-2']);
+  _gaq.push(['_setDomainName', 'ralphschuler.ch']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<% content %>
+<!-- wrap ends here -->
+</div>
+</body>
+</html>
+<% #END %>

@@ -1,0 +1,55 @@
+# This is the main configuration file of your Dancer app
+# env-related settings should go to environments/$env.yml
+# all the settings in this file will be loaded at Dancer's startup.
+
+# Your application's name
+appname: "ralphweb"
+
+# The default layout to use for your application (located in
+# views/layouts/main.tt)
+layout: "main"
+
+# when the charset is set to UTF-8 Dancer will handle for you
+# all the magic of encoding and decoding. You should not care
+# about unicode within your app when this setting is set (recommended).
+charset: "UTF-8"
+
+# template engine
+# simple: default and very basic template engine
+# template_toolkit: TT
+
+#template: "simple"
+
+template: "template_toolkit"
+engines:
+  template_toolkit:
+  encoding:  'utf8'
+  
+session: "YAML"
+#  session_dir: "/var/log/dancer-sessions"
+
+#logger: 'console'
+  
+facebook:
+  postback: "http://ralphschuler.ch/facebook/postback"
+  app_id: "103842917201"
+  secret: "937f7957de00e39657ae3208089fe61e" 
+  
+#     start_tag: '[%'
+#     end_tag:   '%]'
+sqlitebin: '/usr/bin/sqlite3'
+
+maindir: '/root/ralphweb'
+iccifthumbs: '/root/ralphweb/public/icc_contest/utubethumbs'
+#maindir: '/home/pi/ralphstuff/ralphweb'
+#iccifthumbs: '/home/pi/ralphstuff/ralphweb/public/icc_contest/utubethumbs'
+
+scdb: '/db/sc/sc14.sqlite'
+gbdb: '/db/gb.sqlite'
+channeldb: '/db/icc/chartbot.db'
+iccifdb: '/db/icc/ICC_interfaces.db'
+
+plugins:
+    DirectoryView:
+        url: /downloads/jinstuff
+        root_dir: /root/ralphweb/public/downloads/jinstuff/

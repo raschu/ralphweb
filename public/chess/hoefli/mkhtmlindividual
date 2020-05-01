@@ -1,0 +1,2 @@
+pgn2web -c no -s individual hoefli2014_05.pgn hoefli2014_05.html
+perl changecss.pl

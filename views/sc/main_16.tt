@@ -1,0 +1,141 @@
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=171774449549568&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="wrap">
+		
+		<!--header -->
+		<div id="header">			
+			<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>		
+			<p id="slogan">SC:Kantonsranking Saison 20<%edition%></p>		
+
+			<% INCLUDE mainmenu.tt %>		
+		</div>
+		<!-- menu -->	
+			<% INCLUDE sc/menu.tt %>
+			<!-- content-wrap starts here -->
+			<div id="content-wrap">
+				<div id="sidebar">
+					<h3>Rennen</h3>
+					<ul class="sidemenu">
+							  <li><a href="/sc/<% edition %>/<% ktn %>/beaq/0">Beaver Creek Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/bear/0">Beaver Creek Rennen</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/vadq/0">Val d'Isère Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/vadr/0">Val d'Isère Rennen</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/socq/0">Sochi Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/socr/0">Sochi Rennen</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/schq/0">Schladming Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/schr/0">Schladming Rennen</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/groq/0">Gröden Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/gror/0">Gröden Rennen</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/borq/0">Bormio Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/borr/0">Bormio Rennen</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/wenq/0">Wengen Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/wenr/0">Wengen Rennen</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/kitq/0">Kitzbühel Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/kitr/0">Kitzbühel Rennen</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/garq/0">Garmisch Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/garr/0">Garmisch Rennen</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/stmq/0">St. Moritz Quali</a></li>
+							  <li><a href="/sc/<% edition %>/<% ktn %>/stmr/0">St. Moritz Rennen</a></li>
+							  
+					</ul>
+					<h3>Kategorien / Kantone</h3>
+					<ul class="sidemenu">
+						<li><a href="/sc/<% edition %>/CH/<% cat %>/0"><strong>Schweiz</strong></a></li>
+						<li><a href="/sc/<% edition %>/FB/<% cat %>/0"><strong>Facebook</strong></a></li>
+						<li><a href="/sc/<% edition %>/LA/<% cat %>/0"><strong>Ladies</strong></a></li>
+						<li><a href="/sc/<% edition %>/OL/<% cat %>/0"><strong>Oldies</strong></a></li>
+						<li><a href="/sc/<% edition %>/TC/<% cat %>/0"><strong>Team CH</strong></a></li>
+						<li><a href="/sc/<% edition %>/MA/<% cat %>/0"><strong><span style="background-color: yellow;color:black">Markierte</span></strong></a></li>						
+						<li><a href="/sc/<% edition %>/ZH/<% cat %>/0"><img src="/images/sc/icoZH.png" alt=""/>&nbsp;Zürich</a></li>
+						<li><a href="/sc/<% edition %>/BE/<% cat %>/0"><img src="/images/sc/icoBE.png" alt=""/>&nbsp;Bern</a></li>
+						<li><a href="/sc/<% edition %>/LU/<% cat %>/0"><img src="/images/sc/icoLU.png" alt=""/>&nbsp;Luzern</a></li>
+						<li><a href="/sc/<% edition %>/UR/<% cat %>/0"><img src="/images/sc/icoUR.png" alt=""/>&nbsp;Uri</a></li>
+						<li><a href="/sc/<% edition %>/SZ/<% cat %>/0"><img src="/images/sc/icoSZ.png" alt=""/>&nbsp;Schwyz</a></li>
+						<li><a href="/sc/<% edition %>/OW/<% cat %>/0"><img src="/images/sc/icoOW.png" alt=""/>&nbsp;Obwalden</a></li>
+						<li><a href="/sc/<% edition %>/NW/<% cat %>/0"><img src="/images/sc/icoNW.png" alt=""/>&nbsp;Nidwalden</a></li>
+						<li><a href="/sc/<% edition %>/GL/<% cat %>/0"><img src="/images/sc/icoGL.png" alt=""/>&nbsp;Glarus</a></li>
+						<li><a href="/sc/<% edition %>/ZG/<% cat %>/0"><img src="/images/sc/icoZG.png" alt=""/>&nbsp;Zug</a></li>
+						<li><a href="/sc/<% edition %>/FR/<% cat %>/0"><img src="/images/sc/icoFR.png" alt=""/>&nbsp;Freiburg</a></li>
+						<li><a href="/sc/<% edition %>/SO/<% cat %>/0"><img src="/images/sc/icoSO.png" alt=""/>&nbsp;Solothurn</a></li>
+						<li><a href="/sc/<% edition %>/BS/<% cat %>/0"><img src="/images/sc/icoBS.png" alt=""/>&nbsp;Basel-Stadt</a></li>
+						<li><a href="/sc/<% edition %>/BL/<% cat %>/0"><img src="/images/sc/icoBL.png" alt=""/>&nbsp;Basel-Landschaft</a></li>
+						<li><a href="/sc/<% edition %>/SH/<% cat %>/0"><img src="/images/sc/icoSH.png" alt=""/>&nbsp;Schaffhausen</a></li>
+						<li><a href="/sc/<% edition %>/AR/<% cat %>/0"><img src="/images/sc/icoAR.png" alt=""/>&nbsp;Appenzell Ausserhoden</a></li>
+						<li><a href="/sc/<% edition %>/AI/<% cat %>/0"><img src="/images/sc/icoAI.png" alt=""/>&nbsp;Appenzell Innerhoden</a></li>
+						<li><a href="/sc/<% edition %>/SG/<% cat %>/0"><img src="/images/sc/icoSG.png" alt=""/>&nbsp;St. Gallen</a></li>
+						<li><a href="/sc/<% edition %>/GR/<% cat %>/0"><img src="/images/sc/icoGR.png" alt=""/>&nbsp;Graubünden</a></li>
+						<li><a href="/sc/<% edition %>/AG/<% cat %>/0"><img src="/images/sc/icoAG.png" alt=""/>&nbsp;Aargau</a></li>
+						<li><a href="/sc/<% edition %>/TG/<% cat %>/0"><img src="/images/sc/icoTG.png" alt=""/>&nbsp;Thurgau</a></li>
+						<li><a href="/sc/<% edition %>/TI/<% cat %>/0"><img src="/images/sc/icoTI.png" alt=""/>&nbsp;Tessin</a></li>
+						<li><a href="/sc/<% edition %>/VD/<% cat %>/0"><img src="/images/sc/icoVD.png" alt=""/>&nbsp;Waadt</a></li>
+						<li><a href="/sc/<% edition %>/VS/<% cat %>/0"><img src="/images/sc/icoVS.png" alt=""/>&nbsp;Wallis</a></li>
+						<li><a href="/sc/<% edition %>/NE/<% cat %>/0"><img src="/images/sc/icoNE.png" alt=""/>&nbsp;Neuenburg</a></li>
+						<li><a href="/sc/<% edition %>/GE/<% cat %>/0"><img src="/images/sc/icoGE.png" alt=""/>&nbsp;Genf</a></li>
+						<li><a href="/sc/<% edition %>/JU/<% cat %>/0"><img src="/images/sc/icoJU.png" alt=""/>&nbsp;Jura</a></li>
+						<li><a href="/sc/<% edition %>/JG2000/<% cat %>/0"><strong>Jahrgang 2000 - 2009</strong></a></li>
+						<li><a href="/sc/<% edition %>/JG1990/<% cat %>/0"><strong>Jahrgang 1990 - 1999</strong></a></li>
+						<li><a href="/sc/<% edition %>/JG1980/<% cat %>/0"><strong>Jahrgang 1980 - 1989</strong></a></li>
+						<li><a href="/sc/<% edition %>/JG1970/<% cat %>/0"><strong>Jahrgang 1970 - 1979</strong></a></li>
+						<li><a href="/sc/<% edition %>/JG1960/<% cat %>/0"><strong>Jahrgang 1960 - 1969</strong></a></li>
+						<li><a href="/sc/<% edition %>/JG1950/<% cat %>/0"><strong>Jahrgang 1950 - 1959</strong></a></li>
+						<li><a href="/sc/<% edition %>/JG1940/<% cat %>/0"><strong>Jahrgang 1940 - 1949</strong></a></li>
+						<li><a href="/sc/<% edition %>/JG1930/<% cat %>/0"><strong>Jahrgang 1930 - 1939</strong></a></li>
+						<li><a href="/sc/<% edition %>/JG1920/<% cat %>/0"><strong>Jahrgang 1920 - 1929</strong></a></li>
+						<li><a href="/sc/<% edition %>/JG1910/<% cat %>/0"><strong>Jahrgang 1910 - 1919</strong></a></li>
+					</ul>
+						<!--<a class="twitter-timeline" href="https://twitter.com/raelphl" data-widget-id="411081159288709120">Tweets by @raelphl</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
+
+
+				</div>
+				<div id="main">
+					<h2><% catbez %> SC:<% edition %> (<% ktnbez %>)<!-- <img src="/images/sc/ico<% ktn %>.png" alt"">--></h2>
+							<table cellspacing="3" cellpadding="3" width="450"> 
+							<!--<tr>	
+						      <th class="nobo" colspan ="8"><img src="/images/sc/<% ktn %>.png" alt=""/></th>
+							</tr>-->
+							
+						<% FOR r IN data.keys.sort %>
+						  <tr>
+							<td align="right"><b><% data.$r.rank %></b>&nbsp;</td>
+							<td><a href="/profile/<% edition %>/<% data.$r.nick %>"><span style="background-color: <% data.$r.textmarker %>"><% data.$r.nick %></span></a></td>
+							<td><% data.$r.birthday %></td>
+							<td><% data.$r.icoktn %></td>							
+							<td><% data.$r.sex %></td>							
+							<td><% data.$r.fb %></td>
+							<td>0<% data.$r.time.substr(0, 1) %>:<% data.$r.time.substr(1, 2) %>.<% data.$r.time.substr(3, 3) %></td>
+							<td align="right"><% data.$r.diff %></td>
+							<td align="right"><% data.$r.diffavg %></td>	
+						  </tr>
+						<% END %>
+							<tr>&nbsp;<!--	
+						      <th class="nobo" colspan ="8"><img src="/images/sc/<% ktn %>.png" alt=""/></th>-->
+							</tr>
+							<tr>	
+						      <th align="center" class="nobo" colspan ="6"><% navi %></th>
+							</tr>
+						</table>
+							
+							<br>
+							
+							<% IF specinc1 %>
+							    <% INCLUDE sc/specinc1.tt%>
+								<br>
+							<% END %>
+							
+							<div class="fb-like" data-href="https://www.facebook.com/pages/Kantonsranking-Ski-Challenge/133107930077362?fref=ts" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+							<br><br>							
+
+				</div>
+
+			<!-- content-wrap ends here -->	
+			</div>
+
+			<% INCLUDE sc/footer.tt %>

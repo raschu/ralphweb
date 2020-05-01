@@ -1,0 +1,2 @@
+usage: pgn2web
+       pgn2web [-c yes|no] [-p <pieces>] [-s frameset|linked|individual] pgn-filename html-filename

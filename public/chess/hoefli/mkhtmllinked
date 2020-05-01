@@ -1,0 +1,2 @@
+pgn2web -c no -s linked hoefli2013_02.pgn hoefli2013_02.html
+perl changecss.pl

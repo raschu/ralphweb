@@ -1,0 +1,19 @@
+<div id="wrap">
+		<!--header -->
+		<div id="header">			
+			<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>					
+			<% INCLUDE mainmenu.tt %>	
+		</div>
+		<!-- menu -->
+		<% INCLUDE sc/menu.tt %>		
+			<!-- content-wrap starts here -->
+			<div id="content-wrap">
+				<div id="main">
+					<h2>Falsche Rennzeiten in Beaver Creek</h2>
+		              <p>
+		              	Auf der Greentube Webseite hat sich ein Fehler eingeschlichen. Bei all jenen, die "ExtremeIce" gefahren sind, werden falsche Rennzeiten angezeigt.<br><a href="http://sf.sc12.greentube.com/webmagic/PlayerProfile?nick=Flammewerfer">Hier ein Beispiel</a>.<br>Da die Zeiten fürs Kantonsranking von da bezogen werden, sind auch hier die Zeiten falsch. Leider kann ich da nichts machen. Ich habe schon eine Email <a href="mailto:sc_at@support.greentube.com">sc_at@support.greentube.com</a> gesendet. Damit es evtl. schneller geht, könnt Ihr ja dies auch tun. ;-)
+		              </p>
+				</div>
+			<!-- content-wrap ends here -->	
+			</div>
+			<% INCLUDE footer.tt %>

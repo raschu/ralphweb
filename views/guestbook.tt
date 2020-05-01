@@ -1,0 +1,58 @@
+<div id="wrap">
+		<!--header -->
+		<div id="header">			
+			<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+			<p id="slogan">Guestbook</p>		
+			<% INCLUDE mainmenu.tt %>	
+		</div>
+		<!-- menu -->
+		<div  id="menu">
+		</div>	
+			<!-- content-wrap starts here -->
+			<div id="content-wrap">
+				<div id="main">
+					<h2>Guestbook</h2>
+					<p>
+						Although nowadays guestbooks are a little bit old fashioned, I would be nevertheless happy about a greeting. ;-)
+						</p>
+
+					<form action="/gbp" method="post">
+					
+				        <input type="hidden" name="random" value="<% random %>" />					
+					
+					Homepage:<br/>
+					<input name="h45999" type="text" size="30" maxlength="30"><br/>
+					Name:<br/>
+					<input name="n88999" type="text" size="30" maxlength="30"><br/>					
+					Comment:<br/>
+					<textarea name="c73999" cols="50" rows="10"></textarea><br/>
+					
+				        <img src="<% image_url %>" border="0">
+					<br/>
+					Please enter the security code:<br/>
+					<input name="password" type="text" size="10" maxlength="10"><br/><br/>						
+					
+					<input class="button" type="submit">
+					</form>
+					
+					<% FOR r IN data.keys.sort %>
+					<hr>
+					<p>
+					 
+					  <strong><!--#<% data.$r.id %>&nbsp;--><% data.$r.name %>&nbsp;&nbsp;<a href="<% data.$r.homepage %>"><% data.$r.homepage %></a></strong> 
+					  
+					<br/><span>(<em><% data.$r.updatetime %></em>)</span>
+					  
+					</p>  
+					
+					<p>
+				        <% data.$r.comment %>
+				    </p>
+					<% END %>
+					
+					
+
+				</div>
+			<!-- content-wrap ends here -->	
+			</div>
+			<% INCLUDE footer.tt %>

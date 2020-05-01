@@ -1,0 +1,78 @@
+	<div id="wrap">
+			<!--header -->
+			<div id="header">			
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+				<p id="slogan">ICC Channels</p>		
+				<% INCLUDE mainmenu.tt %>	
+			</div>
+			<!-- menu -->	
+			<div  id="menu">
+				<ul>
+				  	<li><a href="/channel/<% channel %>/hour">Past 60 minutes</a></li>
+		            <li><a href="/channel/<% channel %>/day">Past 24 hours</a></li>
+		            <li><a href="/channel/<% channel %>/week">Past 7 days</a></li>
+					<li><a href="/channel/<% channel %>/month">Past 30 days</a></li>		
+				</ul>
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+					<div id="sidebar">
+						<h3>Channels</h3>
+						<ul class="sidemenu">
+							<li><a href="/channel/932/<% t %>">Shouts</a></li>
+							<li><a href="/channel/1/<% t %>">1 (Helper Channel)</a></li>
+							<li><a href="/channel/2/<% t %>">2 (Experienced Help)</a></li>
+							<li><a href="/channel/34/<% t %>">34 (Sports Channel)</a></li>
+							<li><a href="/channel/64/<% t %>">64 (Chess Programing)</a></li>
+							<li><a href="/channel/67/<% t %>">67 (British Channel)</a></li>
+							<li><a href="/channel/71/<% t %>">71 (Spanish Channel)</a></li>
+							<li><a href="/channel/72/<% t %>">72 (French Channel)</a></li>
+							<li><a href="/channel/73/<% t %>">73 (German Channel)</a></li>
+							<li><a href="/channel/74/<% t %>">74 (Dutch Channel)</a></li>
+							<li><a href="/channel/97/<% t %>">97 (Politics Channel)</a></li>
+							<li><a href="/channel/103/<% t %>">103 (Religious Discussions)</a></li>
+							<li><a href="/channel/165/<% t %>">165 (ICC Broadcast Channel)</a></li>
+							<li><a href="/channel/250/<% t %>">250 (Lobby)</a></li>
+						</ul>
+						<h3>Links</h3>
+		                <ul class="sidemenu">
+		                    <li><a href="http://www.chessclub.com/from/PerlHacker">The Internet Chess Club</a></li>	
+				              <li><a href="http://www.ch67.com/">Channel 67 Website</a></li>
+							  <li><a href="http://lanternchess.com/">Lantern Chess</a></li>
+							  <li><a href="http://www.chessclub.com/finger/PerlHacker">My Profile at ICC</a></li>
+ 
+		                </ul>
+				
+					</div>
+					<div id="main">
+						<% IF channel == 932 %>
+							<h2>Top 50 Shouters of the last <% tstring %></h2>
+						<% ELSE %>
+							<h2>Top 50 Chatters of the last <% tstring %> in ICC-Channel <% channel %></h2>
+						<% END %>
+							<br/>
+							<table cellspacing="0" cellpadding="0"> 
+						<% FOR r IN data.keys.sort %>
+						  <tr>
+							<td align="right"><% loop.count %>.&nbsp;&nbsp;</td><td>
+						  <a href="http://www.chessclub.com/finger/<% data.$r.han %>"><% data.$r.han %></a></td><td align="right"><b><% data.$r.anz %></b>&nbsp;&nbsp;</td>
+						<td>
+							<img height="12" width="
+							<% data.$r.car %>" src="/images/c.png" alt="<% data.$r.per %> %" title="<% data.$r.per %> %"/>
+						</td>
+						<td align="right"><a href="/channel/<% data.$r.han %>/<% channel %>/<% t %>"><img src="/images/sc/pers_stats.jpg" /></a></td>
+						  </tr>
+						<% END %>
+						<tr>
+							<td>&nbsp;</td><td>Total</td><td><b><% totaltells %></b>&nbsp;&nbsp;</td>
+						<td>
+							&nbsp;
+						</td>
+						  </tr>
+						</table>
+						<br/>
+					</div>
+				<!-- content-wrap ends here -->	
+				</div>
+				<% INCLUDE footer.tt %>
+

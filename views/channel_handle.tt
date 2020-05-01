@@ -1,0 +1,48 @@
+	<div id="wrap">
+			<!--header -->
+			<div id="header">			
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+				<p id="slogan">ICC Channels</p>		
+				<% INCLUDE mainmenu.tt %>	
+			</div>
+			<!-- menu -->	
+		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+						<div>
+							<h4>Count distribution of <% icchandle %> in channel <% chstring %> in the last <% timestring %></h4>
+							<canvas id="canvas" height="200" width="<% twidth %>"></canvas>
+						</div>
+
+					<script src="/javascripts/Chart.js-master/Chart.js"></script>
+					<script>
+					var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+
+					var barChartData = {
+						labels : [<% skala %>],
+						datasets : [
+							{
+								fillColor : "rgba(33,128,188,0.5)",
+								strokeColor : "rgba(33,128,188,0.8)",
+								highlightFill: "rgba(33,128,188,0.75)",
+								highlightStroke: "rgba(33,128,188,1)",
+								data : [<% valstring %>],
+				
+							},
+			
+						]
+
+					}
+					window.onload = function(){
+						var ctx = document.getElementById("canvas").getContext("2d");
+						window.myBar = new Chart(ctx).Bar(barChartData, {
+							responsive : false
+						});
+					}
+
+					</script>
+				<!-- content-wrap ends here -->	
+				</div>
+				<% INCLUDE footer.tt %>
+

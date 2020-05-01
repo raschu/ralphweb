@@ -1,0 +1,2 @@
+pgn2web -c no -s linked rossini.pgn rossinig.html
+perl changecss.pl

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Capabilities version="1.0.0" xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1"
+              xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns:gml="http://www.opengis.net/gml"
+              xsi:schemaLocation="http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd">
+  <ows:ServiceIdentification> </ows:ServiceIdentification>
+  <ows:ServiceProvider> </ows:ServiceProvider>
+  <ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://tile0.map.geo.sz.ch/main/tiles/1.0.0/WMTSCapabilities.xml">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>REST</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="GetTile">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://tile0.map.geo.sz.ch/main/tiles/">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>REST</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+          <ows:Get xlink:href="https://tile1.map.geo.sz.ch/main/tiles/">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>REST</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+          <ows:Get xlink:href="https://tile2.map.geo.sz.ch/main/tiles/">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>REST</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+          <ows:Get xlink:href="https://tile3.map.geo.sz.ch/main/tiles/">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>REST</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+          <ows:Get xlink:href="https://tile4.map.geo.sz.ch/main/tiles/">
+            <ows:Constraint name="GetEncoding">
+              <ows:AllowedValues>
+                <ows:Value>REST</ows:Value>
+              </ows:AllowedValues>
+            </ows:Constraint>
+          </ows:Get>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+  </ows:OperationsMetadata>
+  <!-- <ServiceMetadataURL xlink:href="" /> -->
+  <Contents>
+    
+    <Layer>
+      <ows:Title>ch_sz_a039_basisplan_grau</ows:Title>
+      <ows:Identifier>ch_sz_a039_basisplan_grau</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format> 
+      <Dimension>
+        <ows:Identifier>DATE</ows:Identifier>
+        <Default>201610</Default> 
+        <Value>201610</Value> 
+      </Dimension>
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile0.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_grau/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile1.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_grau/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile2.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_grau/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile3.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_grau/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile4.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_grau/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <TileMatrixSetLink>
+        <TileMatrixSet>swissgrid_2056</TileMatrixSet>
+      </TileMatrixSetLink>
+    </Layer>
+    
+    <Layer>
+      <ows:Title>OPtestralph</ows:Title>
+      <ows:Identifier>ortsplan_sw_wmts</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format> 
+      <Dimension>
+        <ows:Identifier>DATE</ows:Identifier>
+        <Default>201601</Default> 
+        <Value>201601</Value> 
+        <Value>2014</Value> 
+      </Dimension>
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile0.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_sw_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile1.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_sw_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile2.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_sw_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile3.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_sw_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile4.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_sw_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <TileMatrixSetLink>
+        <TileMatrixSet>swissgrid_2056</TileMatrixSet>
+      </TileMatrixSetLink>
+    </Layer>
+    
+    <Layer>
+      <ows:Title>ch_sz_freienbach_orthofotos_2015_wmts</ows:Title>
+      <ows:Identifier>ch_sz_freienbach_orthofotos_2015_wmts</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format> 
+      <Dimension>
+        <ows:Identifier>DATE</ows:Identifier>
+        <Default>2014</Default> 
+        <Value>2014</Value> 
+      </Dimension>
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile0.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_freienbach_orthofotos_2015_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile1.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_freienbach_orthofotos_2015_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile2.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_freienbach_orthofotos_2015_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile3.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_freienbach_orthofotos_2015_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile4.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_freienbach_orthofotos_2015_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <TileMatrixSetLink>
+        <TileMatrixSet>swissgrid_2056</TileMatrixSet>
+      </TileMatrixSetLink>
+    </Layer>
+    
+    <Layer>
+      <ows:Title>ch_sz_a039_basisplan_farbig</ows:Title>
+      <ows:Identifier>ch_sz_a039_basisplan_farbig</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format> 
+      <Dimension>
+        <ows:Identifier>DATE</ows:Identifier>
+        <Default>201610</Default> 
+        <Value>201610</Value> 
+      </Dimension>
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile0.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_farbig/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile1.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_farbig/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile2.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_farbig/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile3.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_farbig/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile4.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_a039_basisplan_farbig/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <TileMatrixSetLink>
+        <TileMatrixSet>swissgrid_2056</TileMatrixSet>
+      </TileMatrixSetLink>
+    </Layer>
+    
+    <Layer>
+      <ows:Title>ch_sz_are_richtplan_erlass_wmts</ows:Title>
+      <ows:Identifier>ch_sz_are_richtplan_erlass_wmts</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/jpeg</Format> 
+      <Dimension>
+        <ows:Identifier>DATE</ows:Identifier>
+        <Default>2016</Default> 
+        <Value>2016</Value> 
+      </Dimension>
+      <ResourceURL format="image/jpeg" resourceType="tile"
+                   template="https://tile0.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_are_richtplan_erlass_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg" />
+      <ResourceURL format="image/jpeg" resourceType="tile"
+                   template="https://tile1.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_are_richtplan_erlass_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg" />
+      <ResourceURL format="image/jpeg" resourceType="tile"
+                   template="https://tile2.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_are_richtplan_erlass_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg" />
+      <ResourceURL format="image/jpeg" resourceType="tile"
+                   template="https://tile3.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_are_richtplan_erlass_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg" />
+      <ResourceURL format="image/jpeg" resourceType="tile"
+                   template="https://tile4.map.geo.sz.ch/main/tiles/1.0.0/ch_sz_are_richtplan_erlass_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg" />
+      <TileMatrixSetLink>
+        <TileMatrixSet>swissgrid_2056</TileMatrixSet>
+      </TileMatrixSetLink>
+    </Layer>
+    
+    <Layer>
+      <ows:Title>ortsplan_farbig_wmts</ows:Title>
+      <ows:Identifier>ortsplan_farbig_wmts</ows:Identifier>
+      <Style isDefault="true">
+        <ows:Identifier>default</ows:Identifier>
+      </Style>
+      <Format>image/png</Format> 
+      <Dimension>
+        <ows:Identifier>DATE</ows:Identifier>
+        <Default>201601</Default> 
+        <Value>201601</Value> 
+        <Value>2014</Value> 
+      </Dimension>
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile0.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_farbig_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile1.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_farbig_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile2.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_farbig_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile3.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_farbig_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <ResourceURL format="image/png" resourceType="tile"
+                   template="https://tile4.map.geo.sz.ch/main/tiles/1.0.0/ortsplan_farbig_wmts/default/{DATE}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png" />
+      <TileMatrixSetLink>
+        <TileMatrixSet>swissgrid_2056</TileMatrixSet>
+      </TileMatrixSetLink>
+    </Layer>
+    
+
+    
+    <TileMatrixSet>
+      <ows:Identifier>swissgrid</ows:Identifier>
+      <ows:SupportedCRS>urn:ogc:def:crs:epsg::21781</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>0</ows:Identifier>
+        <ScaleDenominator>1785714.28571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>10</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>1</ows:Identifier>
+        <ScaleDenominator>892857.142857</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>8</MatrixWidth>
+        <MatrixHeight>20</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>2</ows:Identifier>
+        <ScaleDenominator>357142.857143</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>19</MatrixWidth>
+        <MatrixHeight>48</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>3</ows:Identifier>
+        <ScaleDenominator>178571.428571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>38</MatrixWidth>
+        <MatrixHeight>96</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>4</ows:Identifier>
+        <ScaleDenominator>71428.5714286</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>94</MatrixWidth>
+        <MatrixHeight>239</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>5</ows:Identifier>
+        <ScaleDenominator>35714.2857143</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>188</MatrixWidth>
+        <MatrixHeight>477</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>17857.1428571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>375</MatrixWidth>
+        <MatrixHeight>954</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>8928.57142857</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>750</MatrixWidth>
+        <MatrixHeight>1907</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>7142.85714286</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>938</MatrixWidth>
+        <MatrixHeight>2383</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>5357.14285714</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1250</MatrixWidth>
+        <MatrixHeight>3178</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>3571.42857143</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1875</MatrixWidth>
+        <MatrixHeight>4766</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>1785.71428571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>3750</MatrixWidth>
+        <MatrixHeight>9532</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>892.857142857</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>7500</MatrixWidth>
+        <MatrixHeight>19063</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>357.142857143</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>18750</MatrixWidth>
+        <MatrixHeight>47657</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>178.571428571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>37500</MatrixWidth>
+        <MatrixHeight>95313</MatrixHeight>
+      </TileMatrix>
+      
+    </TileMatrixSet>
+    
+    <TileMatrixSet>
+      <ows:Identifier>swissgrid_2056</ows:Identifier>
+      <ows:SupportedCRS>urn:ogc:def:crs:epsg::2056</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>0</ows:Identifier>
+        <ScaleDenominator>1785714.28571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>4</MatrixWidth>
+        <MatrixHeight>10</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>1</ows:Identifier>
+        <ScaleDenominator>892857.142857</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>8</MatrixWidth>
+        <MatrixHeight>20</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>2</ows:Identifier>
+        <ScaleDenominator>357142.857143</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>19</MatrixWidth>
+        <MatrixHeight>48</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>3</ows:Identifier>
+        <ScaleDenominator>178571.428571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>38</MatrixWidth>
+        <MatrixHeight>96</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>4</ows:Identifier>
+        <ScaleDenominator>71428.5714286</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>94</MatrixWidth>
+        <MatrixHeight>239</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>5</ows:Identifier>
+        <ScaleDenominator>35714.2857143</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>188</MatrixWidth>
+        <MatrixHeight>477</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>6</ows:Identifier>
+        <ScaleDenominator>17857.1428571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>375</MatrixWidth>
+        <MatrixHeight>954</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>7</ows:Identifier>
+        <ScaleDenominator>8928.57142857</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>750</MatrixWidth>
+        <MatrixHeight>1907</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>8</ows:Identifier>
+        <ScaleDenominator>7142.85714286</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>938</MatrixWidth>
+        <MatrixHeight>2383</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>9</ows:Identifier>
+        <ScaleDenominator>5357.14285714</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1250</MatrixWidth>
+        <MatrixHeight>3178</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>3571.42857143</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1875</MatrixWidth>
+        <MatrixHeight>4766</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>11</ows:Identifier>
+        <ScaleDenominator>1785.71428571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>3750</MatrixWidth>
+        <MatrixHeight>9532</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>12</ows:Identifier>
+        <ScaleDenominator>892.857142857</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>7500</MatrixWidth>
+        <MatrixHeight>19063</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>13</ows:Identifier>
+        <ScaleDenominator>357.142857143</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>18750</MatrixWidth>
+        <MatrixHeight>47657</MatrixHeight>
+      </TileMatrix>
+      
+      <TileMatrix>
+        <ows:Identifier>14</ows:Identifier>
+        <ScaleDenominator>178.571428571</ScaleDenominator>
+        <TopLeftCorner>2420000.0 1350000.0</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>37500</MatrixWidth>
+        <MatrixHeight>95313</MatrixHeight>
+      </TileMatrix>
+      
+    </TileMatrixSet>
+    
+  </Contents>
+</Capabilities>
+
+
+

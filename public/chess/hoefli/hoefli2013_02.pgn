@@ -1,0 +1,20 @@
+[Event "2. Höfli Schachturnier"]
+[Site "Höfli Schwyz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Wisel"]
+[Black "Sascha"]
+[Result "*"]
+[EventDate "2013.04.28"]
+[FEN "8/8/7N/8/1k4PP/r7/1p1K4/1B6 b - - 0 1"]
+[SetUp "1"]
+
+1...Kb3
+{ Diese sehr interessante Stellung ist zwischen Wisel und Sascha zustande gekommen. Weiss hätte hier das Remis halten können... }
+2.Bc2+ ( 2.g5 Ra1 3.Bc2+
+{ Jetzt kann das Schach kommen... Der Bauer ist am marschieren. } 3...Kc4
+4.g6 Rg1 5.Bd3+ Kd4 6.Nf5+ Ke5 7.h5 Kf6 8.Kc3 b1=Q 9.Bxb1 Rxb1
+{ Remis laut Endspieldatenbank. } ) 2...Ka2 3.g5 Rh3 4.Nf5
+{ Das war dann klar verloren für Weiss. Lf5 wäre noch eine Möglichkeit gewesen. }
+4...Rh2+ 5.Kd3 Rxc2 *
+

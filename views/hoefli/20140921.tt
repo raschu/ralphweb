@@ -1,0 +1,59 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>12. H&ouml;fli Rapid Schachturnier, 21. September 2014</h2>
+						<p>
+						Heute durften wir wieder einen neuen Spieler beim H&ouml;fli Schachturnier begr&uuml;ssen. Othmar, seines Zeichens, Clubmitglied beim <a href="http://www.schach-goldauschwyz.ch/">SC Goldau-Schwyz</a>, mischte die Runde auf. Mit 4 Siegen und somit einem 100% Score konnte er sogleich den Tagessieg einfahren. Herzliche Gratulation.<br><br>
+						
+						<img style="margin-right:5px" src="/images/hoefli/20140921_141913.jpg" alt=""><span>Wisel noch beim Fachsimpeln mit Urs...</span><br><br>
+						
+						<img style="margin-right:5px" src="/images/hoefli/20140921_141841.jpg" alt="">
+						<span><br>...um kurz darauf in sehr tiefe Konzentration zu verfallen... ;-) (man beachte den hypnotischen Blick!)</span><br><br>
+						
+						<img style="margin-right:5px" src="/images/hoefli/20140921_141905.jpg" alt=""><span>Beat spielt hier gegen den sp&auml;teren Tagessieger Othmar</span><br><br>
+						
+						</p>
+						<h2>Tabelle</h2>
+						<p>
+						Neu wird die Tabelle mit der Turnierverwaltungs-Software Vega erstellt. Dies erleichtert mir die Arbeit, da ich die HTML-Tabellen nicht mehr selber "zusammenfrickeln" muss. ;-) <a href="http://ralphschuler.ch/chess/hoefli/wwwhoefli_12/crosstable.html">Hier klicken um zu der Kreuztabelle zu gelangen.</a><br><br>
+						
+						
+						
+						
+						</p>
+
+						<p>
+							<h2>Positionsanalyse</h2>
+								<iframe name='iframe1' height='507' width='539' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://ralphschuler.ch/chess/hoefli/hoefli2014_050.html'>your web browser and/or your host do not support iframes as required to display the chessboard</iframe>
+
+
+					</div>
+					<div id="sidebar">
+						<h3>H&ouml;fli Schachturnier</h3>
+						<ul class="sidemenu">
+							<li><a href="/hoefli">&Uuml;bersicht</a></li>
+						</ul>
+
+				
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

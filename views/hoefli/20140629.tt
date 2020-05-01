@@ -1,0 +1,186 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>11. H&ouml;fli Rapid Schachturnier, 29. Juni 2014</h2>
+						
+						
+						
+						
+						
+
+						
+						<h3>Tabelle / Resultate</h3>
+												
+												<table style="margin-left:10px" cellspacing="3" cellpadding="3" width="450"> 
+																														<tr>
+																															<th align="center">No.</th>
+																															<th align="left">Spieler</th>
+																															<th align="center">1</th>							
+																															<th align="center">2</th>
+																															<th align="center">3</th>								
+																															<th align="center">4</th>
+																															<th align="center">5</th>
+																															<th align="center">6</th>						
+																															<th align="center">Punkte</th>
+																															<th align="center">Rang</th>
+																														</tr>
+																														<tr>
+																															<td align="center">1</td>
+																															<td align="left">Rob</td>
+																															<td align="center">&nbsp;</td>							
+																															<td align="center">&nbsp;</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">1.0</td>
+																															<td align="center">1.0</td>
+																															<td align="center">1.0</td>
+																															<td align="center">3.0</td>
+																															<td align="center">1</td>
+																														</tr>
+																														<tr>
+																															<td align="center">4</td>
+																															<td align="left">Beat</td>
+																															<td align="center">&nbsp;</td>							
+																															<td align="center">&nbsp;</td>
+																															<td align="center">0.0</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">1.0</td>
+																															<td align="center">1.0</td>
+																															<td align="center">2.0</td>
+																															<td align="center">2</td>
+																														</tr>
+																														<tr>
+																															<td align="center">2</td>
+																															<td align="left">Urs</td>
+																															<td align="center">&nbsp;</td>							
+																															<td align="center">&nbsp;</td>
+																															<td align="center">1.0</td>
+																															<td align="center">0.0</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">0.5</td>
+																															<td align="center">1.5</td>
+																															<td align="center">3</td>
+																														</tr>
+																														<tr>
+																															<td align="center">3</td>
+																															<td align="left">Wisel</td>
+																															<td align="center">0.0</td>							
+																															<td align="center">1.0</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">0.0</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">1.0</td>								
+																															<td align="center">4</td>
+																														</tr>
+																														<tr>
+																															<td align="center">5</td>
+																															<td align="left">Ralph</td>
+																															<td align="center">0.0</td>							
+																															<td align="center">0.0</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">1.0</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">1.0</td>								
+																															<td align="center">5</td>
+																														</tr>
+																														<tr>
+																															<td align="center">6</td>
+																															<td align="left">Roland</td>
+																															<td align="center">0.0</td>							
+																															<td align="center">0.0</td>
+																															<td align="center">0.5</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">&nbsp;</td>
+																															<td align="center">0.5</td>								
+																															<td align="center">6</td>
+																														</tr>
+																														</table>
+																		<br><br>
+												<h3>F&uuml;hrungstabelle 2014, K-Faktor: 32</h3>
+												
+												<table style="margin-left:10px" cellspacing="3" cellpadding="3" width="450"> 
+																		<tr>
+																			<th align="left">Spieler</th>
+																			<th align="left">(H)Elo</th>
+																			<th align="left">Partien 2014</th>							
+																		</tr>
+																		<tr>
+																			<td align="left">Thomas D.</th>
+																			<td align="left">2080 (=0)</th>
+																			<td align="left">5</th>							
+																		</tr>
+																		<tr>
+																			<td align="left">Rob</th>
+																			<td align="left">2048 (+48)</th>
+																			<td align="left">8</th>							
+																		</tr>
+																		<tr>
+																			<td align="left">Ralph</th>
+																			<td align="left">2027 (-28)</th>
+																			<td align="left">17</th>							
+																		</tr>
+																		<tr>
+																			<td align="left">Wisel</th>
+																			<td align="left">1991 (-17)</th>
+																			<td align="left">17</th>							
+																		</tr>
+																		<tr>
+																			<td align="left">Beat</th>
+																			<td align="left">1980 (+24)</th>
+																			<td align="left">14</th>							
+																		</tr>
+																		<tr>
+																			<td align="left">Urs</th>
+																			<td align="left">1944 (+6)</th>
+																			<td align="left">17</th>							
+																		</tr>
+																		<tr>
+																			<td align="left">Roland</th>
+																			<td align="left">1938 (-30)</th>
+																			<td align="left">6</th>							
+																		</tr>
+																		
+																		
+																		
+																		</table>
+												<br><br>
+												
+												
+												
+												
+												
+												
+												
+												
+					</div>
+					<div id="sidebar">
+						<h3>H&ouml;fli Schachturnier</h3>
+						<ul class="sidemenu">
+							<li><a href="/hoefli">&Uuml;bersicht</a></li>
+						</ul>
+
+				
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

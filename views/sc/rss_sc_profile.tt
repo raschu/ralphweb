@@ -1,0 +1,10 @@
+<channel>
+  <title><% nick %> -Kantonsranking SC:16</title>
+  <link>http://www.w3schools.com</link>
+  <description>ralphschuler.ch SC:16 Kantonsranking</description>
+  <item>
+    <title>Neue Bestzeit von <% nick %></title>
+    <link>http://ralphschuler.ch/profile/16/<% nick %>/fromrss/<% hash %></link>
+    <description><% nick %> hat eine neue Bestzeit an der SC:16 gefahren.</description>
+  </item>
+</channel>

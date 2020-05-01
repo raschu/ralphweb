@@ -1,0 +1,81 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>7. H&ouml;fli Rapid Schachturnier, 24. November 2013</h2>
+						
+						<p>Auf den Tag genau 8 Monate nach dem ersten Höfli Turnier hat das letzte im Jahr 2013 stattgefunden. Es wurde im Allgemeinen sehr scharf gespielt (kein einziges Remis) und die <a href="/chess/hoefli/Resultate_und_Elo_Hoefli_2013.pdf">Rangliste</a> wurde nochmals aufgemischt. <br><br>Der <b>Tagessieger Wisel</b> konnte mit 5 aus 5 Punkten klar den 3. Platz sichern. Ralph, welcher die ganze Saison geführt hatte, musste mit 2 aus 5 Punkten Federn lassen und sich mit dem zweiten Schlussrang begnügen. <b>Verdienter Jahressieger ist Rob</b>, welcher Ralph in der direkten Begegnung mit einer Wiener Partie bezwang. Herzliche Gratulation!<br><br>Vielen Dank auch allen Teilnehmern, es hat viel Spass gemacht! Und hoffentlich wieder im 2014!
+						
+					
+						<h3>Tabelle / Resultate</h3>
+												<pre>
+													
+													<table style="margin-left:10px" cellspacing="1" cellpadding="1" width="450">
+
+													<tr><td bgColor="silver">Rg.</td><td bgColor="silver">ID</td><td colspan="3" bgColor="silver">Spieler</td><td bgColor="silver" align="center">Pkt</td><td bgColor="silver" align="center">Buchholz</td><td bgColor="silver" align="center">direkte B.</td><td bgColor="silver" align="center">SoBerg</td><td bgColor="silver" align="center">ARO</td><td bgColor="silver" align="center">Turnierleistung</td><td bgColor="silver" align="center">Siege</td></tr>
+													
+													<tr>
+													<td bgColor="silver" align="center">1</td><td>4</td><td>Wisel</td><td> </td><td> 1579F</td><td align="center">5</td><td align="center">12</td><td align="center">0</td><td align="center">10&frac14;</td><td align="center">1622</td><td align="center">1988</td><td align="center">4</td></tr>
+													
+													<tr>
+													<td bgColor="silver" align="center">2</td><td>2</td><td>Rob</td><td> </td><td> 1687F</td><td align="center">4</td><td align="center">11</td><td align="center">0</td><td align="center">6&frac14;</td><td align="center">1622</td><td align="center">1771</td><td align="center">3</td></tr>
+													
+													<tr>
+													<td bgColor="silver" align="center">3</td><td>5</td><td>Beat</td><td> </td><td> 1543F</td><td align="center">3</td><td align="center">12&frac12;</td><td align="center">0</td><td align="center">3&frac14;</td><td align="center">1622</td><td align="center">1622</td><td align="center">2</td></tr>
+													
+													<tr>
+													<td bgColor="silver" align="center">4</td><td>1</td><td>Ralph</td><td> </td><td> 1723F</td><td align="center">2</td><td align="center">12</td><td align="center">0</td><td align="center">1&frac14;</td><td align="center">1622</td><td align="center">1473</td><td align="center">1</td></tr>
+													
+													<tr>
+													<td bgColor="silver" align="center">5</td><td>3</td><td>Urs</td><td> </td><td> 1579F</td><td align="center">1</td><td align="center">13&frac12;</td><td align="center">0</td><td align="center">&frac14;</td><td align="center">1622</td><td align="center">1256</td><td align="center">0</td></tr>
+													
+													</table>
+													
+													
+													<table style="margin-left:10px" cellspacing="1" cellpadding="1" width="450">
+													<tr><td bgColor="silver">ID</td><td  colspan="3" bgColor="silver">Spieler</td><td bgColor="silver" colspan="5">gespielte Runden</td><td bgColor="silver" align="center">Pkt</td></tr>
+													
+													<tr><td bgColor="silver" align="center">1</td><td>Ralph</td><td> </td><td> 1723F</td><td>-S4</td><td>-W5</td><td>+BYE</td><td>-S2</td><td>+W3</td><td align="center">2</td></tr>
+													
+													<tr><td bgColor="silver" align="center">2</td><td>Rob</td><td> </td><td> 1687F</td><td>+BYE</td><td>-W4</td><td>+S3</td><td>+W1</td><td>+S5</td><td align="center">4</td></tr>
+													
+													<tr><td bgColor="silver" align="center">3</td><td>Urs</td><td> </td><td> 1579F</td><td>-S5</td><td>+BYE</td><td>-W2</td><td>-W4</td><td>-S1</td><td align="center">1</td></tr>
+													
+													<tr><td bgColor="silver" align="center">4</td><td>Wisel</td><td> </td><td> 1579F</td><td>+W1</td><td>+S2</td><td>+W5</td><td>+S3</td><td>+BYE</td><td align="center">5</td></tr>
+													
+													<tr><td bgColor="silver" align="center">5</td><td>Beat</td><td> </td><td> 1543F</td><td>+W3</td><td>+S1</td><td>-S4</td><td>+BYE</td><td>-W2</td><td align="center">3</td></tr>
+													
+													</table>
+													
+
+													</pre>
+												<br><br>
+					</div>
+					<div id="sidebar">
+						<h3>H&ouml;fli Schachturnier</h3>
+						<ul class="sidemenu">
+							<li><a href="/hoefli">&Uuml;bersicht</a></li>
+						</ul>
+
+				
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

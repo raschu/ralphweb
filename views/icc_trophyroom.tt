@@ -1,0 +1,41 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+				<p id="slogan">&nbsp;</p>		
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						
+						
+						
+						<h2>ICC Trophy Room</h2>
+						
+						<br>Here you can find my games against <a href="https://en.wikipedia.org/wiki/FIDE_titles">FIDE-titled</a> Players, in which I scored at least a half point.<br><br>
+						<iframe name='iframe1' height='407' width='760' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://ralphschuler.ch/chess/icc/ICC_Scalps0.html'>your web browser and/or your host do not support iframes as required to display the chessboard</iframe>
+						
+						
+						<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+						<div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=10200750074273765&amp;set=a.1005639000796.641.1819536292&amp;type=1" data-width="466"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/photo.php?fbid=10200750074273765&amp;set=a.1005639000796.641.1819536292&amp;type=1">Beitrag</a> von <a href="https://www.facebook.com/ralph.schuler">Ralph Schuler</a>.</div></div>
+						
+						
+						<a href="https://store.chessclub.com/rewardsref/index/refer/id/1714"><img src="https://www.chessclub.com/uploads/content/banner_001_My-favorite-chess-site.png"></a><br><br>
+					</div>
+
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

@@ -1,0 +1,4 @@
+cd /root/ralphweb/public/chess/icc
+pgn2web -c yes -p merida -s individual lastgame.pgn lastgame.html
+#pgn2web -c yes -p lucena -s individual lastgame.pgn lastgame.html
+perl changecss_lastgame.pl

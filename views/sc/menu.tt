@@ -1,0 +1,49 @@
+<div  id="menu">
+	<ul>
+		<% IF edition == 11 %>
+		<li><a href="/sc/<% edition %>">Rankings</a></li>
+		<li><a href="/scmedia/<% edition %>">Medien</a></li>
+		<li><a href="/scstats/<% edition %>">Statistiken</a></li>
+		<% END %>
+		
+		<% IF edition == 12 %>
+		<li><a href="/sc/<% edition %>">Rankings</a></li>
+		<li><a href="/scmedia/<% edition %>">Medien</a></li>
+		<li><a href="/scstats/<% edition %>">Statistiken</a></li>
+		<li><a href="/scregister"><font color="yellow">> hier anmelden &lt;</font></a></li>
+		<% END %>
+		
+		<% IF edition == 13 %>
+		<li><a href="/sc/<% edition %>">Rankings</a></li>
+		<li><a href="/scmedia/<% edition %>">Medien</a></li>
+		<li><a href="/scstats/<% edition %>">Statistiken</a></li>
+		<li><a href="http://youtu.be/A-S4bIFZu28">Hilfe</a></li>
+		<li><a href="/scregister"><font color="yellow">> hier anmelden &lt;</font></a></li>
+		<% END %>
+		
+		<% IF edition == 14 %>
+		<li><a href="/sc/<% edition %>">Rankings</a></li>
+		<li><a href="/scmedia/<% edition %>">Medien</a></li>
+		<li><a href="/scstats/<% edition %>">Statistiken</a></li>
+		<li><a href="http://youtu.be/A-S4bIFZu28">Hilfe</a></li>
+		<li><a href="/scregister"><font color="yellow">> hier anmelden &lt;</font></a></li>
+		<% END %>
+		
+		<% IF edition == 15 %>
+		<li><a href="/sc/<% edition %>">Rankings</a></li>
+		<li><a href="/scmedia/<% edition %>">Medien</a></li>
+		<li><a href="/scstats/<% edition %>">Statistiken</a></li>
+		<li><a href="/schelp">Hilfe</a></li>
+		<li><a href="/scregister"><font color="yellow">> hier anmelden &lt;</font></a></li>
+		<% END %>
+		
+		<% IF edition == 16 %>
+		<li><a href="/sc/<% edition %>">Rankings</a></li>
+		<li><a href="/scmedia/<% edition %>">Medien</a></li>
+		<li><a href="/scstats/<% edition %>">Statistiken</a></li>
+		<li><a href="/schelp">Hilfe</a></li>
+		<li><a href="/scregister"><font color="yellow">> hier anmelden &lt;</font></a></li>
+		<% END %>
+		
+	</ul>
+</div>

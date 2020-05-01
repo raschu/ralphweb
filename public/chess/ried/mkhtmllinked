@@ -1,0 +1,2 @@
+pgn2web -c no -s linked ried.pgn ried.html
+perl changecss.pl

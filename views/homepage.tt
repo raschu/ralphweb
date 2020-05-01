@@ -1,0 +1,109 @@
+	<div id="wrap">
+			<!--header -->
+			<div id="header">			
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+				<!--<p id="slogan"><font color="yellow">root@ralphweb:~ #</font>perl -e '$_="krJhruaesrltre c a cnp,ohet";$_.=$1,print$2while s/(..)(.)//;'</p>-->
+				<p id="slogan"><font color="yellow">root@ralphweb:~ #</font>perl -e 'print "Just another Perl hacker\n";'</p>		
+				<% INCLUDE mainmenu.tt %>	
+			</div>
+			<!-- menu -->	
+			<div  id="menu">				
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+					<div id="sidebar">
+						<br/>
+						<h4>Sessions in the last 24 hours<br/>(<% cntd %>)</h4>
+							<div>
+								<canvas id="canvas" height="150" width="200"></canvas>
+							</div>
+							
+						<h4>Sessions in the last 1 hour<br/>(<% cnth %>)</h4>
+							<div>
+								<canvas id="canvas2" height="150" width="200"></canvas>
+							</div>	
+
+						<script src="javascripts/Chart.js-master/Chart.js"></script>
+						<script>
+							var lineChartData = {
+								labels : ["","","","","","","","","","","","","","","","","","","","","","",""],
+								datasets : [
+									{
+										label: "My First dataset",
+										fillColor : "rgba(33,128,188,0.2)",
+										strokeColor : "rgba(33,128,188,1)",
+										pointColor : "rgba(33,128,188,1)",
+										pointStrokeColor : "#fff",
+										pointHighlightFill : "#fff",
+										pointHighlightStroke : "rgba(33,128,188,1)",
+										<% sstatstringd %>
+									},
+								]
+
+							}
+							var lineChartData2 = {
+								labels : ["","","",""],
+								datasets : [
+									{
+										label: "My First dataset",
+										fillColor : "rgba(33,128,188,0.2)",
+										strokeColor : "rgba(33,128,188,1)",
+										pointColor : "rgba(33,128,188,1)",
+										pointStrokeColor : "#fff",
+										pointHighlightFill : "#fff",
+										pointHighlightStroke : "rgba(33,128,188,1)",
+										<% sstatstringh %>
+									},
+								]
+
+							}
+
+						window.onload = function(){
+							var ctx = document.getElementById("canvas").getContext("2d");
+							var ctx2 = document.getElementById("canvas2").getContext("2d");
+							window.myLine = new Chart(ctx).Line(lineChartData, {
+								responsive: false
+							});
+							window.myLine = new Chart(ctx2).Line(lineChartData2, {
+								responsive: false
+							});
+						}
+						</script>
+					
+						
+						
+					</div>
+					<div id="main">
+							<p>
+							<code>
+							Welcome to ralphweb Terminal!<br/>
+							<font color="red">user@ralphweb></font>hello<br/>
+							Hi, <% uaname %> user. Please choose a link in the upper right corner<br/>
+							...and don't forget to sign my guestbook.<br/>
+							Have a nice day!
+							<br/>
+							<font color="red">user@ralphweb></font>sessions 1 all<br/>
+							We've had <% cnth %> sessions in the last hour<br/>
+							<font color="red">user@ralphweb></font>sessions 24 all<br/>
+							We've had <% cntd %> sessions in the last 24 hours<br/>
+							<font color="red">user@ralphweb></font>uptime<br/>
+							<% ut %><br/>
+							<font color="red">user@ralphweb></font>curl --head ralphschuler.ch<br/>
+							HTTP/1.0 200 OK
+Server: Perl Dancer <% dancer_version %><br/>
+Content-Length: 3456<br/>
+Content-Type: text/html; charset=utf-8<br/>
+Set-Cookie: dancer.session=<% sessid %>; path=/; HttpOnly<br/>
+X-Powered-By: Perl Dancer <% dancer_version %><br/>
+Connection: close<br/>
+							<font color="red">user@ralphweb></font>/usr/games/fortune -n 320 | /usr/games/cowsay<br/>
+							<% fortunestring %>
+							<br/>
+							<font color="red">user@ralphweb></font>_
+							</code>			              	
+							</p>
+	
+					</div>
+				<!-- content-wrap ends here -->	
+				</div>
+				<% INCLUDE footer.tt %>

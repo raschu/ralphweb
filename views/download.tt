@@ -1,0 +1,48 @@
+<div id="wrap">
+<!--header -->
+<div id="header">			
+<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+<p id="slogan">Download</p>		
+<% INCLUDE mainmenu.tt %>	
+</div>
+<!-- menu -->
+<% INCLUDE empty_menu.tt %>		
+<!-- content-wrap starts here -->
+<div id="content-wrap">
+<div id="main">
+<h2>Jin Pieces</h2>
+
+<p>
+<a href="/download/merida2"><img src="/downloads/t4.png" alt="Merida chess piece set"/></a>
+<a href="/download/merida"><img src="/downloads/t2.png" alt="Merida chess piece set"/></a>
+<a href="/download/uscf"><img src="/downloads/t1.png" alt="USCF chess piece set"/></a>
+</p>
+
+<h2>UCI FICS Bot</h2>
+
+<p>
+<a href="/download/ucifics"><img src="/downloads/t3.png" alt="UCI FICS Bot"/></a>
+</p>
+
+<h2>Jin and lichess.org Boards</h2>
+
+<p>
+	<% htbl %>
+	<br>I am not a graphic designer but I do some small graphics work occasionally with GIMP. Feel free to download some of my boards. You can use them in <a href="http://www.jinchess.com">Jin</a> and in <a href="http://lichess.org">lichess.org</a> as well. Please note, if you want to use these Jin boards, you have to replace your chess.jar in your Jin/build directory with this <a href="downloads/jinstuff/jars/FullBoardSupport/chess.jar">one</a>.
+</p>
+
+
+<h2>Jin Resources Files</h2>
+<p>Browse my whole Jin resources files collection. Please let me know, if you guess any copyright issues.
+<a href="/downloads/jinstuff/"></p>
+
+<p>http://ralphschuler.ch/downloads/jinstuff/</a>
+</p>
+
+<br/>
+
+  </p>
+</div>
+<!-- content-wrap ends here -->	
+</div>
+<% INCLUDE footer.tt %>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Line Chart</title>
+		<script src="../Chart.js"></script>
+	</head>
+	<body>
+		<div style="width:30%">
+			<div>
+				<canvas id="canvas" height="200" width="250"></canvas>
+			</div>
+		</div>
+
+
+	<script>
+		var lineChartData = {
+			labels : ["","","","","","","","","","","","","","","","","","","","","","",""],
+			datasets : [
+				{
+					label: "My First dataset",
+					fillColor : "rgba(33,128,188,0.2)",
+					strokeColor : "rgba(33,128,188,1)",
+					pointColor : "rgba(33,128,188,1)",
+					pointStrokeColor : "#fff",
+					pointHighlightFill : "#fff",
+					pointHighlightStroke : "rgba(33,128,188,1)",
+					data : [117,596,377,230,101,422,176,126,78,549,270,97,67,549,111,88,76,923,57,55,382,291,84]
+				},
+			]
+
+		}
+
+	window.onload = function(){
+		var ctx = document.getElementById("canvas").getContext("2d");
+		window.myLine = new Chart(ctx).Line(lineChartData, {
+			responsive: false
+		});
+	}
+
+
+	</script>
+	</body>
+</html>

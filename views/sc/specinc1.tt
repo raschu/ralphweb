@@ -1,0 +1,8 @@
+<h2>CLI Zugriff <a href="http://youtu.be/1bmQ2aHWuVw" target="_blank" title="hier klicken um zu erfahren, was das bedeutet" style="font-size:8pt;font-weight:normal">(was ist das?)</a></font></h2>
+<p style="font-size:8pt;font-weight:normal;">
+	<code>curl http://ralphschuler.ch/cli/16/<%cat%>/<%sessionid%>
+	</code>			              	
+oder
+	<code>wget -qO - http://ralphschuler.ch/cli/16/<%cat%>/<%sessionid%>
+	</code>			              	
+</p>

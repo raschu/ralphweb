@@ -1,0 +1,26 @@
+
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2020.05.01"]
+[Round "-"]
+[White "jjmolina"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White resigns"]
+[WhiteElo "1415"]
+[BlackElo "1558"]
+[Opening "Petrov's defense"]
+[ECO "C42"]
+[NIC "RG.03"]
+[Time "06:38:32"]
+[TimeControl "300+0"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxf7 Kxf7 5. Bc4+ Ke8 6. O-O d6 7. d4 Bd7
+8. e5 dxe5 9. dxe5 Ng8 10. Re1 Nge7 11. e6 Bc8 12. Qh5+ g6 13. Qh4 Nf5 14.
+Qxd8+ Nxd8 15. Bg5 Be7 16. Bf4 Bd6 17. Bg5 Nc6 18. Nc3 Bb4 19. a3 Bxc3 20.
+bxc3 b6 21. Rad1 Bb7 22. Rd7 Rc8 23. g4 Nd6 24. Bd3 h6 25. Bf6 Rg8 26. c4 g5
+27. Rg7 Rxg7 28. Bxg7 Ke7 29. Bxh6 Rg8 30. Bh7 Rh8 31. Bxg5+ Ke8 32. Bg6+
+Kf8 33. e7+ Nxe7 34. Bxe7+ Kg7 35. Bh5 Ne4 36. Bh4 Nd2 37. Re7+ Kh6 38. Bg3
+Nf3+ 39. Kf1 Nd2+ 40. Ke2 Nxc4 41. Rxc7 Ba6 42. Rc6+ Kg7 43. Rc7+ Kf6 44.
+Rxa7 Bb5 45. Rg7 Nxa3+ {White resigns} 0-1
+

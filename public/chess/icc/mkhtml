@@ -1,0 +1,4 @@
+#pgn2web -c no -p merida -s linked ICC_Scalps.pgn ICC_Scalps.html
+pgn2web -c no -p lucena -s linked ICC_Scalps.pgn ICC_Scalps.html
+
+perl changecss.pl

@@ -1,0 +1,107 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+				<p id="slogan">About me</p>		
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+					<div id="sidebar">
+					<h3>Support ralphschuler.ch</h3>
+					<p>If you like some of my free services and would like to contribute, please consider making a small donation to help me support my work!<br/><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<p>	
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="HFF9DPSQD543J">
+					<input type="image" src="https://www.paypalobjects.com/en_US/CH/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</p>
+					</form>
+					</p>
+					
+					<h3>Amazon Wishlist</h3>
+					<p>
+					<a href="http://www.amazon.de/registry/wishlist/1FXL0RA1K68IP">Bullet Chess - One Minute To Mate</a>
+					</p>
+					
+					</div>
+
+					<div id="main">	
+
+						<h2>About me</h2>
+						
+			              <p><img style="float:left;margin-right:5px" src="/images/about.jpeg" alt="Ralph Schuler">
+						Hi, my name is Ralph Schuler. I live in beautiful Switzerland and I'm working as GIS software technician for a cantonal administration. I am married and am a proud father of two beautiful daughters.</p>
+
+<p>
+In my spare time, I love to play chess online, coding software and listen music.<br>I play regular blitz chess and Fischer random chess (Chess960). My favorite openings are Queen's Gambit, Trompowsky-Attack, Dutch Stonewall and Alekhine's Defence.<br>My main programming language is <a href="http://www.perl.org">Perl</a>, but I have some experience with Python, PHP, Ruby, VB.NET, VBA, VBS, C#, C, C++, Objective-C and Java.<br>Most of the time I listen music on <a href="http://www.lastfm.de/user/huiimthal/library">last.fm</a>.</p>
+<p>
+This whole site is running on <a href="http://perldancer.org">Perl Dancer</a> as webserver, <a href="http://nginx.org/en/">nginx</a> as load balancer and reverse proxy on a 64-bit <a href="http://www.debian.org/">Debian GNU/Linux</a> 7.9 (wheezy). Both bots Chartbot and SCBot, which deliver data, are written in Perl. As database backend I am using <a href="http://www.sqlite.org/">SQLite</a> and <a href="http://www.postgresql.org/">PostgreSQL</a>.</p>
+
+<p>
+Here are some of my accounts:
+<ul>
+<li>PerlHackr @ <a href="http://www.chessclub.com/finger/PerlHackr">Internet Chess Club</a></li>
+<li>Elbenking @  <a href="http://www.chess.com/members/view/Elbenking">Chess.com</a></li>
+<li>PerlHacker @ <a href="http://en.lichess.org/@/PerlHacker">lichess.org</a></li>
+<li>Isegrim @ <a href="http://www.chesscube.com/">Chesscube</a></li>
+<li>WilhelmTell @ <a href="http://www.freechess.org">Free Internet Chess Server</a></li>
+<li>Ralph Schuler @ <a href="http://www.chessfriends.com">ChessFriends.com</a></li>
+<li>raschu @ <a href="http://www.spoj.com/users/raschu/">Sphere online judge</a></li>
+<li>raschu @ <a href="http://projecteuler.net/">Project Euler</a></li>
+<li>raschu @ <a href="https://github.com/raschu">GitHub</a></li>
+<li>huiimthal @ <a href="http://www.lastfm.de/user/huiimthal/library">last.fm</a></li>
+<li>ralph.schuler @ <a href="https://www.facebook.com/ralph.schuler">Facebook</a></li>
+<li>schura @ <a href="http://youtube.com/schura">YouTube</a></li>
+<li>raelphl @ <a href="http://twitter.com/#!/raelphl">twitter</a></li>
+<li>Ralph Schuler @ <a href="https://www.xing.com/profile/Ralph_Schuler3/">XING</a></li>
+<li>4mon4marth @ <a href="http://ralphschuler.ch/profile/14/4mon4marth">SC:14</a></li>
+</ul>
+</p>
+
+<p>
+Feel free to contact me:
+
+					<br>
+						<img src="/images/email.png">
+						</p>
+
+					
+
+<p>My personal JAPH:
+<code>
+$r=chr(hex(hex(52))-56);$e =chr(hex(53)+1*5<br> 
+*8.5-8.5); $k=chr(oct(hex(45))*oct(hex(46))/<br> 
+2-8*6.625);$c=chr(int(sin(9)*9*9)*9/3+1+2+3+4<br> 
++5+2);$a=chr(1000/10-2*1.5);$h=chr(int(oct(sin<br>
+(110/-1))+800/6)-int(789/235)*8+1);$l=chr(1000-<br> 
+889*1);$h=&h(208/2);$u=&h(202/2+int(3.934)-5+2);<br> 
+$y="$r$e$k$c$a$h$l$c$h$p$r$e$h$c$o$n$a$c$s$u$J";<br> 
+$y=~s/ho/no/g;$a=$y;$a=~s/hJ/he/g;@a= split(/t/<br> 
+,$a);foreach(@a){$cc++;so($_,$cc);}$g =&g($g);<br> 
+print $g;sub so{$q = shift;$c = shift;$g = $g<br>
+.$n;$n= $q;$n=~s/s/st /g;$n=~s/o/ot/g;$n=~ s<br> 
+/uh/r /g;$n =~ s/r/r P/g;$n=~s/P/Pe/g;$n=~s<br> 
+/e /er/;}sub g{$g=shift;$g=~s/ra/rl/;$g=$g<br>
+.chr(32).chr(104).chr(97)."c".chr(107).$u<br>
+.chr(hex(hex(hex(12)))*3 +6);return $g;}<br> 
+sub h {$b = 0;$lo = shift;for (1..$lo){<br> 
+$b++;} print  return chr($b);}  print;<br>
+</code>
+</p>
+
+</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

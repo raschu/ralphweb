@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Tournament>
+	<Name>4. Gersau-Cuba Cup</Name><HostFederation>SUI</HostFederation><Place>Gersau</Place><Date Begin="19/01/2020" End="19/01/2020"/><Schedule></Schedule><Arbiters Chief="Marzell Camenzind" Deputy="Ralph Schuler"/><PlaySystem>
+		<RateMove>90 minutes + 30 seconds per move</RateMove><PairingSystem>10</PairingSystem><RRorder></RRorder><RoundsNumber>7</RoundsNumber><ScoreSystem Win="1" Draw="0.5" Loss="0" PAB="0"/>
+	</PlaySystem><InitialRanking>3</InitialRanking><TieBreakers>
+		<TieBreak>  Buc1  </TieBreak><TieBreak>  BucT  </TieBreak>
+	</TieBreakers><AssignedBoards></AssignedBoards><CurrentRound>1</CurrentRound><CompletedRounds>1</CompletedRounds><ProgramVersion>Vega 8.2.2</ProgramVersion><Parameters>
+		<RegistrationClosed>TRUE</RegistrationClosed><UseAdjustedScore>TRUE</UseAdjustedScore><NoTieBreakByeDraw>FALSE</NoTieBreakByeDraw><VesusID>0</VesusID><ServerFolder></ServerFolder><StartBoard>1</StartBoard><AcceleratedRounds>
+			<AcceleratedSystem>0</AcceleratedSystem><IsSetAcceleration>FALSE</IsSetAcceleration><NumberAcceleratedRounds>0</NumberAcceleratedRounds><Baku_GA>0</Baku_GA><IdLimit High="0" Low="0"/><DecreasedAcceleration>FALSE</DecreasedAcceleration><PointsGroup Top="0" Middle="0" Bottom="0"/>
+		</AcceleratedRounds>
+	</Parameters><Players>
+		<Player>
+			<Name>BANZ VERA</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>CAMENZIND MARZELL</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>DITTLI PHILIPP</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>DITTLI THOMAS</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>HOTI</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>NIEDEREGGER HANSJÖRG</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>ODONGARAV BATDORLIG</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>RIEBEN THOMAS</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>SCHULER RALPH</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>WESPI ANDRÉ</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player><Player>
+			<Name>WÜEST ANDRIN</Name><Federation>SUI</Federation><Origin></Origin><Info></Info><Birthday>0000</Birthday><Gender>m</Gender><Title></Title><ID_FIDE>0</ID_FIDE><RatingFIDE>0</RatingFIDE><KcoeffFIDE>0</KcoeffFIDE><ID_Nat>0</ID_Nat><RatingNat>0</RatingNat><KcoeffNat>0</KcoeffNat><Status>1</Status><StatusHistory>11111111111111111111111111</StatusHistory>
+		</Player>
+	</Players><Rounds>
+		<Pairing>
+			<Pair Board="1" White="6" Black="1" Result="10" Type="1"/><Pair Board="2" White="2" Black="7" Result="10" Type="1"/><Pair Board="3" White="8" Black="3" Result="01" Type="1"/><Pair Board="4" White="4" Black="9" Result="01" Type="1"/><Pair Board="5" White="10" Black="5" Result="10" Type="1"/><Pair Board="6" White="11" Black="0" Result="10" Type="3"/>
+		</Pairing>
+	</Rounds>
+</Tournament>

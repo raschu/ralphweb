@@ -1,0 +1,2 @@
+rsync -avz --rsh='ssh -p28873' /Users/ralph/Dropbox/Games/Schach/SCHACH_REPERTOIE_RALPH/ root@ralphschuler.ch:/root/ralphweb/public/private/ralph/
+

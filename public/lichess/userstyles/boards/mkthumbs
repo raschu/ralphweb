@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+for my $png (<*.png>) {
+    next if $png =~ m/tn_/;
+    print "png: $png\n";
+    next if (-e "tn_$png");
+	system "convert -resize 128x128 $png tn_$png"; #z.B. convert -resize 64x64 f.png f.png
+}
+

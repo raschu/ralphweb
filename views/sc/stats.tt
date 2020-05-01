@@ -1,0 +1,144 @@
+	<div id="wrap">
+			<!--header -->
+			<div id="header">			
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+				<p id="slogan">SC:Kantonsranking Saison 20<% edition %> Statistiken</p>		
+				<% INCLUDE mainmenu.tt %>	
+			</div>
+			<!-- menu -->
+			<% INCLUDE sc/menu.tt %>	
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+					
+					<div id="sidebar">	
+						<h3>Rennen</h3>
+						<ul class="sidemenu">
+						<% IF edition == 11 %>
+					  		<li><a href="/scstats/<% edition %>/<% type %>/vadq">Val d'Isère Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/vadr">Val d'Isère Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/groq">Gröden Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/gror">Gröden Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borq">Bormio Quali</a></li>
+							  <li><a href="/scstats/<% edition %>/<% type %>/borr">Bormio Rennen</a></li>	
+							  <li><a href="/scstats/<% edition %>/<% type %>/wenq">Wengen Quali</a></li>
+							  <li><a href="/scstats/<% edition %>/<% type %>/wenr">Wengen Rennen</a></li>
+							  <li><a href="/scstats/<% edition %>/<% type %>/kitq">Kitzbühel Quali</a></li>
+							  <li><a href="/scstats/<% edition %>/<% type %>/kitr">Kitzbühel Rennen</a></li>
+							  <li><a href="/scstats/<% edition %>/<% type %>/garq">Garmisch Quali</a></li>
+							  <li><a href="/scstats/<% edition %>/<% type %>/garr">Garmisch Rennen</a></li>
+						<% END %>
+						<% IF edition == 12 %>
+					  		<li><a href="/scstats/<% edition %>/<% type %>/beaq">Beaver Creek Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/bear">Beaver Creek Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/vadq">Val d'Isère Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/vadr">Val d'Isère Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/groq">Gröden Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/gror">Gröden Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borq">Bormio Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borr">Bormio Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenq">Wengen Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenr">Wengen Rennen</a></li>	
+							<li><a href="/scstats/<% edition %>/<% type %>/kitq">Kitzbühel Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/kitr">Kitzbühel Rennen</a></li>								
+						<% END %>
+						<% IF edition == 13 %>
+							<li><a href="/scstats/<% edition %>/<% type %>/groq">Gröden Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/gror">Gröden Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borq">Bormio Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borr">Bormio Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenq">Wengen Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenr">Wengen Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/kitq">Kitzbühel Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/kitr">Kitzbühel Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/schq">Schladming Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/schr">Schladming Rennen</a></li>			
+						<% END %>
+						<% IF edition == 14 %>
+							<li><a href="/scstats/<% edition %>/<% type %>/beaq">Beaver Creek Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/bear">Beaver Creek Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/groq">Gröden Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/gror">Gröden Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borq">Bormio Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borr">Bormio Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenq">Wengen Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenr">Wengen Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/kitq">Kitzbühel Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/kitr">Kitzbühel Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/garq">Garmisch Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/garr">Garmisch Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/socq">Sochi Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/socr">Sochi Rennen</a></li>							
+						<% END %>
+						<% IF edition == 15 %>
+							<li><a href="/scstats/<% edition %>/<% type %>/beaq">Beaver Creek Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/bear">Beaver Creek Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/groq">Gröden Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/gror">Gröden Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borq">Bormio Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borr">Bormio Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenq">Wengen Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenr">Wengen Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/kitq">Kitzbühel Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/kitr">Kitzbühel Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/garq">Garmisch Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/garr">Garmisch Rennen</a></li>						
+						<% END %>
+						<% IF edition == 16 %>
+							<li><a href="/scstats/<% edition %>/<% type %>/beaq">Beaver Creek Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/bear">Beaver Creek Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/vadq">Val d'Isère Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/vadr">Val d'Isère Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/socq">Sochi Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/socr">Sochi Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/schq">Schladming Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/schr">Schladming Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/groq">Gröden Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/gror">Gröden Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borq">Bormio Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/borr">Bormio Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenq">Wengen Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/wenr">Wengen Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/kitq">Kitzbühel Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/kitr">Kitzbühel Rennen</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/garq">Garmisch Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/garr">Garmisch Rennen</a></li>	
+							<li><a href="/scstats/<% edition %>/<% type %>/stmq">St. Moritz Quali</a></li>
+							<li><a href="/scstats/<% edition %>/<% type %>/stmr">St. Moritz Rennen</a></li>					
+						<% END %>
+		              
+						</ul>
+						<h3>Rennstatistiken</h3>
+						<ul class="sidemenu">
+				            <li><a href="/scstats/<% edition %>/average_time_per_race/<% cat %>">Kantonsdurchschnitt</a></li>
+							<li><a href="/scstats/<% edition %>/average_time_per_race_and_sex/<% cat %>">Vergleich Männer Frauen</a></li>
+							<li><a href="/scstats/<% edition %>/time_distribution_per_race_1/<% cat %>">Verteilung der Zeiten (1s)</a></li>				
+							<li><a href="/scstats/<% edition %>/time_distribution_per_race_2/<% cat %>">Verteilung der Zeiten (2s)</a></li>				
+							<li><a href="/scstats/<% edition %>/time_distribution_per_race_5/<% cat %>">Verteilung der Zeiten (5s)</a></li>				
+							<li><a href="/scstats/<% edition %>/time_distribution_per_race_10/<% cat %>">Verteilung der Zeiten (10s)</a></li>
+							<li><a href="/scstats/<% edition %>/time_distribution_per_race_30/<% cat %>">Verteilung der Zeiten (30s)</a></li>				
+						</ul>
+						
+						<h3>Gesamtstatistiken</h3>
+						<ul class="sidemenu">
+							<li><a href="/scstats/<% edition %>/player_per_canton/<% cat %>">Anzahl Spieler pro Kanton</a></li>
+							<% IF edition == 11 %>
+							<li><a href="/scstats/<% edition %>/crashes_per_canton/<% cat %>">Anzahl Stürze pro Kanton</a></li>
+							<% END %>
+							<li><a href="/scstats/<% edition %>/male_versus_female_count/<% cat %>">Vergleich Männer und Frauen</a></li>
+						</ul>
+						<p>
+							Besten Dank an <a href="http://tooldesign.ch/">Marco Senn</a> für die Chart Software.</p>
+					
+					</div>
+					
+					
+					<div id="main">
+						
+						<h2>Kantonsranking Statistiken</h2>
+			              <p>
+			              	<% url %>
+			              </p>
+					</div>
+				<!-- content-wrap ends here -->	
+				</div>
+				<% INCLUDE footer.tt %>

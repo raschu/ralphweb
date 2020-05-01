@@ -1,0 +1,90 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            ff:f8:3d:f2:69:1a:70:cd
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=ch, L=Seewen, O=Folex AG, CN=Folex AG VPN CA/emailAddress=mailadmin@celfa.com
+        Validity
+            Not Before: Feb 21 14:33:58 2014 GMT
+            Not After : Jan  1 00:00:01 2038 GMT
+        Subject: C=ch, L=Seewen, O=Folex AG, CN=Meier Franz/emailAddress=Franz.Meier@folex.ch
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d0:2f:a6:7a:4d:d6:35:4a:c9:94:af:be:62:4e:
+                    00:14:99:a4:91:7a:ec:46:de:54:1f:13:f6:f9:d0:
+                    6c:7f:9c:7c:9e:2c:73:79:94:bc:80:86:57:d9:3f:
+                    4e:5d:76:11:c5:1e:21:05:13:4a:ca:09:75:7b:59:
+                    51:ef:65:f6:c1:7a:bc:a7:6d:a0:91:5a:a4:7a:16:
+                    f0:cf:5c:2d:6c:32:50:75:2d:0c:cb:02:74:3f:0e:
+                    04:90:cc:a8:d5:84:32:a1:41:be:a7:fd:1e:d9:3a:
+                    d8:16:af:19:06:02:1d:23:25:99:5f:16:b3:00:04:
+                    25:f0:f5:7d:55:40:cb:51:24:ea:5b:97:b0:46:29:
+                    41:25:04:2b:ff:23:e7:3f:a1:49:00:3e:94:3f:30:
+                    24:e5:4e:b5:27:f6:58:ce:67:40:59:4b:3c:48:6f:
+                    cd:b2:74:73:ae:5b:e9:7c:28:9e:56:34:51:37:2a:
+                    a4:a6:c6:b6:8e:40:a3:1c:5b:f1:e7:46:8c:7e:8a:
+                    fa:c3:8a:b6:dd:ac:f8:91:35:7f:a7:51:39:be:0c:
+                    e7:91:b6:60:e1:27:43:36:b5:88:65:d0:86:db:ec:
+                    d6:22:dd:54:3c:cc:7d:d7:03:c7:46:a1:6f:ca:8c:
+                    83:74:2c:51:5b:42:43:3a:36:e2:f7:ad:87:6d:47:
+                    1f:bd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                10:78:1F:E4:C7:E0:9E:D7:26:3C:72:0C:68:0D:34:D0:2C:69:3D:AD
+            X509v3 Authority Key Identifier: 
+                keyid:0A:4F:36:01:FE:9C:17:7C:BD:6D:AF:25:72:65:DE:05:F1:9C:9F:64
+                DirName:/C=ch/L=Seewen/O=Folex AG/CN=Folex AG VPN CA/emailAddress=mailadmin@celfa.com
+                serial:FF:F8:3D:F2:69:1A:70:BF
+
+            X509v3 Subject Alternative Name: 
+                email:Franz.Meier@folex.ch
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment
+    Signature Algorithm: sha1WithRSAEncryption
+         17:a6:76:03:24:58:f1:77:0e:c2:cc:55:40:e2:6d:64:a6:df:
+         07:f9:cb:c3:30:b3:36:1d:7c:d8:cf:91:51:40:67:19:2b:39:
+         c5:1e:ec:8e:f9:63:d0:62:ad:0e:85:b8:2e:dc:c4:ed:14:d2:
+         4a:a1:67:16:0b:7d:43:ea:62:4c:41:cf:ab:ba:22:cf:39:3f:
+         d7:49:8c:c4:b3:03:59:7f:7a:79:a5:f4:ce:f5:ee:90:b4:6c:
+         ee:59:98:c0:0b:ef:81:c2:bb:e8:e9:d1:29:b1:ba:31:ee:15:
+         f0:ec:6b:49:45:c4:e6:74:42:d7:12:93:1e:ff:50:2a:aa:8a:
+         90:79:5a:d4:59:98:b8:f7:3d:3b:f0:a6:89:15:af:b7:c7:74:
+         75:70:11:56:d3:c4:1e:30:f3:20:6a:e1:16:0a:fc:1e:81:4b:
+         3d:28:af:35:84:66:00:98:ec:3b:9c:6e:0e:ab:99:87:01:f7:
+         f8:88:57:0a:15:0c:cc:50:b9:83:87:56:f0:3d:51:da:5c:8b:
+         e2:d0:d9:b5:02:13:25:53:6a:35:0c:2c:07:4c:cf:d5:d7:3c:
+         27:2b:2c:f9:ad:0d:21:cb:2d:b3:5d:20:55:bf:3e:6d:90:42:
+         55:27:57:b7:c6:db:98:6f:17:54:c7:5d:2e:91:c3:c4:ff:d6:
+         b0:28:a6:3f
+-----BEGIN CERTIFICATE-----
+MIIEXjCCA0agAwIBAgIJAP/4PfJpGnDNMA0GCSqGSIb3DQEBBQUAMG8xCzAJBgNV
+BAYTAmNoMQ8wDQYDVQQHDAZTZWV3ZW4xETAPBgNVBAoMCEZvbGV4IEFHMRgwFgYD
+VQQDDA9Gb2xleCBBRyBWUE4gQ0ExIjAgBgkqhkiG9w0BCQEWE21haWxhZG1pbkBj
+ZWxmYS5jb20wHhcNMTQwMjIxMTQzMzU4WhcNMzgwMTAxMDAwMDAxWjBsMQswCQYD
+VQQGEwJjaDEPMA0GA1UEBwwGU2Vld2VuMREwDwYDVQQKDAhGb2xleCBBRzEUMBIG
+A1UEAwwLTWVpZXIgRnJhbnoxIzAhBgkqhkiG9w0BCQEWFEZyYW56Lk1laWVyQGZv
+bGV4LmNoMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0C+mek3WNUrJ
+lK++Yk4AFJmkkXrsRt5UHxP2+dBsf5x8nixzeZS8gIZX2T9OXXYRxR4hBRNKygl1
+e1lR72X2wXq8p22gkVqkehbwz1wtbDJQdS0MywJ0Pw4EkMyo1YQyoUG+p/0e2TrY
+Fq8ZBgIdIyWZXxazAAQl8PV9VUDLUSTqW5ewRilBJQQr/yPnP6FJAD6UPzAk5U61
+J/ZYzmdAWUs8SG/NsnRzrlvpfCieVjRRNyqkpsa2jkCjHFvx50aMfor6w4q23az4
+kTV/p1E5vgznkbZg4SdDNrWIZdCG2+zWIt1UPMx91wPHRqFvyoyDdCxRW0JDOjbi
+962HbUcfvQIDAQABo4H/MIH8MB0GA1UdDgQWBBQQeB/kx+Ce1yY8cgxoDTTQLGk9
+rTCBoQYDVR0jBIGZMIGWgBQKTzYB/pwXfL1tryVyZd4F8ZyfZKFzpHEwbzELMAkG
+A1UEBhMCY2gxDzANBgNVBAcMBlNlZXdlbjERMA8GA1UECgwIRm9sZXggQUcxGDAW
+BgNVBAMMD0ZvbGV4IEFHIFZQTiBDQTEiMCAGCSqGSIb3DQEJARYTbWFpbGFkbWlu
+QGNlbGZhLmNvbYIJAP/4PfJpGnC/MB8GA1UdEQQYMBaBFEZyYW56Lk1laWVyQGZv
+bGV4LmNoMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMA0GCSqGSIb3DQEBBQUAA4IB
+AQAXpnYDJFjxdw7CzFVA4m1kpt8H+cvDMLM2HXzYz5FRQGcZKznFHuyO+WPQYq0O
+hbgu3MTtFNJKoWcWC31D6mJMQc+ruiLPOT/XSYzEswNZf3p5pfTO9e6QtGzuWZjA
+C++Bwrvo6dEpsbox7hXw7GtJRcTmdELXEpMe/1AqqoqQeVrUWZi49z078KaJFa+3
+x3R1cBFW08QeMPMgauEWCvwegUs9KK81hGYAmOw7nG4Oq5mHAff4iFcKFQzMULmD
+h1bwPVHaXIvi0Nm1AhMlU2o1DCwHTM/V1zwnKyz5rQ0hyy2zXSBVvz5tkEJVJ1e3
+xtuYbxdUx10ukcPE/9awKKY/
+-----END CERTIFICATE-----

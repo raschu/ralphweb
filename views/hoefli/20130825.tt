@@ -1,0 +1,76 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>5. H&ouml;fli Rapid Schachturnier, 25. August 2013</h2>
+			
+						<h3>Tabelle / Resultate</h3>
+						<img style="float:left;margin-right:5px" src="/images/hoefli/20130825_165254.jpg" alt=""><span>Suti, als prominentester Kibitzer an diesem Nachmittag</span><br>
+						<pre>
+							
+							<table>
+							<tr><td bgColor="silver">Rank</td><td bgColor="silver">ID</td><td colspan="3" bgColor="silver">Spieler</td><td bgColor="silver" align="center">Pkt</td><td bgColor="silver" align="center">Buchholz</td><td bgColor="silver" align="center">direkte B.</td><td bgColor="silver" align="center">Siege</td><td bgColor="silver" align="center">Spiele mit Schwarz</td></tr>
+
+							
+							<tr>
+							<td bgColor="silver" align="center">1</td><td>3</td><td>Wisel</td><td> </td><td> 1552F</td><td align="center">2</td><td align="center">3</td><td align="center">1</td><td align="center">2</td><td align="center">2</td></tr>
+							
+							<tr>
+							<td bgColor="silver" align="center">2</td><td>1</td><td>Ralph</td><td> </td><td> 1708F</td><td align="center">2</td><td align="center">2</td><td align="center">0</td><td align="center">2</td><td align="center">1</td></tr>
+
+							
+							<tr>
+							<td bgColor="silver" align="center">3</td><td>4</td><td>Sascha</td><td> </td><td> 1537F</td><td align="center">1</td><td align="center">2</td><td align="center">0</td><td align="center">1</td><td align="center">1</td></tr>
+							
+							<tr>
+							<td bgColor="silver" align="center">4</td><td>2</td><td>Thomas</td><td> </td><td> 1573F</td><td align="center">1</td><td align="center">1</td><td align="center">1</td><td align="center">1</td><td align="center">2</td></tr>
+
+							
+							</table>
+						
+							<table>
+							<tr><td bgColor="silver">ID</td><td  colspan="3" bgColor="silver">Spieler</td><td bgColor="silver" colspan="3">gespielte Runden</td><td bgColor="silver" align="center">Pkt</td></tr>
+							
+							<tr><td bgColor="silver" align="center">1</td><td>Ralph</td><td> </td><td> 1708F</td><td>-B3</td><td>+W2</td><td>+W4</td><td align="center">2</td></tr>
+
+							
+							<tr><td bgColor="silver" align="center">2</td><td>Thomas</td><td> </td><td> 1573F</td><td>+B4</td><td>-B1</td><td>-W3</td><td align="center">1</td></tr>
+							
+							<tr><td bgColor="silver" align="center">3</td><td>Wisel</td><td> </td><td> 1552F</td><td>+W1</td><td>-B4</td><td>+B2</td><td align="center">2</td></tr>
+
+							
+							<tr><td bgColor="silver" align="center">4</td><td>Sascha</td><td> </td><td> 1537F</td><td>-W2</td><td>+W3</td><td>-B1</td><td align="center">1</td></tr>
+							
+							</table>
+
+							</pre>
+						<br><br>
+					</div>
+					<div id="sidebar">
+						<h3>H&ouml;fli Schachturnier</h3>
+						<ul class="sidemenu">
+							<li><a href="/hoefli">&Uuml;bersicht</a></li>
+						</ul>
+
+				
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

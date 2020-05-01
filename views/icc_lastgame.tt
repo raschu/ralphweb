@@ -1,0 +1,44 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+				<p id="slogan">&nbsp;</p>		
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						
+
+
+						
+						<h2>PerlHackr's last ICC game</h2>
+						<iframe name='iframe1' height='407' width='760' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://ralphschuler.ch/chess/icc/lastgame0.html'>your web browser and/or your host do not support iframes as required to display the chessboard</iframe>
+						
+					</br>
+					<img src="/chess/icc/heatmap.gif">
+				</br>
+						
+						<pgncss>
+						<% pgn %></pgncss>
+						
+						<a href="/chess/icc/lastgame.pgn">Download PGN</a><br/><br/>
+						
+						
+					</div>
+
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

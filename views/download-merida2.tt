@@ -1,0 +1,32 @@
+<div id="wrap">
+<!--header -->
+<div id="header">			
+<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+<p id="slogan">Download</p>		
+<% INCLUDE mainmenu.tt %>	
+</div>
+<!-- menu -->
+<% INCLUDE empty_menu.tt %>		
+<!-- content-wrap starts here -->
+<div id="content-wrap">
+<div id="main">
+<h2>Merida chess piece set</h2>
+<p>
+Because I play a lot of online chess, I am always looking for cool piece sets. I never found piece sets which can be used on a dark board, so I decided to make some for myself.
+</p>
+<hr/>
+<p>
+<img src="/images/dl/merida.wg.gr.png" alt="Merida piece set"/>
+<br/>
+This piece set was originally created by <a href="http://ixian.com/chess/jin-piece-sets/">Eric De Mund</a>. It is a Merida piece set for <a href="http://www.jinchess.com">Jin</a>, <a href="http://www.lanternchess.com/">Lantern</a> or <a href="http://www.worldchesslive.com/help/sonia">Sonja</a>, which I colored with <a href="http://www.gimp.org/">Gimp</a>. I am not a professional graphics designer, so please be gentle. ;-)
+<br/><br/>
+<a href="/downloads/merida.ead-02-wg.zip">Download piece set (822 KB)</a>
+</p>
+
+<br/><br/>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+  </p>
+</div>
+<!-- content-wrap ends here -->	
+</div>
+<% INCLUDE footer.tt %>

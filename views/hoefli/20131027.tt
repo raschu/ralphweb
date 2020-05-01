@@ -1,0 +1,57 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>6. H&ouml;fli Rapid Schachturnier, 27. Oktober 2013</h2>
+						
+						<p>Beim 6. Turnier diesen Jahres mussten wir viele Absenzen verzeichnen. Die drei &uuml;brig gebliebenen lieferten sich gleichwohl sehr spannende Matches. Wisel konnte sich dank einem Sieg auf den 3. Zwischenrang vorkämpfen. Nun sind Urs und Wisel punktegleich. Dies verspricht eine sehr spannenden Ausgangslage für das letzte Turnier in diesem Jahr im November.<br><br>
+						
+						<img style="float:left;margin-right:5px" src="/images/hoefli/20131027_143733.jpg" alt=""><span>Orang Utan! So wird die Eröffnung auch genannt. ;-)</span><br><br>
+											
+						<h3>Tabelle / Resultate</h3>
+												<pre>
+
+
+													<table style="margin-left:10px" cellspacing="1" cellpadding="1" width="450"> 
+													<tr><td bgColor="silver">ID</td><td  colspan="3" bgColor="silver">Spieler</td><td bgColor="silver" colspan="3">gespielte Runden</td><td bgColor="silver" align="center">Pkt</td></tr>
+
+													<tr><td bgColor="silver" align="center">1</td><td>Ralph</td><td> </td><td> 1705F</td><td>+W2</td><td>+S3</td><td>BYE</td><td align="center">2</td></tr>
+
+
+													<tr><td bgColor="silver" align="center">3</td><td>Wisel</td><td> </td><td> 1573F</td><td>-S1</td><td>BYE</td><td>+W3<td align="center">1</td></tr>
+
+
+													<tr><td bgColor="silver" align="center">6</td><td>Beat</td><td> </td><td> 1567F</td><td>BYE</td><td>-W1</td><td>-S2</td><td align="center">0</td></tr>
+
+													</table>
+													</pre>
+												<br><br>
+					</div>
+					<div id="sidebar">
+						<h3>H&ouml;fli Schachturnier</h3>
+						<ul class="sidemenu">
+							<li><a href="/hoefli">&Uuml;bersicht</a></li>
+						</ul>
+
+				
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

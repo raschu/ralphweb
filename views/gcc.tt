@@ -1,0 +1,41 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+			
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>Gersau Cuba-Cup</h2>
+
+					<p>
+						
+						<ul>
+                            <li><a href="/chess/littlecuba/4GCC/www4GCC/standing.html">Resultate 2020</a>&nbsp;&nbsp;&nbsp;&nbsp;Sieger: André Wespi (Stichkampf mit Andrin Wüest)</li>
+                            <li><a href="/chess/littlecuba/3GCC/www3GCC/standing.html">Resultate 2019</a>&nbsp;&nbsp;&nbsp;&nbsp;Sieger: Thomas Dittli</li>
+                            <li><a href="/chess/littlecuba/2GCC/www2GCC/standing.html">Resultate 2018</a>&nbsp;&nbsp;&nbsp;&nbsp;Sieger: Thomas Dittli</li>
+                            <li><a href="/chess/littlecuba/1GCC/Rangliste_2017.png">Resultate 2017</a>&nbsp;&nbsp;&nbsp;&nbsp;Sieger: Marzell Camenzind</li>
+						</ul>
+						</p>
+						
+						
+						
+						
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

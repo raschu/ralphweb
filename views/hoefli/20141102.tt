@@ -1,0 +1,50 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>13. H&ouml;fli Rapid Schachturnier, 2. November 2014</h2>
+						<p>
+						Bei prächtigem Herbstwetter und daher eher suboptimalem Schachwetter trafen 7 Teilnehmer ein. Da teilweise ohne Schachuhr gespielt wurde, konnte der Turniermodus wegen Zeitmangel nicht korrekt "durchgezogen" werden und daher gibt es für diese Runde keine Resultate. Nichtsdestotrotz war es wieder ein höchst spannender und cooler Schachnachmittag. Die Runde ist sich am Überlegen, ob ab nächstem Jahr nicht eine geeignetere Spielform (ohne Schweizer System) in Betracht zu ziehen ist. Da meistens nicht genug Leute vorhanden sind und auch die Regelmässigkeit der Spieler nicht gegeben ist, ist ein anderer Modus gewünscht.<br><br>
+						
+						<img style="margin-right:5px" src="/images/hoefli/20141102_140109.jpg" alt=""><span>Gleich zu Beginn kam es zu einem Gigantenduell: The Legendary Easywisi vs. Dutch Stonewall.</span><br><br>
+						
+						<img style="margin-right:5px" src="/images/hoefli/20141102_140125.jpg" alt="">
+						<span>Zum ersten Mal hat am Höfliturnier eine Frau teilgenommen. Thomas spielt hier gegen Caroline. </span><br><br>
+						
+						<img style="margin-right:5px" src="/images/hoefli/20141102_140152.jpg" alt=""><span><br>Der "Bartli" Ralph, seines Zeichens Organisator der Höfli Games, hier vor seinem ersten Match.</span><br><br>
+						
+						<img style="margin-right:5px" src="/images/hoefli/20141102_145655.jpg" alt=""><span><br>Thomas hat sein <a href="http://en.wikipedia.org/wiki/Capablanca_chess">Capablanca Schachbrett</a> mitgenommen. Eine sehr interessante Variante des königlichen Spiels.</span><br><br>
+						
+						</p>
+
+
+
+					</div>
+					<div id="sidebar">
+						<h3>H&ouml;fli Schachturnier</h3>
+						<ul class="sidemenu">
+							<li><a href="/hoefli">&Uuml;bersicht</a></li>
+						</ul>
+
+				
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

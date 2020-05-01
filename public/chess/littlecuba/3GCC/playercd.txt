@@ -1,0 +1,170 @@
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+   1   DAVE SCHULER        , K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1   B   6     THOMAS DITTLI           0    0  0.50  0.0  0.0   7.0
+ 2  W   10     YASHICA SUGAN           0    0  0.50  0.0  0.0   4.0
+ 3   B   9     WERNER CAMENZIND        0    0  0.50  1.0  1.0   2.0
+ 4   B   3     MARZELL CAMENZIND       0    0  0.50  0.0  1.0   4.0
+ 5  W    5     ROLAND BEELER           0    0  0.50  0.0  1.0   2.0
+ 6  W    8     VERA BANZ               0    0  0.50  1.0  2.0   1.0
+ 7   B   4     RALPH SCHULER           0    0  0.50  0.0  2.0   6.0
+--------------------------------------------------------------------
+  var=  0, PRtg=    0,          ARO=   0,      3.50  2.0  7.0
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+   2   HANSJÖRG NIEDEREGGER, K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1  W    7     URS FOEHN               0    0  0.50  0.0  0.0   4.0
+ 2   B   9     WERNER CAMENZIND        0    0  0.50  1.0  1.0   2.0
+ 3  W    3     MARZELL CAMENZIND       0    0  0.50  0.0  1.0   4.0
+ 4   B   5     ROLAND BEELER           0    0  0.50  1.0  2.0   2.0
+ 5  W    8     VERA BANZ               0    0  0.50  1.0  3.0   1.0
+ 6  W    4     RALPH SCHULER           0    0  0.50  0.0  3.0   6.0
+ 7   B   6     THOMAS DITTLI           0    0  0.50  0.0  3.0   7.0
+--------------------------------------------------------------------
+  var=  0, PRtg=    0,          ARO=   0,      3.50  3.0 13.0
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+   3   MARZELL CAMENZIND   , K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1   B   8     VERA BANZ               0    0  0.50  1.0  1.0   1.0
+ 2  W    6     THOMAS DITTLI           0    0  0.50  0.0  1.0   7.0
+ 3   B   2     HANSJÖRG NIEDEREGGER    0    0  0.50  1.0  2.0   3.0
+ 4  W    1     DAVE SCHULER            0    0  0.50  1.0  3.0   2.0
+ 5   B   4     RALPH SCHULER           0    0  0.50  0.0  3.0   6.0
+ 6  W   10     YASHICA SUGAN           0    0  0.50  0.0  3.0   4.0
+ 7   B   9     WERNER CAMENZIND        0    0  0.50  1.0  4.0   2.0
+--------------------------------------------------------------------
+  var=  0, PRtg=   50,          ARO=   0,      3.50  4.0 17.0
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+   4   RALPH SCHULER       , K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1  W    9     WERNER CAMENZIND        0    0  0.50  1.0  1.0   2.0
+ 2   B   7     URS FOEHN               0    0  0.50  1.0  2.0   4.0
+ 3  W   10     YASHICA SUGAN           0    0  0.50  1.0  3.0   4.0
+ 4   B   6     THOMAS DITTLI           0    0  0.50  0.0  3.0   7.0
+ 5  W    3     MARZELL CAMENZIND       0    0  0.50  1.0  4.0   4.0
+ 6   B   2     HANSJÖRG NIEDEREGGER    0    0  0.50  1.0  5.0   3.0
+ 7  W    1     DAVE SCHULER            0    0  0.50  1.0  6.0   2.0
+--------------------------------------------------------------------
+  var=  0, PRtg=  309,          ARO=   0,      3.50  6.0 24.0
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+   5   ROLAND BEELER       , K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1   B  10     YASHICA SUGAN           0    0  0.50  0.0  0.0   4.0
+ 2  W    8     VERA BANZ               0    0  0.50  1.0  1.0   1.0
+ 3   B   6     THOMAS DITTLI           0    0  0.50  0.0  1.0   7.0
+ 4  W    2     HANSJÖRG NIEDEREGGER    0    0  0.50  0.0  1.0   3.0
+ 5   B   1     DAVE SCHULER            0    0  0.50  1.0  2.0   2.0
+ 6   B   9     WERNER CAMENZIND        0    0  0.50  0.0  2.0   2.0
+ 7  W    7     URS FOEHN               0    0  0.50  0.0  2.0   4.0
+--------------------------------------------------------------------
+  var=  0, PRtg=    0,          ARO=   0,      3.50  2.0  9.0
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+   6   THOMAS DITTLI       , K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1  W    1     DAVE SCHULER            0    0  0.50  1.0  1.0   2.0
+ 2   B   3     MARZELL CAMENZIND       0    0  0.50  1.0  2.0   4.0
+ 3  W    5     ROLAND BEELER           0    0  0.50  1.0  3.0   2.0
+ 4  W    4     RALPH SCHULER           0    0  0.50  1.0  4.0   6.0
+ 5   B  10     YASHICA SUGAN           0    0  0.50  1.0  5.0   4.0
+ 6   B   7     URS FOEHN               0    0  0.50  1.0  6.0   4.0
+ 7  W    2     HANSJÖRG NIEDEREGGER    0    0  0.50  1.0  7.0   3.0
+--------------------------------------------------------------------
+  var=  0, PRtg=  800,          ARO=   0,      3.50  7.0 28.0
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+   7   URS FOEHN           , K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1   B   2     HANSJÖRG NIEDEREGGER    0    0  0.50  1.0  1.0   3.0
+ 2  W    4     RALPH SCHULER           0    0  0.50  0.0  1.0   6.0
+ 3   B   8     VERA BANZ               0    0  0.50  1.0  2.0   1.0
+ 4   B  10     YASHICA SUGAN           0    0  0.50  0.0  2.0   4.0
+ 5  W    9     WERNER CAMENZIND        0    0  0.50  1.0  3.0   2.0
+ 6  W    6     THOMAS DITTLI           0    0  0.50  0.0  3.0   7.0
+ 7   B   5     ROLAND BEELER           0    0  0.50  1.0  4.0   2.0
+--------------------------------------------------------------------
+  var=  0, PRtg=   50,          ARO=   0,      3.50  4.0 16.0
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+   8   VERA BANZ           , K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1  W    3     MARZELL CAMENZIND       0    0  0.50  0.0  0.0   4.0
+ 2   B   5     ROLAND BEELER           0    0  0.50  0.0  0.0   2.0
+ 3  W    7     URS FOEHN               0    0  0.50  0.0  0.0   4.0
+ 4  W    9     WERNER CAMENZIND        0    0  0.50  0.0  0.0   2.0
+ 5   B   2     HANSJÖRG NIEDEREGGER    0    0  0.50  0.0  0.0   3.0
+ 6   B   1     DAVE SCHULER            0    0  0.50  0.0  0.0   2.0
+ 7  W   10     YASHICA SUGAN           0    0  0.50  1.0  1.0   4.0
+--------------------------------------------------------------------
+  var=  0, PRtg=    0,          ARO=   0,      3.50  1.0  1.0
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+   9   WERNER CAMENZIND    , K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1   B   4     RALPH SCHULER           0    0  0.50  0.0  0.0   6.0
+ 2  W    2     HANSJÖRG NIEDEREGGER    0    0  0.50  0.0  0.0   3.0
+ 3  W    1     DAVE SCHULER            0    0  0.50  0.0  0.0   2.0
+ 4   B   8     VERA BANZ               0    0  0.50  1.0  1.0   1.0
+ 5   B   7     URS FOEHN               0    0  0.50  0.0  1.0   4.0
+ 6  W    5     ROLAND BEELER           0    0  0.50  1.0  2.0   2.0
+ 7  W    3     MARZELL CAMENZIND       0    0  0.50  0.0  2.0   4.0
+--------------------------------------------------------------------
+  var=  0, PRtg=    0,          ARO=   0,      3.50  2.0  6.0
+
+
+3. Gersau-Cuba Cup
+Gersau, 20/01/2019, 20/01/2019
+  10   YASHICA SUGAN       , K= 0, Rtg=   0, ID=0
+-------------------------------------------------------------------
+ R  Col ID Cat Opponent             Rtg  diff  exp.  res  Cum   Pts
+-------------------------------------------------------------------
+ 1  W    5     ROLAND BEELER           0    0  0.50  1.0  1.0   2.0
+ 2   B   1     DAVE SCHULER            0    0  0.50  1.0  2.0   2.0
+ 3   B   4     RALPH SCHULER           0    0  0.50  0.0  2.0   6.0
+ 4  W    7     URS FOEHN               0    0  0.50  1.0  3.0   4.0
+ 5  W    6     THOMAS DITTLI           0    0  0.50  0.0  3.0   7.0
+ 6   B   3     MARZELL CAMENZIND       0    0  0.50  1.0  4.0   4.0
+ 7   B   8     VERA BANZ               0    0  0.50  0.0  4.0   1.0
+--------------------------------------------------------------------
+  var=  0, PRtg=   50,          ARO=   0,      3.50  4.0 19.0

@@ -1,0 +1,21 @@
+﻿ID	Pts	 ------	Pref	-1R	-2R	  Cur	G-6	G-5	G-4	G-3	G-2	G-1	
+
+10	5.5	 WBWBWB	 (w)	 ▼ 	 ▼ 	 (8W)	  5	  3	 11	  9	  2	  7	
+11	5.5	  WBWBW	 (B)	 ▼ 	 ▼ 	 (3B)	[X]	  6	 10	  8	  9	  4	
+
+ 3	3.5	 BWBWBW	 (b)	   	 ▼ 	(11W)	  8	 10	  7	  2	  4	  9	
+ 9	3.5	 BWBWWB	 (w)	   	 ▲ 	 (5B)	  4	  2	  6	 10	 11	  3	
+
+ 2	3.0	 WBWBBW	 (b)	 ▼ 	 ▲ 	(pab)	  7	  9	  4	  3	 10	  1	
+ 4	3.0	 WBBWWB	 (w)	 ▲ 	 ▲ 	 (1B)	  9	  5	  2	  6	  3	 11	
+ 7	3.0	  BWWBW	 (B)	 ▲ 	   	 (6B)	[X]	  2	  3	  1	  8	 10	
+ 8	3.0	  WBWBW	 (B)	 ▼ 	   	(10B)	[X]	  3	  1	  5	 11	  7	
+
+ 5	2.5	  BWBBW	 (W)	 ▲ 	   	 (9W)	[X]	 10	  4	  8	  1	  6	
+
+ 6	2.0	  WBWBB	  W1	 ▼ 	 ▼ 	 (7W)	[X]	  1	 11	  9	  4	  5	
+
+ 1	1.5	  BWBWB	 (W)	 ▲ 	   	 (4W)	[X]	  6	  8	  7	  5	  2	
+
+
+JaVaFo (rrweb.org/javafo) - Rel. 2.2 (Build 3222)

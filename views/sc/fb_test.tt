@@ -1,0 +1,20 @@
+<div id="wrap">
+		<!--header -->
+		<div id="header">			
+			<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+			<p id="slogan">CHANGE ME!!!</p>		
+			<% INCLUDE mainmenu.tt %>	
+		</div>
+		<!-- menu -->
+		<% INCLUDE sc_11_menu.tt %>		
+			<!-- content-wrap starts here -->
+			<div id="content-wrap">
+				<div id="main">
+					<h2>jaja CHANGE ME!!! <% name %> SC: Nick -> <% scnick %></h2>
+		              <p>
+		              	
+		              </p>
+				</div>
+			<!-- content-wrap ends here -->	
+			</div>
+			<% INCLUDE footer.tt %>

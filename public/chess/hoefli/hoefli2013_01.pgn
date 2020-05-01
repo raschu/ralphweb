@@ -1,0 +1,27 @@
+[Event "1. Rapid Turnier"]
+[Site "H&ouml;fli, Schwyz"]
+[Date "2013.03.24"]
+[Round "?"]
+[White "Sascha"]
+[Black "Urs"]
+[Result "1-0"]
+[Eventdate "2013.03.24"]
+[FEN "r6r/1kq2pp1/2pbbn1p/p1p1p3/P1PpP3/1P1P1NNP/3Q1PP1/1RB1R1K1 b - - 0 1"]
+[Setup "1"]
+
+1...g5 { +0.35/19 Diese Stellung ist in der Partie Sascha gegen Urs zustande gekommen. Die Engine zeigt einen leichten Vorteil f&uuml;r Weiss. } 2.Ra1 ( 2.Qe2 { +0.14/20 } 2...g4 3.hxg4 ( 3.hxg4 { +0.14/19 } 3...Bxg4 4.Bd2 Qd7 5.Nf1 Bc7 6.N1h2 Rag8 7.Ra1 h5 8.Reb1 Be6 ) 3...Bxg4 4.Bd2 Qd7 5.Nf1 Bc7 6.N1h2 Rag8 7.Ra1 h5 8.Reb1 Qe6 9.Qf1 Nd7 ) 2...g4 3.hxg4 Nxg4 4.Nh5 Rag8 5.Qe2 Be7 6.Ng3 Bg5 7.Rb1 Bxc1 8.Rbxc1 h5 
+1-0
+
+[Event "1. Rapid Turnier"]
+[Site "H&ouml;fli, Schwyz"]
+[Date "2013.03.24"]
+[Round "?"]
+[White "Rob"]
+[Black "Urs"]
+[Result "1/2-1/2"]
+[Eventdate "  24.01.24"]
+[FEN "8/3kn3/4p1p1/1p1pPpP1/p1q2P2/2P5/PP5Q/1K5B b - - 0 1"]
+[Setup "1"]
+
+1...Qf1+ { -2.53/18 w&auml;re ziemlich klar gewonnen gewesen f&uuml;r Weiss. } 2.Kc2 ( 2.Kc2 { -2.78/18 } 2...b4 ( 2...b4 { -2.99/17 } 3.cxb4 ( 3.cxb4 { -2.99/16 } 3...Nc6 ( 3...Nc6 { -2.98/12 } 4.b3 Nxb4+ 5.Kc3 Qe1+ 6.Kb2 a3+ 7.Kxa3 Nd3 8.Qh7+ Kc6 9.Bxd5+ Kxd5 10.Qb7+ Kd4 11.Qb6+ Ke4 12.Ka4 Kxf4 ) 4.Qh7+ { -3.15/14 } ( 4.Qh7+ { -3.16/16 } 4...Kc8 ( 4...Kc8 { -3.39/15 } 5.Qg8+ Kc7 6.Qf7+ Kb6 7.Qxe6 Qf2+ 8.Kd3 Qg3+ 9.Kc2 Qh2+ ) 5.Qg8+ ( 5.Qg8+ { -3.40/13 } 5...Kc7 ( 5...Kc7 { -3.40/16 } 6.Qf7+ Kb6 7.Qxe6 Qf2+ 8.Kd3 Qg3+ 9.Ke2 Qh2+ 10.Kd1 Qxh1+ ) 6.Qf7+ ( 6.Qf7+ { -3.64/12 } 6...Kb6 ( 6...Kb6 { -3.64/16 } 7.Qxe6 ( 7.Qxe6 { -3.88/15 } 7...Qf2+ ( 7...Qf2+ { -4.24/15 } 8.Kb1 ( 8.Kd3 { -4.94/17 } 8...Qg3+ ( 8...Qg3+ { -5.18/15 } 9.Kc2 ( 9.Ke2 { -5.18/16 } 9...Qh2+ ( 9...Qh2+ { -5.19/14 } 10.Kd3 Qxh1 ( 10...Qxh1 { -5.57/14 } 11.Qd6 Qe4+ 12.Kd2 Qxf4+ 13.Kc2 Qxe5 14.Qc5+ Kb7 15.a3 Qe4+ 16.Kc3 d4+ 17.Kd2 Qb1 18.Qc1 Qxc1+ 19.Kxc1 Ne5 20.Kc2 d3+ 21.Kd2 f4 22.b5 ) 11.Kd2 Qg2+ 12.Kc1 Qf1+ 13.Kc2 Qe2+ 14.Kc1 Qe1+ 15.Kc2 Qe4+ 16.Kd2 Qxf4+ ) 10.Kf1 ( 10.Ke1 { -5.42/14 } 10...Qxh1+ 11.Kf2 Qh4+ 12.Kg2 Qg4+ ) 10...Qxh1+ 11.Kf2 Qh4+ 12.Ke2 Qg4+ 13.Ke1 Qg3+ 14.Kd1 Qf3+ 15.Kc2 Qe4+ 16.Kd1 Qb1+ 17.Ke2 Qxb2+ ) 9...Qh2+ 10.Kd1 Qxh1+ 11.Kd2 Qg2+ 12.Kc1 Qf1+ ) 9.Kc2 Qh2+ 10.Kc3 Qxh1 11.Qd6 Qc1+ ) 8...Qg1+ ) 8.Kd1 Qg1+ 9.Ke2 Qh2+ 10.Kf3 ) 7...Qf2+ 8.Kd1 Qg1+ 9.Kc2 Qh2+ 10.Kc3 Qxh1 ) 7.Qxe6 Qf2+ 8.Kd3 Qg3+ 9.Kd2 Qh2+ 10.Kc3 Qxh1 11.Kd2 Qg2+ 12.Kc1 Qg1+ 13.Kc2 ) 6...Kb6 7.Qxe6 Qf2+ 8.Kd3 Qg3+ 9.Ke2 Qh2+ 10.Kd1 Qxh1+ ) 5...Kc7 6.Qf7+ Kb6 7.Qxe6 Qf2+ 8.Kd3 Qg3+ 9.Ke2 Qh2+ 10.Ke3 Qxh1 11.Qxg6 d4+ ) 4...Kc8 5.Qg8+ Kc7 6.Qf7+ Kb6 7.Qxe6 Qf2+ 8.Kd3 Qg3+ 9.Kd2 Qh2+ ) 3...Nc6 ) 3.cxb4 Nc6 4.Qh7+ Kc8 5.Qg8+ Kc7 6.Qf7+ Kb6 7.Qxe6 Qf2+ 8.Kc3 Qg3+ 9.Kc2 Qh2+ 10.Kc3 Qxh1 ) 2...b4 3.cxb4 Nc6 4.Qh7+ Kc8 5.Qg8+ Kc7 
+1/2-1/2

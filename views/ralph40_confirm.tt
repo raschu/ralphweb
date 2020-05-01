@@ -1,0 +1,9 @@
+<h3><% spruch %></h3>
+
+<h5>Folgende Daten wurden übermittelt</h5>
+
+Vorname: <% vorname %><br>
+Nachname: <% nachname %><br>
+Teilnahme: <% teilnahme %><br>
+Anzahl Personen: <% anzahl %><br>
+Kommentar: <% comment %><br>

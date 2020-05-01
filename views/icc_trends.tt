@@ -1,0 +1,120 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+				<p id="slogan">&nbsp;</p>		
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+					
+						<h2>My ICC Pool Rating Charts (last 20 games)</h2>
+						
+						<h3>5-Minute</h3>
+						<div>
+							<canvas id="canvas5" height="100" width="524"></canvas>
+						</div>
+								<script src="/javascripts/Chart.js-master/Chart.js"></script>
+								<script>
+								var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+								var lineChartData5 = {
+																labels : ["","","","","","","","","","","","","","","","","","","",""],
+																datasets : [
+																	{
+																		label: "5-minute Pool",
+																		fillColor : "rgba(33,128,188,0.2)",
+																		strokeColor : "rgba(33,128,188,1)",
+																		pointColor : "rgba(33,128,188,1)",
+																		pointStrokeColor : "#fff",
+																		pointHighlightFill : "#fff",
+																		pointHighlightStroke : "rgba(33,128,188,1)",
+																		data : <% five %>
+																	},
+																]
+								}
+
+								</script>
+						
+						
+						<h3>3-Minute</h3>
+						<div>
+							<canvas id="canvas3" height="100" width="524"></canvas>
+						</div>
+								<script src="/javascripts/Chart.js-master/Chart.js"></script>
+								<script>
+								var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+								var lineChartData3 = {
+																labels : ["","","","","","","","","","","","","","","","","","","",""],
+																datasets : [
+																	{
+																		label: "3-minute Pool",
+																		fillColor : "rgba(33,128,188,0.2)",
+																		strokeColor : "rgba(33,128,188,1)",
+																		pointColor : "rgba(33,128,188,1)",
+																		pointStrokeColor : "#fff",
+																		pointHighlightFill : "#fff",
+																		pointHighlightStroke : "rgba(33,128,188,1)",
+																		data : <% three %>
+																	},
+																]
+								}
+
+								</script>
+						<h3>1-Minute</h3>
+						<div>
+							<canvas id="canvas1" height="100" width="524"></canvas>
+						</div>
+								<script src="/javascripts/Chart.js-master/Chart.js"></script>
+								<script>
+								var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+								var lineChartData1 = {
+																labels : ["","","","","","","","","","","","","","","","","","","",""],
+																datasets : [
+																	{
+																		label: "1-minute Pool",
+																		fillColor : "rgba(33,128,188,0.2)",
+																		strokeColor : "rgba(33,128,188,1)",
+																		pointColor : "rgba(33,128,188,1)",
+																		pointStrokeColor : "#fff",
+																		pointHighlightFill : "#fff",
+																		pointHighlightStroke : "rgba(33,128,188,1)",
+																		data : <% one %>
+																	},
+																]
+								}
+								window.onload = function(){
+															var ctx5 = document.getElementById("canvas5").getContext("2d");
+															var ctx3 = document.getElementById("canvas3").getContext("2d");
+															var ctx1 = document.getElementById("canvas1").getContext("2d");
+															window.myLine = new Chart(ctx5).Line(lineChartData5, {
+																responsive: false
+															});
+															window.myLine = new Chart(ctx3).Line(lineChartData3, {
+																responsive: false
+															});
+															window.myLine = new Chart(ctx1).Line(lineChartData1, {
+																responsive: false
+															});
+														}
+								</script>														
+														
+						
+						
+					</div>
+
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

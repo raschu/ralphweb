@@ -1,0 +1,571 @@
+[17484] error @0.003799> [hit #1]request to GET /icc_interfaces/ranking/0 crashed: DBD::Pg::db do failed: SSL-Verbindung wurde unerwartet geschlossen at /root/ralphweb/lib/icc_interfaces.pm line 65, <DATA> line 16. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20631] error @0.184149> [hit #4070]request to GET /channel/72/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20629] error @1.799819> [hit #6679]request to GET /channel/72/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20631] error @0.071126> [hit #10532]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20629] error @0.071802> [hit #33117]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20631] error @0.169937> [hit #45844]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20631] error @0.001497> [hit #54654]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[20629] error @0.076184> [hit #73611]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20629] error @0.085147> [hit #77680]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20631] error @0.082264> [hit #65104]request to GET /channel/165/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20631] error @0.161219> [hit #80761]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[20629] error @0.193588> [hit #104454]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.260931> [hit #1992]request to GET /channel/64/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.076668> [hit #2172]request to GET /channel/64/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.085417> [hit #6683]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.498111> [hit #11114]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.080843> [hit #26661]request to GET /channel/2/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.210198> [hit #57211]request to GET /channel/74/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.002366> [hit #68806]Supplied view (download-__) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[25049] error @0.001916> [hit #85997]Supplied view (hoefli/__) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[25049] error @0.911105> [hit #92477]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.085211> [hit #83105]request to GET /channel/64/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.081512> [hit #114299]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.081541> [hit #99340]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.071453> [hit #119466]request to GET /channel/103/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.001232> [hit #158121]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[25053] error @0.002005> [hit #126521]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[25049] error @0.081283> [hit #161322]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.163373> [hit #130612]request to GET /channel/73/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.075946> [hit #165912]request to GET /channel/1/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.001569> [hit #172341]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[25049] error @0.068313> [hit #175972]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.077284> [hit #142224]request to GET /channel/932/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.070461> [hit #150585]request to GET /channel/72/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.300958> [hit #153917]request to GET /channel/72/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.072730> [hit #157779]request to GET /channel/103/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @2.301857> [hit #160229]request to GET /channel/2/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.899191> [hit #160235]request to GET /channel/165/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.071328> [hit #209573]request to GET /channel/72/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @1.404646> [hit #198109]request to GET /channel/34/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.081872> [hit #223396]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.074968> [hit #279638]request to GET /channel/64/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @1.313708> [hit #223710]request to GET /channel/71/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.001659> [hit #279646]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[25053] error @0.001889> [hit #223715]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[25049] error @0.075962> [hit #286370]request to GET /channel/932/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25053] error @0.172836> [hit #248181]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.084164> [hit #338737]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25049] error @0.076921> [hit #352129]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.065739> [hit #20754]request to GET /channel/103/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.073726> [hit #21932]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.073967> [hit #21933]request to GET /channel/932/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.081476> [hit #22818]request to GET /channel/72/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.081335> [hit #43208]request to GET /channel/2/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.083919> [hit #36428]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.083731> [hit #49792]request to GET /channel/67/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.214818> [hit #41900]request to GET /channel/74/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.083819> [hit #53542]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.701635> [hit #54434]request to GET /channel/73/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.303246> [hit #43639]request to GET /channel/74/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.071745> [hit #55535]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.072838> [hit #61330]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.262629> [hit #84884]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.082049> [hit #117099]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.001893> [hit #121633]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[7329] error @0.817132> [hit #122996]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.084200> [hit #136033]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.001654> [hit #144392]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[7329] error @0.071785> [hit #158152]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.070067> [hit #126699]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.513522> [hit #141175]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.074069> [hit #189971]request to GET /channel/34/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.077209> [hit #202724]request to GET /channel/932/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.302821> [hit #202728]request to GET /channel/72/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.501035> [hit #162191]request to GET /channel/73/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.001853> [hit #208083]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[7331] error @0.086391> [hit #172759]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.071791> [hit #172922]request to GET /channel/34/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.184492> [hit #184022]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.400374> [hit #207759]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.086505> [hit #264521]request to GET /channel/165/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.001647> [hit #270515]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[7329] error @0.084943> [hit #275000]request to GET /channel/74/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.404884> [hit #285261]request to GET /channel/64/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @2.114333> [hit #239451]request to GET /channel/74/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.150005> [hit #240706]request to GET /channel/34/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.001841> [hit #244553]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[7329] error @0.129608> [hit #324914]request to GET /channel/71/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.407159> [hit #335806]request to GET /channel/165/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.001852> [hit #275946]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[7331] error @0.070884> [hit #303087]request to GET /channel/71/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.075923> [hit #314521]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.072499> [hit #324310]request to GET /channel/72/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.001842> [hit #336290]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[7329] error @0.000923> [hit #421861]request to POST /pgn2lichess crashed: Can't call method "copy_to" on an undefined value at /root/ralphweb/lib/pgn2lichess.pm line 8. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.001434> [hit #425555]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[7329] error @0.070064> [hit #433723]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.261313> [hit #350488]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.080795> [hit #463476]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7329] error @0.082141> [hit #479948]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[7331] error @0.409676> [hit #387280]request to GET /channel/71/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.393765> [hit #14904]request to GET /channel/34/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.058523> [hit #35255]request to GET /channel/67/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.168026> [hit #36906]request to GET /channel/71/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.071105> [hit #55309]request to GET /channel/72/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.065116> [hit #69490]request to GET /channel/1/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.064925> [hit #82439]request to GET /channel/34/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001811> [hit #83972]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.001509> [hit #89099]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.001423> [hit #114886]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.062382> [hit #130001]request to GET /channel/932/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.071354> [hit #159716]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.001469> [hit #130627]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.068279> [hit #138308]request to GET /channel/165/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.071680> [hit #180694]request to GET /channel/2/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.066933> [hit #201001]request to GET /channel/165/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.501322> [hit #214144]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001836> [hit #243120]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.598291> [hit #195525]request to GET /channel/1/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.061813> [hit #197515]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.059752> [hit #198562]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.061920> [hit #214327]request to GET /channel/73/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.497643> [hit #214406]request to GET /channel/67/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.060019> [hit #275161]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.063808> [hit #291989]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.061165> [hit #254507]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.147598> [hit #254530]request to GET /channel/1/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.067255> [hit #354931]request to GET /channel/71/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.597753> [hit #375068]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.001745> [hit #305902]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.395367> [hit #385236]request to GET /channel/34/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.064664> [hit #331566]request to GET /channel/250/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.068042> [hit #358365]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.058407> [hit #358804]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.060079> [hit #478856]request to GET /channel/250/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.001497> [hit #408329]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.001295> [hit #414274]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.001896> [hit #517188]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.062203> [hit #540758]request to GET /channel/72/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001864> [hit #541534]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.002214> [hit #558288]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.386474> [hit #606822]request to GET /channel/165/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.062156> [hit #489685]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.391830> [hit #489708]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.079663> [hit #497305]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.266465> [hit #632380]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.987342> [hit #669831]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.065848> [hit #675664]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.055943> [hit #577519]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.291721> [hit #601199]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.055912> [hit #602072]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.063294> [hit #759631]request to GET /channel/67/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.065682> [hit #635836]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.589593> [hit #793936]request to GET /channel/1/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.245363> [hit #794046]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001735> [hit #797271]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.068405> [hit #649142]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.058343> [hit #667031]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @2.598686> [hit #850865]request to GET /channel/74/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.067421> [hit #687370]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.060388> [hit #863351]request to GET /channel/165/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.392257> [hit #706120]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.293514> [hit #890943]request to GET /channel/250/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.001489> [hit #723720]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.103649> [hit #924854]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @1.291030> [hit #740685]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.068839> [hit #749067]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.002248> [hit #940274]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.064556> [hit #940746]request to GET /channel/71/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.066727> [hit #947536]request to GET /channel/71/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.001271> [hit #767536]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.073167> [hit #977092]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.691598> [hit #977131]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001390> [hit #982837]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.064890> [hit #989808]request to GET /channel/1/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @1.211844> [hit #796437]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.806017> [hit #995995]request to GET /channel/1/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.001723> [hit #797760]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.001360> [hit #997209]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.001714> [hit #1002296]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.126264> [hit #1006386]request to GET /channel/2/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @1.203996> [hit #808364]request to GET /channel/932/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001678> [hit #1017310]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.068197> [hit #1026115]request to GET /channel/103/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001676> [hit #1028751]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @2.408000> [hit #1030620]request to GET /channel/73/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.001513> [hit #830567]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.002086> [hit #842576]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.001404> [hit #844198]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.001685> [hit #848611]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.001764> [hit #1063286]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.302765> [hit #851706]request to GET /channel/932/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.251270> [hit #853137]request to GET /channel/165/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.067089> [hit #868520]request to GET /channel/932/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.076661> [hit #874077]request to GET /channel/34/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.069749> [hit #1091602]request to GET /channel/73/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.146553> [hit #1091606]request to GET /channel/103/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.154744> [hit #1097746]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.066625> [hit #904278]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.079162> [hit #1138942]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.001375> [hit #912292]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.001829> [hit #921669]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.067441> [hit #1153618]request to GET /channel/73/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.397292> [hit #1157964]request to GET /channel/67/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.068578> [hit #1159809]request to GET /channel/250/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.002056> [hit #928712]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.001553> [hit #1168000]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1962] error @0.090281> [hit #945036]request to GET /channel/932/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001930> [hit #1182753]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.001750> [hit #1198571]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.071878> [hit #1222196]request to GET /channel/103/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.072083> [hit #1232006]request to GET /channel/932/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.506745> [hit #989275]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001763> [hit #1249024]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.077852> [hit #1281221]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @1.313650> [hit #1298756]request to GET /channel/67/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.078764> [hit #1306164]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.069492> [hit #1051663]request to GET /channel/67/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.403416> [hit #1317218]request to GET /channel/250/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.001218> [hit #1319060]Supplied view (hoefli/wp-login.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.001497> [hit #1319063]Supplied view (download-wp-login.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.029721> [hit #1319073]request to GET /icc_interfaces/ranking/wp-login.php crashed: DBD::Pg::st execute failed: FEHLER:  Spalte ÃÂ»wpÃÂ« existiert nicht
+LINE 1: ...face_ranking order by rating DESC Limit 10 OFFSET wp-login.p...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.063466> [hit #1353473]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.066402> [hit #1084853]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.121365> [hit #1355065]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.060707> [hit #1096369]request to GET /channel/1/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.130378> [hit #1369491]request to GET /channel/74/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.498207> [hit #1377437]request to GET /channel/2/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.076688> [hit #1103653]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.066177> [hit #1385341]request to GET /channel/103/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.001489> [hit #1143427]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1921] error @0.108820> [hit #1446912]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.204256> [hit #1460800]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.071493> [hit #1463590]request to GET /channel/71/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.065475> [hit #1178243]request to GET /channel/932/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.163394> [hit #1178244]request to GET /channel/103/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.074411> [hit #1180851]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1962] error @0.074244> [hit #1197226]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1921] error @0.063637> [hit #1529546]request to GET /channel/932/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @1.791954> [hit #3474]request to GET /channel/72/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @0.062770> [hit #5299]request to GET /channel/72/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1910] error @0.787225> [hit #12308]request to GET /channel/932/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1927] error @0.001474> [hit #5559]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1927] error @0.025134> [hit #33302]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1927] error @0.061339> [hit #35121]request to GET /channel/71/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1923] error @0.001501> [hit #47243]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1923] error @0.240512> [hit #81701]request to GET /channel/250/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1856] error @0.001752> [hit #2298]Supplied view (download-index.shtml) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1858] error @0.001851> [hit #13575]Supplied view (download-guestbook) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1856] error @0.067304> [hit #48749]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1856] error @0.239540> [hit #58689]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1858] error @0.060618> [hit #46968]request to GET /channel/67/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1858] error @1.589417> [hit #46971]request to GET /channel/250/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @0.392267> [hit #7591]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @0.067266> [hit #9367]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @0.069565> [hit #43703]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @0.088292> [hit #60765]request to GET /channel/73/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @0.067444> [hit #95305]request to GET /channel/67/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @1.999257> [hit #107246]request to GET /channel/71/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @0.068162> [hit #126153]request to GET /channel/250/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @0.001617> [hit #115876]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1907] error @0.001265> [hit #115885]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1907] error @0.001672> [hit #116070]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1907] error @0.001825> [hit #116084]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1905] error @0.067513> [hit #160637]request to GET /channel/250/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @0.066937> [hit #141576]request to GET /channel/103/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @0.068854> [hit #250864]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @0.078291> [hit #266049]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @1.405308> [hit #217284]request to GET /channel/34/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @0.067975> [hit #217303]request to GET /channel/1/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @0.078326> [hit #258765]request to GET /channel/932/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @0.895934> [hit #324878]request to GET /channel/71/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @0.809118> [hit #333067]request to GET /channel/74/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @0.080271> [hit #335063]request to GET /channel/34/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1907] error @0.078764> [hit #287109]request to GET /channel/64/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1905] error @0.077905> [hit #381018]request to GET /channel/2/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @0.119295> [hit #2697]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @0.066168> [hit #2165]request to GET /channel/165/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @0.397282> [hit #13456]request to GET /channel/2/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @0.068855> [hit #10832]request to GET /channel/72/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @1.492904> [hit #14591]request to GET /channel/103/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @0.798737> [hit #12504]request to GET /channel/932/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @3.004229> [hit #17011]request to GET /channel/1/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @1.297178> [hit #13611]request to GET /channel/67/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @1.495417> [hit #17014]request to GET /channel/71/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @0.065322> [hit #17017]request to GET /channel/74/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @2.697258> [hit #13615]request to GET /channel/250/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @3.218033> [hit #13750]request to GET /channel/34/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @0.074874> [hit #34430]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @0.073716> [hit #53650]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @0.068609> [hit #55527]request to GET /channel/1/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @1.694535> [hit #51241]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @0.806979> [hit #56185]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @0.807332> [hit #74432]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @3.707655> [hit #77692]request to GET /channel/67/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @0.406849> [hit #65559]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @0.305457> [hit #71424]request to GET /channel/71/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @0.807643> [hit #89506]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11126] error @2.599446> [hit #72821]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[11124] error @1.004312> [hit #91052]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2014] error @0.603900> [hit #740]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2066] error @0.501160> [hit #11833]request to GET /channel/71/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2066] error @3.600246> [hit #13805]request to GET /channel/1/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @0.394192> [hit #38637]request to GET /channel/72/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.168173> [hit #58753]request to GET /channel/34/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.073026> [hit #71870]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @0.063374> [hit #69208]request to GET /channel/71/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.796641> [hit #106061]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @0.390884> [hit #85709]request to GET /channel/73/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.066093> [hit #138885]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @1.000536> [hit #139560]request to GET /channel/165/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @1.395824> [hit #142362]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @0.061493> [hit #121409]request to GET /channel/103/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.789325> [hit #156796]request to GET /channel/250/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @4.704057> [hit #127640]request to GET /channel/71/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @25.521734> [hit #131908]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @3.300801> [hit #147650]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @8.697792> [hit #184578]request to GET /channel/67/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @30.031762> [hit #184579]request to GET /channel/67/day crashed: Can't call method "execute" on an undefined value at /root/ralphweb/lib/icc.pm line 97. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @0.061099> [hit #190054]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.076846> [hit #323144]request to GET /channel/103/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @0.204436> [hit #259387]request to GET /channel/67/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.597035> [hit #324027]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @3.408385> [hit #341797]request to GET /channel/72/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @0.089719> [hit #280054]request to GET /channel/73/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.093527> [hit #349854]request to GET /channel/2/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.256236> [hit #358742]request to GET /channel/67/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.079580> [hit #360623]request to GET /channel/34/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1959] error @0.088871> [hit #361806]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1961] error @0.001730> [hit #289621]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1959] error @0.001713> [hit #361823]Supplied view (hoefli/ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1959] error @0.002759> [hit #363805]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1959] error @0.002286> [hit #363824]Supplied view (download-ralphschuler.ch) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[25196] error @0.073664> [hit #13110]request to GET /channel/67/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25196] error @0.066830> [hit #19298]request to GET /channel/72/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25196] error @0.072259> [hit #24738]request to GET /channel/73/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25194] error @1.098324> [hit #30924]request to GET /channel/2/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25196] error @0.061297> [hit #26096]request to GET /channel/34/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25196] error @0.293281> [hit #37682]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25196] error @0.095435> [hit #37714]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25194] error @0.066031> [hit #51910]request to GET /channel/1/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25194] error @0.065460> [hit #51917]request to GET /channel/250/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25196] error @1.305323> [hit #43818]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[25196] error @0.065429> [hit #45928]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1920] error @0.052914> [hit #3001]request to GET /channel/2/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1920] error @0.058510> [hit #3204]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1915] error @0.062529> [hit #37261]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1915] error @0.050482> [hit #39787]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1915] error @0.001297> [hit #43454]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1920] error @0.060647> [hit #40429]request to GET /channel/932/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1915] error @0.106933> [hit #58456]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1915] error @0.591962> [hit #58596]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1915] error @0.584764> [hit #63070]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1920] error @0.051358> [hit #50468]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1915] error @0.292602> [hit #86746]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1920] error @0.189510> [hit #70519]request to GET /channel/2/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1915] error @0.063056> [hit #103010]Supplied view (sc/main_13.) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1920] error @0.054582> [hit #83103]request to GET /channel/34/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1920] error @0.056690> [hit #97395]request to GET /channel/2/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1920] error @0.071902> [hit #138222]Supplied view (sc/main_13.) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[1920] error @1.184748> [hit #167993]request to GET /channel/74/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1920] error @0.053468> [hit #194744]request to GET /channel/67/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[459] error @0.055504> [hit #22464]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[455] error @0.053465> [hit #23134]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[459] error @0.052404> [hit #24079]request to GET /channel/2/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[459] error @0.048643> [hit #41155]request to GET /channel/74/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[455] error @0.055574> [hit #63913]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2197] error @0.054490> [hit #938]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2197] error @0.001997> [hit #2787]request to GET /channel/danjagg/397 crashed: Can't call method "execute" on an undefined value at /root/ralphweb/lib/icc.pm line 97. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2197] error @0.048242> [hit #4180]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2193] error @0.047928> [hit #5348]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2197] error @0.000826> [hit #6355]request to POST /pgn2lichess crashed: Can't call method "copy_to" on an undefined value at /root/ralphweb/lib/pgn2lichess.pm line 8. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2197] error @1.581389> [hit #6376]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.047451> [hit #106]request to GET /channel/67/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.001198> [hit #763]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2206] error @0.001351> [hit #3547]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2206] error @0.001448> [hit #3847]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001616> [hit #6093]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001382> [hit #6915]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2206] error @0.001622> [hit #7731]Supplied view (download-merida2") not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2206] error @0.023608> [hit #7742]request to GET /icc_interfaces/ranking/0" crashed: DBD::Pg::st execute failed: FEHLER:  Bezeichner in AnfÃÂ¼hrungszeichen nicht abgeschlossen bei ÃÂ»"ÃÂ«
+LINE 1: ...cc_interface_ranking order by rating DESC Limit 10 OFFSET 0"
+                                                                      ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.001121> [hit #7733]Supplied view (hoefli/20130428") not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.066453> [hit #7742]Supplied view (sc/main_16") not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001305> [hit #7755]Supplied view (download-merida22121121121212.1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2206] error @0.025053> [hit #7791]request to GET /icc_interfaces/ranking/0 and 1=1 crashed: DBD::Pg::st execute failed: FEHLER:  Argument von AND muss Typ boolean haben, nicht Typ integer
+LINE 1: ...rface_ranking order by rating DESC Limit 10 OFFSET 0 and 1=1
+                                                              ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.001139> [hit #7768]Supplied view (hoefli/201304282121121121212.1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001160> [hit #7776]Supplied view (download-merida2 and 1=1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001082> [hit #7793]Supplied view (hoefli/20130428 and 1=1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2206] error @0.022049> [hit #7796]request to GET /icc_interfaces/ranking/0 and 1>1 crashed: DBD::Pg::st execute failed: FEHLER:  Argument von AND muss Typ boolean haben, nicht Typ integer
+LINE 1: ...rface_ranking order by rating DESC Limit 10 OFFSET 0 and 1>1
+                                                              ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2206] error @0.001670> [hit #7802]Supplied view (download-merida2 and 1>1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001502> [hit #7808]Supplied view (hoefli/20130428 and 1>1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001473> [hit #7815]Supplied view (download-merida2' and 'x'='x) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001340> [hit #7823]Supplied view (download-merida2' and 'x'='y) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.056769> [hit #7836]Supplied view (sc/main_16 and 1=1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.019313> [hit #7839]request to GET /icc_interfaces/ranking/0' and 'x'='y crashed: DBD::Pg::st execute failed: FEHLER:  Syntaxfehler bei ÃÂ»' and 'ÃÂ«
+LINE 1: ...ace_ranking order by rating DESC Limit 10 OFFSET 0' and 'x'=...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.019683> [hit #7845]request to GET /icc_interfaces/ranking/0" and "x"="x crashed: DBD::Pg::st execute failed: FEHLER:  Syntaxfehler bei ÃÂ»" and "ÃÂ«
+LINE 1: ...ace_ranking order by rating DESC Limit 10 OFFSET 0" and "x"=...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.056754> [hit #7846]Supplied view (sc/main_16 and 1>1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001208> [hit #7849]Supplied view (hoefli/20130428' and 'x'='y) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.019650> [hit #7850]request to GET /icc_interfaces/ranking/0" and "x"="y crashed: DBD::Pg::st execute failed: FEHLER:  Syntaxfehler bei ÃÂ»" and "ÃÂ«
+LINE 1: ...ace_ranking order by rating DESC Limit 10 OFFSET 0" and "x"=...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.019419> [hit #7855]request to GET /icc_interfaces/ranking/0999999.1 union select unhex(hex(version())) -- and 1=1 crashed: DBD::Pg::st execute failed: FEHLER:  Syntaxfehler bei ÃÂ»unionÃÂ«
+LINE 1: ...ng order by rating DESC Limit 10 OFFSET 0999999.1 union sele...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.001290> [hit #7856]Supplied view (download-merida2" and "x"="y) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001512> [hit #7860]Supplied view (download-merida2999999.1 union select unhex(hex(version())) -- and 1=1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001279> [hit #7862]Supplied view (download-merida299999' union select unhex(hex(version())) -- 'x'='x) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001299> [hit #7863]Supplied view (download-merida299999" union select unhex(hex(version())) -- "x"="x) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001422> [hit #7864]Supplied view (download-merida2 or (1,2)=(select*from(select name_const(CHAR(109,121,84,118,114,65,112,109,107),1),name_const(CHAR(109,121,84,118,114,65,112,109,107),1))a) -- and 1=1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.019503> [hit #7866]request to GET /icc_interfaces/ranking/099999" union select unhex(hex(version())) -- "x"="x crashed: DBD::Pg::st execute failed: FEHLER:  Syntaxfehler bei ÃÂ»" union select unhex(hex(version())) -- "ÃÂ«
+LINE 1: ...anking order by rating DESC Limit 10 OFFSET 099999" union se...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.018883> [hit #7867]request to GET /icc_interfaces/ranking/0 or (1,2)=(select*from(select name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1),name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1))a) -- and 1=1 crashed: DBD::Pg::st execute failed: FEHLER:  Syntaxfehler bei ÃÂ»,ÃÂ«
+LINE 1: ...0 or (1,2)=(select*from(select name_const(CHAR(100,75,122,71...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.019714> [hit #7868]request to GET /icc_interfaces/ranking/0' or (1,2)=(select*from(select name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1),name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1))a) -- 'x'='x crashed: DBD::Pg::st execute failed: FEHLER:  Syntaxfehler bei ÃÂ»' or (1,2)=(select*from(select name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1),name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1))a) -- 'ÃÂ«
+LINE 1: ...ace_ranking order by rating DESC Limit 10 OFFSET 0' or (1,2)...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.019095> [hit #7869]request to GET /icc_interfaces/ranking/0" or (1,2)=(select*from(select name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1),name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1))a) -- "x"="x crashed: DBD::Pg::st execute failed: FEHLER:  Syntaxfehler bei ÃÂ»" or (1,2)=(select*from(select name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1),name_const(CHAR(100,75,122,71,99,97,66,121,84,117,100),1))a) -- "ÃÂ«
+LINE 1: ...ace_ranking order by rating DESC Limit 10 OFFSET 0" or (1,2)...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 76. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.001372> [hit #7870]Supplied view (download-merida2" or (1,2)=(select*from(select name_const(CHAR(109,121,84,118,114,65,112,109,107),1),name_const(CHAR(109,121,84,118,114,65,112,109,107),1))a) -- "x"="x) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001333> [hit #7893]Supplied view (hoefli/20130428" and "x"="x) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001154> [hit #8050]Supplied view (hoefli/20130428") not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001222> [hit #8087]Supplied view (hoefli/201304282121121121212.1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001066> [hit #8106]Supplied view (hoefli/2013042899999' union select unhex(hex(version())) -- 'x'='x) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.045107> [hit #8108]request to GET /icc_interfaces/result/tDXdIvfNIbo/x1zUl9hor8s99999' union select unhex(hex(version())) -- 'x'='x crashed: DBD::Pg::db selectrow_array failed: FEHLER:  Funktion hex(text) existiert nicht
+LINE 1: ... where id = 'x1zUl9hor8s99999' union select unhex(hex(versio...
+                                                             ^
+HINT:  Keine Funktion stimmt mit dem angegebenen Namen und den Argumenttypen ÃÂ¼berein. Sie mÃÂ¼ssen mÃÂ¶glicherweise ausdrÃÂ¼ckliche Typumwandlungen hinzufÃÂ¼gen. at /root/ralphweb/lib/icc_interfaces.pm line 114. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.001037> [hit #8111]Supplied view (hoefli/20130428 or (1,2)=(select*from(select name_const(CHAR(121,66,67,78,113,76,107,97,71,119,69,121),1),name_const(CHAR(121,66,67,78,113,76,107,97,71,119,69,121),1))a) -- and 1=1) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.001444> [hit #8116]Supplied view (hoefli/20130428" or (1,2)=(select*from(select name_const(CHAR(121,66,67,78,113,76,107,97,71,119,69,121),1),name_const(CHAR(121,66,67,78,113,76,107,97,71,119,69,121),1))a) -- "x"="x) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.023362> [hit #8119]request to GET /icc_interfaces/result/3aHBRTZfza0/kxLvptaMdZQ' or (1,2)=(select*from(select name_const(CHAR(97,119,115,120,109,88,103,76,90,100),1),name_const(CHAR(97,119,115,120,109,88,103,76,90,100),1))a) -- 'x'='x crashed: DBD::Pg::db selectrow_array failed: FEHLER:  Syntaxfehler bei ÃÂ»,ÃÂ«
+LINE 1: ...Q' or (1,2)=(select*from(select name_const(CHAR(97,119,115,1...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 114. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.020131> [hit #8191]request to GET /icc_interfaces/result/kxLvptaMdZQ/3aHBRTZfza099999' union select unhex(hex(version())) -- 'x'='x crashed: DBD::Pg::db selectrow_array failed: FEHLER:  Funktion hex(text) existiert nicht
+LINE 1: ... where id = '3aHBRTZfza099999' union select unhex(hex(versio...
+                                                             ^
+HINT:  Keine Funktion stimmt mit dem angegebenen Namen und den Argumenttypen ÃÂ¼berein. Sie mÃÂ¼ssen mÃÂ¶glicherweise ausdrÃÂ¼ckliche Typumwandlungen hinzufÃÂ¼gen. at /root/ralphweb/lib/icc_interfaces.pm line 114. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.020727> [hit #8209]request to GET /icc_interfaces/result/kxLvptaMdZQ/3aHBRTZfza0' or (1,2)=(select*from(select name_const(CHAR(119,80,74,70,87,76,104,78,104),1),name_const(CHAR(119,80,74,70,87,76,104,78,104),1))a) -- 'x'='x crashed: DBD::Pg::db selectrow_array failed: FEHLER:  Syntaxfehler bei ÃÂ»,ÃÂ«
+LINE 1: ...' or (1,2)=(select*from(select name_const(CHAR(119,80,74,70,...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 114. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.001927> [hit #11750]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[2208] error @0.020456> [hit #13358]request to GET /icc_interfaces/result/aoa1vp5FqYo/PQHMHIejxa499999' union select unhex(hex(version())) -- 'x'='x crashed: DBD::Pg::db selectrow_array failed: FEHLER:  Funktion hex(text) existiert nicht
+LINE 1: ... where id = 'PQHMHIejxa499999' union select unhex(hex(versio...
+                                                             ^
+HINT:  Keine Funktion stimmt mit dem angegebenen Namen und den Argumenttypen ÃÂ¼berein. Sie mÃÂ¼ssen mÃÂ¶glicherweise ausdrÃÂ¼ckliche Typumwandlungen hinzufÃÂ¼gen. at /root/ralphweb/lib/icc_interfaces.pm line 114. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.023180> [hit #13412]request to GET /icc_interfaces/result/aoa1vp5FqYo/PQHMHIejxa4' or (1,2)=(select*from(select name_const(CHAR(72,107,113,99,79,108,75,72,105),1),name_const(CHAR(72,107,113,99,79,108,75,72,105),1))a) -- 'x'='x crashed: DBD::Pg::db selectrow_array failed: FEHLER:  Syntaxfehler bei ÃÂ»,ÃÂ«
+LINE 1: ...4' or (1,2)=(select*from(select name_const(CHAR(72,107,113,9...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 114. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.020124> [hit #13426]request to GET /icc_interfaces/result/PQHMHIejxa4/aoa1vp5FqYo' or (1,2)=(select*from(select name_const(CHAR(108,109,119,85,119,119,103,78,102,65,79,80),1),name_const(CHAR(108,109,119,85,119,119,103,78,102,65,79,80),1))a) -- 'x'='x crashed: DBD::Pg::db selectrow_array failed: FEHLER:  Syntaxfehler bei ÃÂ»,ÃÂ«
+LINE 1: ...' or (1,2)=(select*from(select name_const(CHAR(108,109,119,8...
+                                                             ^ at /root/ralphweb/lib/icc_interfaces.pm line 114. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2208] error @0.058986> [hit #13438]Supplied view (sc/main_16" or (1,2)=(select*from(select name_const(CHAR(78,97,75,98,108,66,89,111,99,71,71,115),1),name_const(CHAR(78,97,75,98,108,66,89,111,99,71,71,115),1))a) -- "x"="x) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001425> [hit #299]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001477> [hit #472]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001391> [hit #1486]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001407> [hit #3081]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001413> [hit #3564]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001452> [hit #3763]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001753> [hit #4580]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.038778> [hit #6047]request to GET /channel/67/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[16444] error @0.001469> [hit #6364]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001406> [hit #7816]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001384> [hit #7972]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001402> [hit #8331]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001392> [hit #8577]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001437> [hit #10210]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001451> [hit #11130]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.040602> [hit #11305]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[16472] error @0.001434> [hit #14179]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001417> [hit #15242]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001401> [hit #18159]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001397> [hit #18642]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.045454> [hit #19420]request to GET /channel/67/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[16444] error @0.001400> [hit #19971]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001496> [hit #21416]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.052031> [hit #22174]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[16444] error @0.001439> [hit #23181]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001415> [hit #23488]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16444] error @0.001382> [hit #23883]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001400> [hit #25409]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[16472] error @0.001432> [hit #26216]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001426> [hit #746]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001780> [hit #2152]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001430> [hit #2676]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001428> [hit #3699]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001375> [hit #5215]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001427> [hit #5787]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001468> [hit #7338]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001393> [hit #7640]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.051572> [hit #8972]request to HEAD /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[22829] error @0.001446> [hit #10086]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.062395> [hit #11321]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[22829] error @0.001434> [hit #12249]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001432> [hit #12464]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001447> [hit #13301]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001396> [hit #14177]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001466> [hit #13859]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001447> [hit #15891]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001415> [hit #16751]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001394> [hit #17028]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001487> [hit #18762]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001438> [hit #19901]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001517> [hit #20081]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001439> [hit #20079]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001425> [hit #21006]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001472> [hit #21953]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001419> [hit #22737]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001460> [hit #23229]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001395> [hit #23447]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.052816> [hit #24801]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[22829] error @0.001459> [hit #26349]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001424> [hit #26147]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001395> [hit #26307]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001445> [hit #26666]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.045665> [hit #26950]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[32597] error @0.001454> [hit #27162]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.054207> [hit #27261]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[22829] error @0.001456> [hit #28950]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001487> [hit #29394]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001468> [hit #30375]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001456> [hit #30705]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001870> [hit #30727]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001415> [hit #31744]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001455> [hit #32970]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001427> [hit #33674]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001416> [hit #33842]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001457> [hit #34307]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001472> [hit #33832]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001736> [hit #34176]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001490> [hit #35474]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001455> [hit #35612]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001396> [hit #36175]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001417> [hit #35703]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001444> [hit #36601]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001528> [hit #36331]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001641> [hit #37645]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001472> [hit #39208]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001455> [hit #41357]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.054023> [hit #40830]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[32597] error @0.001361> [hit #41598]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.001415> [hit #42396]Supplied view (download-index.php) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @1.390200> [hit #44358]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[22829] error @0.001267> [hit #44953]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[32597] error @0.001179> [hit #44290]Supplied view (hoefli/20130424) not found -  does not exist in /usr/local/share/perl/5.14.2/Dancer/Template/Abstract.pm l. 183
+[22829] error @0.058008> [hit #46160]request to GET /channel/97/week crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[32597] error @0.049393> [hit #45953]request to GET /channel/67/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[22829] error @0.060297> [hit #52667]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2245] error @0.147522> [hit #897]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2247] error @0.000737> [hit #3751]request to POST /pgn2lichess crashed: Can't call method "copy_to" on an undefined value at /root/ralphweb/lib/pgn2lichess.pm line 8. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2245] error @0.045310> [hit #5753]request to GET /channel/97/day crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2245] error @0.042950> [hit #5972]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2247] error @0.773416> [hit #6192]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2245] error @0.047641> [hit #7134]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[2247] error @0.043317> [hit #8314]request to GET /channel/97/hour crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1975] error @0.382179> [hit #610]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1970] error @0.050743> [hit #1455]request to GET /channel/103/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98
+[1975] error @0.057797> [hit #3434]request to GET /channel/97/month crashed: Illegal division by zero at /root/ralphweb/lib/icc.pm line 104. in /usr/local/share/perl/5.14.2/Dancer/Handler.pm l. 98

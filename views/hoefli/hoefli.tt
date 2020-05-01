@@ -1,0 +1,117 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+			<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+							<p id="slogan">H&ouml;fli Schachturnier</p>
+	
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+						<div id="sidebar">
+						<a href="/hoefli/20130428"><img width="200" src="/images/hoefli/20130428_131131.jpg" alt=""></a><br><br>
+						<% imgdata %>    
+						<a href="/hoefli/20140601"><img width="200" src="/images/hoefli/20140601_173728.jpg" alt=""></a><br><br>									
+						</div>
+					<div id="main">
+                        <!-- ####################################################################################################-->
+						<h1>H&ouml;fli Plausch-Schachturniere</h1>
+						<p>Seit M&auml;rz 2013 findet im Restaurant H&ouml;fli in Schwyz in regelm&auml;ssigen Abst&auml;nden, jeweils an einem Sonntag Nachmittag, ein Plausch-Schachturnier statt. <br><br>Teilnehmen kann jeder Schachinteressierte (keine Voranmeldung n&ouml;tig). Einzige Voraussetzung ist, man muss die Schachregeln kennen und akzeptieren, dass in der Beiz geraucht wird. Auch kann es vorkommen, dass nicht immer alles nach FIDE-Regeln abläuft, sondern eher nach Coffeehouse Manier - d.h. man muss mit humorovollem <a href="https://www.youtube.com/watch?v=HSBGOUmrSTk">Trash-Talk (z.B. à la Cornbread)</a> während der Partie rechnen. ;-) Je nach Teilnehmeranzahl wird entweder die Turnierform <a href="https://de.wikipedia.org/wiki/Rundenturnier">Round-Robin</a> oder das <a href="https://de.wikipedia.org/wiki/Schweizer_System">Schweizer System</a> (ab 7 Teilnehmern) angewendet.</p>
+						<!-- ####################################################################################################-->
+						<h2>F&uuml;hrungstabelle 2014, K-Faktor: 32</h2>
+				        <table style="margin-left:10px" cellspacing="3" cellpadding="3" width="450"> 
+							<tr>
+								<th align="left">Spieler</th>
+								<th align="left">(H)Elo*</th>
+								<th align="left">Partien 2014</th>							
+							</tr>
+							<tr>
+								<td align="left">Thomas</th>
+								<td align="left">2080 (=0)</th>
+								<td align="left">5</th>							
+							</tr>
+							<tr>
+								<td align="left">Othmar</th>
+								<td align="left">2062 (+62)</th>
+								<td align="left">4</th>							
+							</tr>
+							<tr>
+								<td align="left">Ralph</th>
+								<td align="left">2051 (+24)</th>
+								<td align="left">21</th>							
+							</tr>
+							<tr>
+								<td align="left">Rob</th>
+								<td align="left">2048 (=0)</th>
+								<td align="left">8</th>							
+							</tr>
+							<tr>
+								<td align="left">Beat</th>
+								<td align="left">1982 (+2)</th>
+								<td align="left">18</th>							
+							</tr>
+							<tr>
+								<td align="left">Wisel</th>
+								<td align="left">1959 (-32)</th>
+								<td align="left">21</th>							
+							</tr>
+							<tr>
+								<td align="left">Roland</th>
+								<td align="left">1938 (=0)</th>
+								<td align="left">6</th>							
+							</tr>
+							<tr>
+								<td align="left">Urs</th>
+								<td align="left">1891 (-53)</th>
+								<td align="left">21</th>							
+							</tr>
+						</table>
+						<p><font size="-2">&nbsp;&nbsp;*(H)Elo: H&ouml;fli Elo, basierend auf dem Startrating von 2000</font></p>
+						<!-- ####################################################################################################-->
+						<h2>N&auml;chster Termin</h2>
+						<ul>
+						<li>noch nicht bekannt</a></li>
+						</ul>
+						<!-- ####################################################################################################-->
+						<h2>Kurzreports</h2>
+						<ul>
+						<li><a href="/hoefli/20141102">13. H&ouml;fli Rapid Schachturnier, 2. November 2014</a></li>
+						<li><a href="/hoefli/20140921">12. H&ouml;fli Rapid Schachturnier, 21. September 2014</a></li>
+						<li><a href="/hoefli/20140629">11. H&ouml;fli Rapid Schachturnier, 29. Juni 2014</a></li>
+						<li><a href="/hoefli/20140601">10. H&ouml;fli Rapid Schachturnier, 1. Juni 2014</a></li>
+						<li><a href="/hoefli/20140427">9. H&ouml;fli Rapid Schachturnier, 27. April 2014</a></li>
+						<li><a href="/hoefli/20140330">8. H&ouml;fli Rapid Schachturnier, 30. M&aumlrz 2014</a></li>
+						<li><a href="/hoefli/20131124">7. H&ouml;fli Rapid Schachturnier, 24. November 2013</a></li>
+						<li><a href="/hoefli/20131027">6. H&ouml;fli Rapid Schachturnier, 27. Oktober 2013</a></li>
+						<li><a href="/hoefli/20130825">5. H&ouml;fli Rapid Schachturnier, 25. August 2013</a></li>
+						<li><a href="/hoefli/20130630">4. H&ouml;fli Rapid Schachturnier, 30. Juni 2013</a></li>
+						<li><a href="/hoefli/20130526">3. H&ouml;fli Rapid Schachturnier, 26. Mai 2013</a></li>
+						<li><a href="/hoefli/20130428">2. H&ouml;fli Rapid Schachturnier, 28. April 2013</a></li>	
+						<li><a href="/hoefli/20130324">1. H&ouml;fli Rapid Schachturnier, 24. M&aumlrz 2013</a></li>
+						</ul>
+						<!-- ####################################################################################################-->
+						<h2>Archiv</h2>
+						<ul>
+						<li><a href="/chess/hoefli/Resultate_und_Elo_Hoefli_2013.pdf">Resultate_und_Elo_Hoefli_2013.pdf</a></li>
+					    </ul>
+						<!-- ####################################################################################################-->
+						<h2>Wo findet es statt?</h2>
+						<p>Restaurant Höfli<br>
+						Reichsgasse 14<br>
+						6430 Schwyz</p>
+						<!-- ####################################################################################################-->
+						<h2>Aktuelle Positionsanalyse</h2>
+					    <iframe name='iframe1' height='507' width='539' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://ralphschuler.ch/chess/hoefli/hoefli2014_050.html'>your web browser and/or your host do not support iframes as required to display the chessboard</iframe>
+					</div>
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

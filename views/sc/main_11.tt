@@ -1,0 +1,106 @@
+
+<div id="wrap">
+
+		<!--header -->
+		<div id="header">			
+
+			<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>		
+			<p id="slogan">SC:11 Kantonsranking</p>		
+
+			<% INCLUDE mainmenu.tt %>		
+
+		</div>
+		
+		<!-- menu -->	
+			<% INCLUDE sc/menu.tt %>
+			<!-- content-wrap starts here -->
+			<div id="content-wrap">
+
+				<div id="sidebar">
+
+					<h3>Rennen</h3>
+					<ul class="sidemenu">				
+					  <li><a href="/sc/<% edition %>/<% ktn %>/vadq/0">Val d'Isère Quali</a></li>
+		              <li><a href="/sc/<% edition %>/<% ktn %>/vadr/0">Val d'Isère Rennen</a></li>
+		              <li><a href="/sc/<% edition %>/<% ktn %>/groq/0">Gröden Quali</a></li>
+		              <li><a href="/sc/<% edition %>/<% ktn %>/gror/0">Gröden Rennen</a></li>
+		              <li><a href="/sc/<% edition %>/<% ktn %>/borq/0">Bormio Quali</a></li>
+					  <li><a href="/sc/<% edition %>/<% ktn %>/borr/0">Bormio Rennen</a></li>	
+					  <li><a href="/sc/<% edition %>/<% ktn %>/wenq/0">Wengen Quali</a></li>
+					  <li><a href="/sc/<% edition %>/<% ktn %>/wenr/0">Wengen Rennen</a></li>
+					  <li><a href="/sc/<% edition %>/<% ktn %>/kitq/0">Kitzbühel Quali</a></li>
+					  <li><a href="/sc/<% edition %>/<% ktn %>/kitr/0">Kitzbühel Rennen</a></li>
+					  <li><a href="/sc/<% edition %>/<% ktn %>/garq/0">Garmisch Quali</a></li>
+					  <li><a href="/sc/<% edition %>/<% ktn %>/garr/0">Garmisch Rennen</a></li>
+					</ul>
+
+
+					<h3>Kantone</h3>
+					<ul class="sidemenu">
+						<li><a href="/sc/<% edition %>/CH/<% cat %>/0"><strong>Schweiz</strong></a></li>
+						<li><a href="/sc/<% edition %>/ZH/<% cat %>/0">Zürich</a></li>
+						<li><a href="/sc/<% edition %>/BE/<% cat %>/0">Bern</a></li>
+						<li><a href="/sc/<% edition %>/LU/<% cat %>/0">Luzern</a></li>
+						<li><a href="/sc/<% edition %>/UR/<% cat %>/0">Uri</a></li>
+						<li><a href="/sc/<% edition %>/SZ/<% cat %>/0">Schwyz</a></li>
+						<li><a href="/sc/<% edition %>/OW/<% cat %>/0">Obwalden</a></li>
+						<li><a href="/sc/<% edition %>/NW/<% cat %>/0">Nidwalden</a></li>
+						<li><a href="/sc/<% edition %>/GL/<% cat %>/0">Glarus</a></li>
+						<li><a href="/sc/<% edition %>/ZG/<% cat %>/0">Zug</a></li>
+						<li><a href="/sc/<% edition %>/FR/<% cat %>/0">Freiburg</a></li>
+						<li><a href="/sc/<% edition %>/SO/<% cat %>/0">Solothurn</a></li>
+						<li><a href="/sc/<% edition %>/BS/<% cat %>/0">Basel-Stadt</a></li>
+						<li><a href="/sc/<% edition %>/BL/<% cat %>/0">Basel-Landschaft</a></li>
+						<li><a href="/sc/<% edition %>/SH/<% cat %>/0">Schaffhausen</a></li>
+						<li><a href="/sc/<% edition %>/AR/<% cat %>/0">Appenzell Ausserhoden</a></li>
+						<li><a href="/sc/<% edition %>/AI/<% cat %>/0">Appenzell Innerhoden</a></li>
+						<li><a href="/sc/<% edition %>/SG/<% cat %>/0">St. Gallen</a></li>
+						<li><a href="/sc/<% edition %>/GR/<% cat %>/0">Graubünden</a></li>
+						<li><a href="/sc/<% edition %>/AG/<% cat %>/0">Aargau</a></li>
+						<li><a href="/sc/<% edition %>/TG/<% cat %>/0">Thurgau</a></li>
+						<li><a href="/sc/<% edition %>/TI/<% cat %>/0">Tessin</a></li>
+						<li><a href="/sc/<% edition %>/VD/<% cat %>/0">Waadt</a></li>
+						<li><a href="/sc/<% edition %>/VS/<% cat %>/0">Wallis</a></li>
+						<li><a href="/sc/<% edition %>/NE/<% cat %>/0">Neuenburg</a></li>
+						<li><a href="/sc/<% edition %>/GE/<% cat %>/0">Genf</a></li>
+						<li><a href="/sc/<% edition %>/JU/<% cat %>/0">Jura</a></li>
+					</ul>						
+				</div>
+				<div id="main">
+					<h2><% catbez %> SC:<% edition %> (<% ktnbez %>)</h2>
+						<p>
+							<table cellspacing="3" cellpadding="3" width="350"> 
+							<tr>	
+						      <th class="nobo" colspan ="7"><img src="/images/sc/<% ktn %>.png"></th>
+							</tr>
+							
+						<% FOR r IN data.keys.sort %>
+						  <tr>
+							<td align="right"><b><% data.$r.rank %></b>&nbsp;</td>
+							<td><a href="/profile/11/<% data.$r.nick %>"><span style="background-color: <% data.$r.textmarker %>"><% data.$r.nick %></span></a></td>
+							<td>0<% data.$r.time.substr(0, 1) %>:<% data.$r.time.substr(1, 2) %>.<% data.$r.time.substr(3, 3) %></td>							
+							<td><% data.$r.birthday %></td>
+							<td><% data.$r.icoktn %></td>								
+							<td><% data.$r.sex %></td>							
+							<td><% data.$r.fb %></td>
+						  </tr>
+						<% END %>
+							<tr>	
+						      <th class="nobo" colspan ="7"><img src="/images/sc/<% ktn %>.png"></th>
+							</tr>
+							<tr>	
+						      <th align="center" class="nobo" colspan ="6"><% navi %></th>
+							</tr>
+						</table>
+
+						</p>
+						<p>
+							<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FKantonsranking-der-Ski-Challenge%2F133107930077362&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+							</p>
+
+				</div>
+
+			<!-- content-wrap ends here -->	
+			</div>
+
+			<% INCLUDE footer.tt %>
