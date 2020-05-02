@@ -83,7 +83,7 @@ When you arise in the morning think of what a privilege it is to be alive, to th
 Do what you will. Even if you tear yourself apart, most people will continue doing the same things. Marcus Aurelius
 It can ruin your life only if it ruins your character. Otherwise it cannot harm you ' inside or out. Marcus Aurelius
 Keep your intention pure. Emotions will try to distract you. So keep going. That's the cure. Maxime Lagac&eacute;
-Every hour focus your mind attentively…on the performance of the task in hand, with dignity, human sympathy, benevolence and freedom, and leave aside all other thoughts. You will achieve this, if you perform each action as if it were your last. Marcus Aurelius
+Every hour focus your mind attentively...on the performance of the task in hand, with dignity, human sympathy, benevolence and freedom, and leave aside all other thoughts. You will achieve this, if you perform each action as if it were your last. Marcus Aurelius
 There are two of the most immediately useful thoughts you will dip into. First that things cannot touch the mind: they are external and inert; anxieties can only come from your internal judgement. Second, that all these things you see will change almost as you look at them, and then will be no more. Constantly bring to mind all that you yourself have already seen changed. The universe is change: life is judgement. Marcus Aurelius
 Make the mind tougher by exposing it to adversity. Robert Greene
 The truth is that our finest moments are most likely to occur when we are feeling deeply uncomfortable, unhappy, or unfulfilled. For it is only in such moments, propelled by our discomfort, that we are likely to step out of our ruts and start searching for different ways or truer answers. M. Scott Peck
@@ -91,7 +91,7 @@ Life is a storm that will test you unceasingly. Don't wait for calm waters that 
 Short term thinking is everywhere. Noisy feuds over little prizes. The long term thinker will be king. Win the decade, not the day. @TheStoicEmperor
 How do you move forward? One step at a time. How do you lose weight? One kilo at a time. How do you write a book? One page at a time. How do you build a relationship? One day at a time. In a world obsessed with speed, never forget things of real worth and value take time. Thibaut
 Give yourself fully to your endeavors. Decide to construct your character through excellent actions and determine to pay the price of a worthy goal. The trials you encounter will introduce you to your strengths. Epictetus
-Now is the time to get serious about living your ideals. How long can you afford to put off who you really want to be? Your nobler self cannot wait any longer. Put your principles into practice - now. Stop the excuses and the procrastination. This is your life! […] Decide to be extraordinary and do what you need to do - now. Epictetus
+Now is the time to get serious about living your ideals. How long can you afford to put off who you really want to be? Your nobler self cannot wait any longer. Put your principles into practice - now. Stop the excuses and the procrastination. This is your life! [...] Decide to be extraordinary and do what you need to do - now. Epictetus
 We should not, like sheep, follow the herd of creatures in front of us, making our way where others go, not where we ought to go. Seneca
 Associate with people who are likely to improve you. Welcome those who you are capable of improving. The process is a mutual one: men learn as they teach. Seneca
 As each day arises, welcome it as the very best day of all, and make it your own possession. We must seize what flees. Seneca
@@ -133,7 +133,7 @@ What upsets people is not things themselves, but their judgements about these th
 You become what you give your attention to...If you yourself don't choose what thoughts and images you expose yourself to, someone else will. Epictetus
 Whatever happens at all happens as it should; you will find this true, if you watch narrowly. Marcus Aurelius
 Why is this so unbearable? Why can't I endure it? You'll be embarrassed to answer. Marcus Aurelius
-Run down the list of those who felt intense anger at something: the most famous, the most unfortunate, the most hated, the most whatever: Where is all that now? Smoke, dust, legend…or not even a legend. Think of all the examples. And how trivial the things we want so passionately are. Marcus Aurelius
+Run down the list of those who felt intense anger at something: the most famous, the most unfortunate, the most hated, the most whatever: Where is all that now? Smoke, dust, legend...or not even a legend. Think of all the examples. And how trivial the things we want so passionately are. Marcus Aurelius
 Everything that happens is either endurable or not. If it' endurable, then endure it. Stop complaining. If it' unendurable... then stop complaining. Your destruction will mean its end as well. Just remember: you can endure anything your mind can make endurable, by treating it as in your interest to do so. Marcus Aurelius
 An hour of deeply contemplating your own moral failures will leave you feeling much more forgiving of the foibles of others. @TheStoicEmperor
 Many will choose the stability of slavery over the uncertainty of freedom. @TheStoicEmperor
@@ -323,7 +323,7 @@ I'm not afraid of dying. I'm afraid not to have lived. Wim Hof
 By contemplating the impermanence of everything in the world, we are forced to recognize that every time we do something could be the last time we do it, and this recognition can invest the things we do with a significance and intensity that would otherwise be absent. William B. Irvine
 Some reach the heights of power. Some live quiet lives of virtue and purpose. Some seek nothing but mischief. All find their way to the grave. Time will make ashes of us all. Do not squander this moment. It will not come again. @TheStoicEmperor
 What is quite unlooked for is more crushing in its effect, and unexpectedness adds to the weight of a disaster. The fact that it was unforeseen has never failed to intensify a person' grief. This is a reason for ensuring that nothing ever takes us by surprise. We should project our thoughts ahead of us at every turn and have in mind every possible eventuality instead of only the usual course of events. Seneca
-This is why we need to envisage every possibility and to strengthen the spirit to deal with the things which may conceivably come about. Rehearse them in your mind: exile, torture, war, shipwreck. Misfortune may snatch you away from your country… If we do not want to be overwhelmed and struck numb by rare events as if they were unprecedented ones; fortune needs envisaging in a thoroughly comprehensive way. Seneca
+This is why we need to envisage every possibility and to strengthen the spirit to deal with the things which may conceivably come about. Rehearse them in your mind: exile, torture, war, shipwreck. Misfortune may snatch you away from your country... If we do not want to be overwhelmed and struck numb by rare events as if they were unprecedented ones; fortune needs envisaging in a thoroughly comprehensive way. Seneca
 That person has lost their children: you too, can lose yours; that person received sentence of death: your innocence too, stands under the hammer. This is the fallacy that takes us in and makes us weak while we suffer misfortunes that we never foresaw that we could suffer. The person who has anticipated the coming of troubles takes away their power when they arrive. Seneca
 Since every man dies, it is better to die with distinction than to live long. Musonius Rufus
 It's better to conquer grief than to deceive it. Seneca
@@ -345,7 +345,7 @@ It is a narrow passageway that leads to the garden of contentment. Big egos don'
 A minute of rage can undo a lifetime of diligent effort. Self-control is self-preservation. Most of us won't look back on the moments we acted in anger as among our finest. @TheStoicEmperor
 Do not act when the tide of rage flows in. Wait for it to go out. Then act with reason and proportion. @TheStoicEmperor
 To not be distracted by the darkness of others, to head towards the light. To be good without hesitation, even when other people are not. That' our job. The Daily Stoic
-Whatever seems lofty is dangerous… Those whom an unfavorable fortune has placed in a critical position will be safer if they eliminate pride from their proud circumstances and bring down their fortune as much as possible to a lowly state. Seneca
+Whatever seems lofty is dangerous... Those whom an unfavorable fortune has placed in a critical position will be safer if they eliminate pride from their proud circumstances and bring down their fortune as much as possible to a lowly state. Seneca
 Zoom out. In the grand scheme of things, is this really going to affect you? We can't even remember what we were doing 5 days ago, let alone five years. What matters is how you feel now. If it makes you upset, let it go. If it feels good, let it consume you. Thibaut
 Once the ego inflates it will only come back to earth through some jarring failure. Robert Greene
 Do not envy those who seems naturally gifted; it is often a curse. Robert Greene
@@ -390,7 +390,7 @@ It is not so much our friends' help that helps us as the confident knowledge tha
 Fragile egos make for fragile friendships. @TheStoicEmperor
 Keep company only with people who uplift you. Epictetus
 Wherever there is a human being, there is an opportunity for a kindness. Seneca
-We should love all our dear ones… but always with the thought that we have no promise that we may keep them forever'nay, no promise even that we may keep them for long. Seneca
+We should love all our dear ones... but always with the thought that we have no promise that we may keep them forever'nay, no promise even that we may keep them for long. Seneca
 A gift consists not in what is done or given, but in the intention of the giver or doer. Seneca
 Life is so hard, how can we be anything but kind? Jack Kornfield
 The secret of all victory lies in the organization of the non-obvious. Marcus Aurelius

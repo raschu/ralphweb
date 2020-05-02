@@ -45,8 +45,8 @@ print OUT ($string);
 close OUT;
 
 if ($flipped eq 'true') {
-	system("cp /root/chartbot/heatmapblack.gif /root/ralphweb/public/chess/icc/heatmap.gif");
+	system("cp /root/www/chartbot/heatmapblack.gif /root/ralphweb/public/chess/icc/heatmap.gif");
 } else {
-	system("cp /root/chartbot/heatmapwhite.gif /root/ralphweb/public/chess/icc/heatmap.gif");
+	system("cp /root/www/chartbot/heatmapwhite.gif /root/ralphweb/public/chess/icc/heatmap.gif");
 }
 
