@@ -20,13 +20,18 @@ my $cntd = 0;
 my $cnth = 0;
 
 
+open (DAT, "/root/ralphweb/db/stoicquotes.txt");
+my @quotes = <DAT>;
+close (DAT);
 
 get '/' => sub {
 	my $uastring = request->user_agent;
 	my $ua = HTML::ParseBrowser->new($uastring);
 	my $useragent = $ua->name . " " . $ua->v;
 	my $sessid = session 'id';
-	my @fortune = qx(/usr/bin/fortune -n 320 | /usr/bin/cowsay);
+    my $rand = int(rand(@quotes));
+    my $quote = $quotes[$rand];
+	my @fortune = qx(echo '$quote' | /usr/bin/cowsay);
 	my $fortunestring;
 	foreach (@fortune) {
 		$fortunestring .= $_ . "<br>";

@@ -96,7 +96,7 @@ Content-Type: text/html; charset=utf-8<br/>
 Set-Cookie: dancer.session=<% sessid %>; path=/; HttpOnly<br/>
 X-Powered-By: Perl Dancer <% dancer_version %><br/>
 Connection: close<br/>
-							<font color="red">user@ralphweb></font>/usr/games/fortune -n 320 | /usr/games/cowsay<br/>
+							<font color="red">user@ralphweb></font>quote stoic<br/>
 							<% fortunestring %>
 							<br/>
 							<font color="red">user@ralphweb></font>_
