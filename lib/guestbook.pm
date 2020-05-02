@@ -76,7 +76,13 @@ post '/gbp' => sub {
 		return 'You entered the wrong security code. Please use back button and reload. <br><br>Falscher Sicherheits Code eingegeben. Bitte Zurück Button klicken.';
 	}
 	system("sqlite3 $db \"Insert into guestbook (homepage, name, comment, updatetime) VALUES ('$homepage','$name','$comment','$now')\"");
-	system("echo \"homepage: $homepage\nname: $name\ncomment: $comment\nnow: $now\" \| mail -s \"new guestbook entry on ralphschuler.ch from $ip\" ralph.schuler\@gmail.com");
+    open(DAT, ">/root/lastgb_ralphweb.txt");
+    print DAT "homepage: $homepage\nname: $name\ncomment: $comment\nnow: $now\n";
+    close (DAT);
+    
+    system "echo \"Subject: check /root/lastgb_ralphweb.txt\" | sendmail ralph.schuler\@gmail.com";
+    
+	#system("echo \"homepage: $homepage\nname: $name\ncomment: $comment\nnow: $now\" \| mail -s \"new guestbook entry on ralphschuler.ch from $ip\" ralph.schuler\@gmail.com");
 	redirect '/guestbook';
 };
 
