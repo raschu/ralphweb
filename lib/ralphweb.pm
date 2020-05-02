@@ -26,7 +26,7 @@ get '/' => sub {
 	my $ua = HTML::ParseBrowser->new($uastring);
 	my $useragent = $ua->name . " " . $ua->v;
 	my $sessid = session 'id';
-	my @fortune = qx(/usr/games/fortune -n 320 | /usr/games/cowsay);
+	my @fortune = qx(/usr/bin/fortune -n 320 | /usr/bin/cowsay);
 	my $fortunestring;
 	foreach (@fortune) {
 		$fortunestring .= $_ . "<br>";

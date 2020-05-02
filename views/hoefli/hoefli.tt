@@ -108,7 +108,7 @@
 						6430 Schwyz</p>
 						<!-- ####################################################################################################-->
 						<h2>Aktuelle Positionsanalyse</h2>
-					    <iframe name='iframe1' height='507' width='539' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://ralphschuler.ch/chess/hoefli/hoefli2014_050.html'>your web browser and/or your host do not support iframes as required to display the chessboard</iframe>
+					    <iframe name='iframe1' height='507' width='539' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='/chess/hoefli/hoefli2014_050.html'>your web browser and/or your host do not support iframes as required to display the chessboard</iframe>
 					</div>
 				<!-- content-wrap ends here -->	
 				</div>

@@ -285,7 +285,7 @@ sub calcpoolratings {
     my $pool = shift;
     my $last;
     
-	open(DAT, "/root/chartbot/ratingcharts/current_finger_of_PerlHackr.txt");
+	open(DAT, "/root/www/chartbot/ratingcharts/current_finger_of_PerlHackr.txt");
 	my @z = <DAT>;
 	close(DAT);
 	
@@ -296,7 +296,7 @@ sub calcpoolratings {
 		}
 	}
     
-	open(DAT, "/root/chartbot/ratingcharts/$pool-minute.txt");
+	open(DAT, "/root/www/chartbot/ratingcharts/$pool-minute.txt");
 	my @fm = <DAT>;
 	close(DAT);
 	
