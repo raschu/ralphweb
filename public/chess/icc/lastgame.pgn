@@ -1,22 +1,22 @@
 
-[Event "ICC 1 0"]
+[Event "ICC 5 0"]
 [Site "Internet Chess Club"]
-[Date "2020.05.02"]
+[Date "2020.05.03"]
 [Round "-"]
 [White "PerlHackr"]
-[Black "itsjustagameppl"]
+[Black "horacio2"]
 [Result "1-0"]
 [ICCResult "Black resigns"]
-[WhiteElo "1694"]
-[BlackElo "1673"]
-[Opening "Queen's pawn"]
-[ECO "A40"]
-[NIC "QO.17"]
-[Time "07:46:54"]
-[TimeControl "60+0"]
+[WhiteElo "1584"]
+[BlackElo "1666"]
+[Opening "QGD: Orthodox defense"]
+[ECO "D60"]
+[NIC "QO.12"]
+[Time "04:44:22"]
+[TimeControl "300+0"]
 
-1. d4 e6 2. Nf3 f5 3. c4 Nf6 4. Nc3 c6 5. g3 d5 6. Bg2 Bd6 7. O-O O-O 8. Bg5
-Nbd7 9. cxd5 exd5 10. Qc2 Nb6 11. b3 Qe8 12. e3 Ne4 13. Nxe4 fxe4 14. Nd2
-Qh5 15. Bf4 Bxf4 16. exf4 Bg4 17. f3 Bh3 18. fxe4 Rad8 19. e5 Bf5 20. Qd1
-Bd3 21. Qxh5 Bxf1 22. Rxf1 {Black resigns} 1-0
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 Nbd7 5. Bg5 Be7 6. e3 O-O 7. cxd5 exd5
+8. Bd3 h6 9. Bh4 c6 10. Bg3 Re8 11. Ne5 Nxe5 12. Bxe5 Bd6 13. f4 Bxe5 14.
+fxe5 Ne4 15. Bxe4 dxe4 16. Nxe4 Qh4+ 17. Nf2 Bg4 18. Qxg4 {Black resigns}
+1-0
 
