@@ -31,7 +31,7 @@ get '/' => sub {
 	my $sessid = session 'id';
     my $rand = int(rand(@quotes));
     my $quote = $quotes[$rand];
-	my @fortune = qx(echo '$quote' | /usr/bin/cowsay);
+	my @fortune = qx(echo '$quote' | /usr/local/bin/cowsay);
 	my $fortunestring;
 	foreach (@fortune) {
 		$fortunestring .= $_ . "<br>";
