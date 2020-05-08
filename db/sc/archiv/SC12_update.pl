@@ -1,6 +1,6 @@
 use File::Copy;
 my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
-my $workdir = '/root/ralphweb/db/sc';
+my $workdir = '/root/www/ralphweb/db/sc';
 updatedb();
 
 sub updatedb {
@@ -12,7 +12,7 @@ sub updatedb {
 	print "Making Backup of $workdir/sc12.sqlite\n";
 	copy("$workdir/sc12.sqlite", "$workdir/TEMPbackupDB/sc12.$hour") or die "kann nicht von $workdir/sc12.sqlite nach $workdir/TEMPbackupDB/sc12.$hour kopieren ($!)";
 	print "putting a copy of sc12.$hour to Dropbox\n";
-	system("/usr/bin/dropbox-api put /root/ralphweb/db/sc/TEMPbackupDB/sc12.$hour dropbox:/");
+	system("/usr/bin/dropbox-api put /root/www/ralphweb/db/sc/TEMPbackupDB/sc12.$hour dropbox:/");
 	sleep(60);
 	print "Piping $workdir/sc12.sqlite\n";
 	open(DAT, "|sqlite3 $workdir/sc12.sqlite") or die "kann DB $workdir/sc12.sqlite nicht oeffnen";

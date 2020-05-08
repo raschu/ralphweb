@@ -3,7 +3,7 @@ package chesscss;
 use Dancer ':syntax';
 
 get '/chesscss' => sub {
-	open(DAT, "/root/ralphweb/public/chesscss.txt");
+	open(DAT, "/root/www/ralphweb/public/chesscss.txt");
 	my $iframe = <DAT>;
 	close(DAT);
 	
@@ -29,7 +29,7 @@ get '/chesscss' => sub {
 };
 
 get '/cssinput' => sub {
-	open (DAT, "/root/ralphweb/public/pgn4web-2.81/template.txt");
+	open (DAT, "/root/www/ralphweb/public/pgn4web-2.81/template.txt");
 	my $link = <DAT>;
 	close(DAT);
 	
@@ -45,7 +45,7 @@ get '/cssinput' => sub {
 
 post '/pgnstring' => sub {
 	my $cssinputstring = params->{cssinputstring};
-	open(DAT, ">/root/ralphweb/public/chesscss.txt");
+	open(DAT, ">/root/www/ralphweb/public/chesscss.txt");
 	print DAT "$cssinputstring";
 	close(DAT);
 	redirect '/chesscss';

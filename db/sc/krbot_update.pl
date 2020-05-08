@@ -2,7 +2,7 @@ my $now = $ARGV[0];
 
 use File::Copy;
 my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
-my $workdir = '/root/ralphweb/db/sc';
+my $workdir = '/root/www/ralphweb/db/sc';
 updatedb();
 
 unlink("$workdir/sc16data.$now.txt");
@@ -25,7 +25,7 @@ sub updatedb {
 	print "Making Backup of $workdir/sc16.sqlite\n";
 	copy("$workdir/sc16.sqlite", "$workdir/temp/sc16.$hour") or die "kann nicht von $workdir/sc16.sqlite nach $workdir/temp/sc16.$hour kopieren ($!)";
 	print "putting a copy of sc16.$hour to Dropbox\n";
-	system("/usr/local/bin/dropbox-api sync /root/ralphweb/db/sc/temp/ dropbox:/to_backup_later/sc/ -d");
+	system("/usr/local/bin/dropbox-api sync /root/www/ralphweb/db/sc/temp/ dropbox:/to_backup_later/sc/ -d");
 	
 	sleep(20);
 	print "Piping $workdir/sc16.sqlite with $updatecnt Records\n";

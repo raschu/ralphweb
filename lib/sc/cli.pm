@@ -9,7 +9,7 @@ our $VERSION = '0.1';
 get '/cli/:edition/:cat/:sid' => sub {
 	my $edition = params->{edition};
 	my $scdb;
-	$scdb = "/root/ralphweb/db/sc/sc16.sqlite";		
+	$scdb = "/root/www/ralphweb/db/sc/sc16.sqlite";		
 	my $cat = params->{cat};
 	my $sid = params->{sid};
 	my $ktn = params->{ktn};
@@ -25,7 +25,7 @@ get '/cli/:edition/:cat/:sid' => sub {
 		'beaq'=>'Beaver Creek Quali','bear'=>'Beaver Creek Rennen','vadq'=>'Val d\'Isère Quali','vadr'=>'Val d\'Isère Rennen','groq'=>'Gröden Quali','gror'=>'Gröden Rennen','borq'=>'Bormio Quali','borr'=>'Bormio Rennen','wenq'=>'Wengen Quali','wenr'=>'Wengen Rennen','kitq'=>'Kitzbühel Quali','kitr'=>'Kitzbühel Rennen','garq'=>'Garmisch Quali','garr'=>'Garmisch Rennen','schq'=>'Schladming Quali','schr'=>'Schladming Rennen','socq'=>'Sochi Quali','socr'=>'Sochi Rennen'
 	);
 	
-	open(DAT, "/root/ralphweb/db/sc/siddata/$sid.txt");
+	open(DAT, "/root/www/ralphweb/db/sc/siddata/$sid.txt");
 	my @nickscmd = <DAT>;
 	close(DAT);
 		

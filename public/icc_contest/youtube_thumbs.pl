@@ -85,7 +85,7 @@ foreach my $key (keys(%allmatches)) {
         my $rc2 = getstore("http://img.youtube.com/vi/$key/hqdefault.jpg", "./utubethumbs/hqdefault/$key.jpg");
         print "downloading http://img.youtube.com/vi/$key/hqdefault.jpg ...\n";
         
-        open(DB, "|/usr/bin/sqlite3 /root/ralphweb/db/icc/ICC_interfaces.db") or die $!;
+        open(DB, "|/usr/bin/sqlite3 /root/www/ralphwebdb/icc/ICC_interfaces.db") or die $!;
         print DB "INSERT into interfaceranking ('ID', 'rating', 'ratingcnt') VALUES ('$key','1600','0');";
         close(DB);
         

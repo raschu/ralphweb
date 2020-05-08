@@ -20,7 +20,7 @@ my $cntd = 0;
 my $cnth = 0;
 
 
-open (DAT, "/root/ralphweb/db/stoicquotes.txt");
+open (DAT, "/root/www/ralphweb/db/stoicquotes.txt");
 my @quotes = <DAT>;
 close (DAT);
 
@@ -43,7 +43,7 @@ get '/' => sub {
 	
 	
 	my $ut = qx(uptime);
-	chdir('/root/ralphweb/sessions');
+	chdir('/root/www/ralphweb/sessions');
 
 	my $now = time();
 	template 'homepage', {
@@ -71,7 +71,7 @@ get '/sdg' => sub {
 
 #get '/512KB' => sub {
 
-#	open(my $f, '<', '/root/ralphweb/logs/uastrings.txt');
+#	open(my $f, '<', '/root/www/ralphweb/logs/uastrings.txt');
 #	my $string = do { local($/); <$f> };
 #	close($f);
 
@@ -88,7 +88,7 @@ get '/icc_social_network' => sub {
 	template 'icc_social';
 };
 get '/lastgame' => sub {
-	open(DAT, "/root/ralphweb/public/chess/icc/lastgame.pgn");
+	open(DAT, "/root/www/ralphweb/public/chess/icc/lastgame.pgn");
 	my @pgn = <DAT>;
 	close(DAT);
 	my $pgn;
@@ -96,7 +96,7 @@ get '/lastgame' => sub {
 	template 'icc_lastgame', {pgn => $pgn};
 };
 get '/download' => sub {
-	chdir('/root/ralphweb/public/lichess/userstyles/boards/');
+	chdir('/root/www/ralphweb/public/lichess/userstyles/boards/');
 	
 	open(DAT, "nrs.txt");
 	my @r = <DAT>;
@@ -206,7 +206,7 @@ get '/links' => sub {
 sub calcSessionStats {
 	my $type = shift;
 	
-	chdir('/root/ralphweb/sessions');
+	chdir('/root/www/ralphweb/sessions');
 	my $cnt00 = 0;
 	my $cnt01 = 0;
 	my $cnt011 = 0;

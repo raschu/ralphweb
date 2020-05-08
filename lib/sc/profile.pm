@@ -40,7 +40,7 @@ get '/textmarker/:nick/:toggle/:edition' => sub {
 	
 	my $sessionid = session('id');
 	
-	open(DAT, ">/root/ralphweb/db/sc/siddata/$sessionid.txt");
+	open(DAT, ">/root/www/ralphweb/db/sc/siddata/$sessionid.txt");
 	
 	foreach my $n (@nickstm) {
 		print DAT "$n\n" if $n gt "";
@@ -63,7 +63,7 @@ get '/profile/:edition/:nick/:cat' => sub {
 	my $nick = params->{nick};
 	my $cat = params->{cat};
         my $catbez = $rennen{$cat};
-        my $url = qx (/usr/bin/php /root/ralphweb/bin/scstats_$edition/stats.php time_difference_per_race_and_player $cat $nick);
+        my $url = qx (/usr/bin/php /root/www/ralphweb/bin/scstats_$edition/stats.php time_difference_per_race_and_player $cat $nick);
 	
 	template 'sc/profile_chart', {nick => $nick, catbez => $catbez, edition => $edition, url => $url};
 };
@@ -73,12 +73,12 @@ get '/profile/:edition/:nick' => sub {
 	my $edition = params->{edition};
 	my $nick = params->{nick};
 	my $scdb;	
-	$scdb = "/root/ralphweb/db/sc/sc11.sqlite" if $edition == 11;
-	$scdb = "/root/ralphweb/db/sc/sc12.sqlite" if $edition == 12;
-	$scdb = "/root/ralphweb/db/sc/sc13.sqlite" if $edition == 13;
-	$scdb = "/root/ralphweb/db/sc/sc14.sqlite" if $edition == 14;
-	$scdb = "/root/ralphweb/db/sc/sc15.sqlite" if $edition == 15;
-	$scdb = "/root/ralphweb/db/sc/sc16.sqlite" if $edition == 16;
+	$scdb = "/root/www/ralphweb/db/sc/sc11.sqlite" if $edition == 11;
+	$scdb = "/root/www/ralphweb/db/sc/sc12.sqlite" if $edition == 12;
+	$scdb = "/root/www/ralphweb/db/sc/sc13.sqlite" if $edition == 13;
+	$scdb = "/root/www/ralphweb/db/sc/sc14.sqlite" if $edition == 14;
+	$scdb = "/root/www/ralphweb/db/sc/sc15.sqlite" if $edition == 15;
+	$scdb = "/root/www/ralphweb/db/sc/sc16.sqlite" if $edition == 16;
 	$nick = encode("iso-8859-1", $nick);
 	my $uppernick = uc($nick);
 	
@@ -265,12 +265,12 @@ sub calcrang {
 	my $edition = shift;
 	my $scdb;
 	
-	$scdb = "/root/ralphweb/db/sc/sc11.sqlite" if $edition == 11;
-	$scdb = "/root/ralphweb/db/sc/sc12.sqlite" if $edition == 12;
-	$scdb = "/root/ralphweb/db/sc/sc13.sqlite" if $edition == 13;
-	$scdb = "/root/ralphweb/db/sc/sc14.sqlite" if $edition == 14;
-	$scdb = "/root/ralphweb/db/sc/sc15.sqlite" if $edition == 15;
-	$scdb = "/root/ralphweb/db/sc/sc16.sqlite" if $edition == 16;
+	$scdb = "/root/www/ralphweb/db/sc/sc11.sqlite" if $edition == 11;
+	$scdb = "/root/www/ralphweb/db/sc/sc12.sqlite" if $edition == 12;
+	$scdb = "/root/www/ralphweb/db/sc/sc13.sqlite" if $edition == 13;
+	$scdb = "/root/www/ralphweb/db/sc/sc14.sqlite" if $edition == 14;
+	$scdb = "/root/www/ralphweb/db/sc/sc15.sqlite" if $edition == 15;
+	$scdb = "/root/www/ralphweb/db/sc/sc16.sqlite" if $edition == 16;
 		
 	my $sql = "
 	select count(*) as rank from 

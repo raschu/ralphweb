@@ -58,11 +58,11 @@ get '/scstats/:edition/:type/:cat' => sub {
 	if ($type =~ m/time_distribution_per_race/) {
 		my $sec = $type;
 		$sec =~ s/time_distribution_per_race_//;
-		my $url1 = qx(/usr/bin/php /root/ralphweb/bin/scstats_$edition/stats.php time_distribution_per_race $cat $sec);
-		#debug "/usr/bin/php /root/ralphweb/bin/scstats_$edition/stats.php time_distribution_per_race $cat $sec";
+		my $url1 = qx(/usr/bin/php /root/www/ralphweb/bin/scstats_$edition/stats.php time_distribution_per_race $cat $sec);
+		#debug "/usr/bin/php /root/www/ralphweb/bin/scstats_$edition/stats.php time_distribution_per_race $cat $sec";
 		$url = "<img src=\"$url1\"/><br/>\n";
 	} else {
-		my $url1 = qx(/usr/bin/php /root/ralphweb/bin/scstats_$edition/stats.php $type $cat);
+		my $url1 = qx(/usr/bin/php /root/www/ralphweb/bin/scstats_$edition/stats.php $type $cat);
 		$url = "<img src=\"$url1\"/><br/>\n";
 	}
 	
@@ -74,12 +74,12 @@ get '/sc/:edition/:ktn/:cat/:offset' => sub {
 	my $edition = params->{edition};
 	redirect '/404' unless $edition == 11 or $edition == 12 or $edition == 13 or $edition == 14 or $edition == 15 or $edition == 16;	
 	my $scdb;
-	$scdb = "/root/ralphweb/db/sc/sc11.sqlite" if $edition == 11;
-	$scdb = "/root/ralphweb/db/sc/sc12.sqlite" if $edition == 12;
-	$scdb = "/root/ralphweb/db/sc/sc13.sqlite" if $edition == 13;
-	$scdb = "/root/ralphweb/db/sc/sc14.sqlite" if $edition == 14;
-	$scdb = "/root/ralphweb/db/sc/sc15.sqlite" if $edition == 15;
-	$scdb = "/root/ralphweb/db/sc/sc16.sqlite" if $edition == 16;		
+	$scdb = "/root/www/ralphweb/db/sc/sc11.sqlite" if $edition == 11;
+	$scdb = "/root/www/ralphweb/db/sc/sc12.sqlite" if $edition == 12;
+	$scdb = "/root/www/ralphweb/db/sc/sc13.sqlite" if $edition == 13;
+	$scdb = "/root/www/ralphweb/db/sc/sc14.sqlite" if $edition == 14;
+	$scdb = "/root/www/ralphweb/db/sc/sc15.sqlite" if $edition == 15;
+	$scdb = "/root/www/ralphweb/db/sc/sc16.sqlite" if $edition == 16;		
 	my $cat = params->{cat};
 	my $ktn = params->{ktn};
 	my $rankingid = params->{ktn};

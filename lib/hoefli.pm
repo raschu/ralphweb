@@ -7,7 +7,7 @@ our $VERSION = '0.1';
 #############################################################################################
 get '/hoefli' => sub {
 	
-	chdir('/root/ralphweb/public/images/hoefli');
+	chdir('/root/www/ralphweb/public/images/hoefli');
 	my @images;
 	for my $img (<*.jpg>) {
 		next if $img =~ m/20130428_131131/ or $img =~ m/20140601_173728/ or $img =~ m/20140601_171350/;

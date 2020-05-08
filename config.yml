@@ -39,8 +39,8 @@ facebook:
 #     end_tag:   '%]'
 sqlitebin: '/usr/bin/sqlite3'
 
-maindir: '/root/ralphweb'
-iccifthumbs: '/root/ralphweb/public/icc_contest/utubethumbs'
+maindir: '/root/www/ralphweb'
+iccifthumbs: '/root/www/ralphweb/public/icc_contest/utubethumbs'
 #maindir: '/home/pi/ralphstuff/ralphweb'
 #iccifthumbs: '/home/pi/ralphstuff/ralphweb/public/icc_contest/utubethumbs'
 
@@ -52,4 +52,4 @@ iccifdb: '/db/icc/ICC_interfaces.db'
 plugins:
     DirectoryView:
         url: /downloads/jinstuff
-        root_dir: /root/ralphweb/public/downloads/jinstuff/
+        root_dir: /root/www/ralphweb/public/downloads/jinstuff/

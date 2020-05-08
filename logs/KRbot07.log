@@ -327,9 +327,9 @@ parsing newest (327 Records)!
 159015	zonk
 157282	zuzl1
 157980	zwyssig
-Updating db in /root/ralphweb/db/sc
-Making Backup of /root/ralphweb/db/sc/sc15.sqlite
+Updating db in /root/www/ralphweb/db/sc
+Making Backup of /root/www/ralphweb/db/sc/sc15.sqlite
 putting a copy of sc15.11 to Dropbox
 upload sc15.11 /to_backup_later/sc/sc15.11
-Piping /root/ralphweb/db/sc/sc15.sqlite with 327 Records
-Vacuumize /root/ralphweb/db/sc/sc15.sqlite
+Piping /root/www/ralphweb/db/sc/sc15.sqlite with 327 Records
+Vacuumize /root/www/ralphweb/db/sc/sc15.sqlite

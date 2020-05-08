@@ -19,7 +19,7 @@ my $all = $ARGV[0];
 
 my $singlenick = $ARGV[1];
 #my $workdir = '/Users/ralph/Desktop/sc';
-my $workdir = '/root/ralphweb/db/sc';
+my $workdir = '/root/www/ralphweb/db/sc';
 my @abet = qw(a b c d e f g h i j);
 my $now = time();
 my $nickstring = "";
@@ -272,7 +272,7 @@ sub converttime {
 }
 
 sub updatedb {
-	exec("/usr/bin/perl","/root/ralphweb/db/sc/krbot_update.pl","$now");
+	exec("/usr/bin/perl","/root/www/ralphweb/db/sc/krbot_update.pl","$now");
 }
 
 sub modifycontent {

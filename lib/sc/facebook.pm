@@ -61,12 +61,12 @@ get '/fbdata' => sub {
     where nick = '$scnick'
     ";   
     
-    system ("sqlite3 /root/ralphweb/db/sc/sc11.sqlite \"$sql\"");
-    system ("sqlite3 /root/ralphweb/db/sc/sc12.sqlite \"$sql\"");
-	system ("sqlite3 /root/ralphweb/db/sc/sc13.sqlite \"$sql\"");
-	system ("sqlite3 /root/ralphweb/db/sc/sc14.sqlite \"$sql\"");
-	system ("sqlite3 /root/ralphweb/db/sc/sc15.sqlite \"$sql\"");
-	system ("sqlite3 /root/ralphweb/db/sc/sc16.sqlite \"$sql\"");
+    system ("sqlite3 /root/www/ralphweb/db/sc/sc11.sqlite \"$sql\"");
+    system ("sqlite3 /root/www/ralphweb/db/sc/sc12.sqlite \"$sql\"");
+	system ("sqlite3 /root/www/ralphweb/db/sc/sc13.sqlite \"$sql\"");
+	system ("sqlite3 /root/www/ralphweb/db/sc/sc14.sqlite \"$sql\"");
+	system ("sqlite3 /root/www/ralphweb/db/sc/sc15.sqlite \"$sql\"");
+	system ("sqlite3 /root/www/ralphweb/db/sc/sc16.sqlite \"$sql\"");
     redirect '/sc/16';
 };
 

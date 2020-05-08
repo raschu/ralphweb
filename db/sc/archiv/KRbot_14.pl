@@ -11,7 +11,7 @@ print "Starting KRbot $VER\n";
 
 my $all = $ARGV[0];
 my $singlenick = $ARGV[1];
-my $workdir = '/root/ralphweb/db/sc';
+my $workdir = '/root/www/ralphweb/db/sc';
 my $now = time();
 my $nickstring = "";
 my $reccnt = 0;
@@ -227,7 +227,7 @@ sub updatedb {
 	#print "Vacuumize $workdir/sc14.sqlite\n";
 	#print DAT "vacuum;\n";
 	#close(DAT);
-	exec("/usr/bin/perl","/root/ralphweb/db/sc/update.pl");
+	exec("/usr/bin/perl","/root/www/ralphweb/db/sc/update.pl");
 }
 
 sub modifycontent {

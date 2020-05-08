@@ -1118,9 +1118,9 @@ parsing newest (1736 Records)!
 208894	212575	212211	155821	zumata01
 200675	206165	205555	230471	150712	204045	204220	zurbi9
 157400	205097	203907	228641	150285	201858	203914	zuzl1
-Updating db in /root/ralphweb/db/sc
-Making Backup of /root/ralphweb/db/sc/sc14.sqlite
+Updating db in /root/www/ralphweb/db/sc
+Making Backup of /root/www/ralphweb/db/sc/sc14.sqlite
 putting a copy of sc14.23 to Dropbox
 upload sc14.23 /to_backup_later/sc/sc14.23
-Piping /root/ralphweb/db/sc/sc14.sqlite with 834 Records
-Vacuumize /root/ralphweb/db/sc/sc14.sqlite
+Piping /root/www/ralphweb/db/sc/sc14.sqlite with 834 Records
+Vacuumize /root/www/ralphweb/db/sc/sc14.sqlite

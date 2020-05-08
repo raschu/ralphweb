@@ -64,12 +64,12 @@ post '/scregister2' => sub {
 		$nicktocheck = encode("iso-8859-1", $nicktocheck);
 		my $uppernick = uc($nicktocheck);
 		my $exists = 0;
-		$exists = qx(sqlite3 /root/ralphweb/db/sc/sc16.sqlite "SELECT COUNT(*) FROM scranking where upper(nick) = '$uppernick'");
+		$exists = qx(sqlite3 /root/www/ralphweb/db/sc/sc16.sqlite "SELECT COUNT(*) FROM scranking where upper(nick) = '$uppernick'");
 				
 		if ($exists > 0) {
 			my $errorstring;
 			my $facebookid = "";			
-			$facebookid = qx(sqlite3 /root/ralphweb/db/sc/sc16.sqlite "SELECT facebookid FROM scranking where nick = '$nicktocheck'");
+			$facebookid = qx(sqlite3 /root/www/ralphweb/db/sc/sc16.sqlite "SELECT facebookid FROM scranking where nick = '$nicktocheck'");
 			$facebookid =~ s/\n//g;
 			
 			if ($facebookid gt "") {
@@ -78,16 +78,16 @@ post '/scregister2' => sub {
 				$errorstring = "<b>$nick</b> wurde schon in der Datenbank eingetragen. Vermutlich bei einer früheren Ausgabe des Kantonsrankings. Bitte beachte, dass es bis zu 6 Stunden dauern kann, bis der Nick zum ersten mal aktualisiert wird. Bei Unklarheiten bitte eine Email an sc16\@ralphschuler.ch senden.<p><a href=\"/scfb/$nick\">Hier klicken</a>, wenn du deinen Facebook Account mit <b>$nick</b> verknüpfen möchtest.<br><br><a href=\"http://ralphschuler.ch/profile/16/$nick\">Profil von $nick</a></p>";
 			}			
 			system("echo \"$ip http://ralphschuler.ch/profile/16/$nick $sex $birthday $ktn\" \| mail -s \"[$ip] SC Register already in DB\" sc16\@ralphschuler.ch");
-			system("/usr/bin/perl /root/ralphweb/db/sc/krbot.pl 0 $nick");
+			system("/usr/bin/perl /root/www/ralphweb/db/sc/krbot.pl 0 $nick");
 			template 'sc/register_error', {errorstring => $errorstring};
 		} else {
 			my $now = time();
 			system("echo \"$ip http://ralphschuler.ch/profile/16/$nick $sex $birthday $ktn\" \| mail -s \"[$ip] SC Register new entry\" sc16\@ralphschuler.ch");
 			
-			open(DB, "|/usr/bin/sqlite3 /root/ralphweb/db/sc/sc16.sqlite");
+			open(DB, "|/usr/bin/sqlite3 /root/www/ralphweb/db/sc/sc16.sqlite");
 			print DB "INSERT into scranking ('nick', 'sex', 'birthday','kanton','updatetime') VALUES ('$nick', '$sex', '$birthday', '$ktn', '$now');";
 			close(DB);
-			system("/usr/bin/perl /root/ralphweb/db/sc/krbot.pl 0 $nick");
+			system("/usr/bin/perl /root/www/ralphweb/db/sc/krbot.pl 0 $nick");
 			template 'sc/register2', {nick => $nick, ktn => $ktn, sex => $sex, gebdatum => $gebdatum};	
 		}
 	}

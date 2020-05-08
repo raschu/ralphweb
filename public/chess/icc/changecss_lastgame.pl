@@ -6,7 +6,7 @@ use warnings;
 local $/ = undef;
 
 my $flipped = 'false';
-open(DAT,"/root/ralphweb/public/chess/icc/lastgame.pgn");
+open(DAT,"/root/www/ralphwebpublic/chess/icc/lastgame.pgn");
 my @pgn = <DAT>;
 close(DAT);
 
@@ -21,7 +21,7 @@ print "Board flip: $flipped\n";
 
 my $string;
 
-open(DAT, "/root/ralphweb/public/chess/icc/lastflag.txt");
+open(DAT, "/root/www/ralphwebpublic/chess/icc/lastflag.txt");
 my $data = <DAT>;
 close(DAT);
 
@@ -45,8 +45,8 @@ print OUT ($string);
 close OUT;
 
 if ($flipped eq 'true') {
-	system("cp /root/www/chartbot/heatmapblack.gif /root/ralphweb/public/chess/icc/heatmap.gif");
+	system("cp /root/www/chartbot/heatmapblack.gif /root/www/ralphwebpublic/chess/icc/heatmap.gif");
 } else {
-	system("cp /root/www/chartbot/heatmapwhite.gif /root/ralphweb/public/chess/icc/heatmap.gif");
+	system("cp /root/www/chartbot/heatmapwhite.gif /root/www/ralphwebpublic/chess/icc/heatmap.gif");
 }
 

@@ -5,10 +5,10 @@ my $ua = LWP::UserAgent->new;
 
 post '/pgn2lichess' => sub {
 	my $file = request->upload('pgnfile');
-	$file->copy_to('/root/ralphweb/upload/');  # or whatever you need
+	$file->copy_to('/root/www/ralphweb/upload/');  # or whatever you need
 	my $tmpfile = $file->tempname;
 	$tmpfile =~ s/\/tmp\///;
-	open(DAT, "/root/ralphweb/upload/$tmpfile");
+	open(DAT, "/root/www/ralphweb/upload/$tmpfile");
 	my @z = <DAT>;
 	close(DAT);
 	my $pgn = join("", @z);
@@ -19,7 +19,7 @@ post '/pgn2lichess' => sub {
 	$req->content($post_data);
 	my $res = $ua->request($req);
 	my $url = "http://lichess.org" . $res->header('Location');
-	unlink("/root/ralphweb/upload/$tmpfile");
+	unlink("/root/www/ralphweb/upload/$tmpfile");
 	redirect $url;
 };
 
