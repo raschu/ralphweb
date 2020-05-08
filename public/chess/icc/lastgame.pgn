@@ -1,22 +1,24 @@
 
-[Event "ICC 5 0"]
+[Event "ICC 1 0"]
 [Site "Internet Chess Club"]
-[Date "2020.05.03"]
+[Date "2020.05.08"]
 [Round "-"]
-[White "PerlHackr"]
-[Black "horacio2"]
+[White "TheKnightbuster"]
+[Black "PerlHackr"]
 [Result "1-0"]
-[ICCResult "Black resigns"]
-[WhiteElo "1584"]
-[BlackElo "1666"]
-[Opening "QGD: Orthodox defense"]
-[ECO "D60"]
-[NIC "QO.12"]
-[Time "04:44:22"]
-[TimeControl "300+0"]
+[ICCResult "Black checkmated"]
+[WhiteElo "1596"]
+[BlackElo "1632"]
+[Opening "English: symmetrical variation"]
+[ECO "A35"]
+[NIC "EO.64"]
+[Time "11:36:11"]
+[TimeControl "60+0"]
 
-1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 Nbd7 5. Bg5 Be7 6. e3 O-O 7. cxd5 exd5
-8. Bd3 h6 9. Bh4 c6 10. Bg3 Re8 11. Ne5 Nxe5 12. Bxe5 Bd6 13. f4 Bxe5 14.
-fxe5 Ne4 15. Bxe4 dxe4 16. Nxe4 Qh4+ 17. Nf2 Bg4 18. Qxg4 {Black resigns}
-1-0
+1. c4 c5 2. Nc3 Nc6 3. e3 a6 4. d4 cxd4 5. exd4 Rb8 6. d5 Ne5 7. f4 Ng6 8.
+Bd3 d6 9. Nf3 Bg4 10. O-O Nf6 11. Qc2 e6 12. dxe6 Bxe6 13. Re1 Be7 14. f5
+Ne5 15. Nxe5 dxe5 16. fxe6 fxe6 17. Rxe5 Bc5+ 18. Kh1 b6 19. Bg5 O-O 20.
+Rxe6 Qd7 21. Rae1 Rbe8 22. Bf5 Rxe6 23. Bxe6+ Qxe6 24. Rxe6 h6 25. Bxf6 Rxf6
+26. Rxf6 gxf6 27. Qg6+ Kh8 28. Nd5 Bd4 29. Ne7 h5 30. Qg8# {Black
+checkmated} 1-0
 
