@@ -13,31 +13,32 @@ my $workdir = config->{maindir};
 #----------------------------------------
 get '/icc_interfaces/compare' => sub {
 	    #damit Dancer als Daemon gestartet werden kann, muss der $dbh Handle in der Sub aufgerufen werden, weil der $dbh beim Fork verloren geht
-		my $dbh = DBI->connect('dbi:Pg:dbname=ralph;host=localhost','rwuser','rwuser',{AutoCommit=>1,RaiseError=>1,PrintError=>0});
+		#my $dbh = DBI->connect('dbi:Pg:dbname=ralph;host=localhost','rwuser','rwuser',{AutoCommit=>1,RaiseError=>1,PrintError=>0});
+        my $dbh = DBI->connect("dbi:SQLite:dbname=/root/www/ralphweb/db/icc/ICC_interfaces.db","","");
 		my $oldfirst = session 'first';
 		my $oldsecond = session 'second';
 		
 		
-		my $oldratingfirst = $dbh->selectrow_array("select rating from ralph.icc_interface_ranking where id = '$oldfirst';");
-		my $oldratingsecond = $dbh->selectrow_array("select rating from ralph.icc_interface_ranking where id = '$oldsecond';");
+		my $oldratingfirst = $dbh->selectrow_array("select rating from interfaceranking where id = '$oldfirst';");
+		my $oldratingsecond = $dbh->selectrow_array("select rating from interfaceranking where id = '$oldsecond';");
 
 		$oldratingfirst -= 1600;
 		$oldratingsecond -= 1600;
 
-		my $oldcntfirst = $dbh->selectrow_array("select ratingcnt from ralph.icc_interface_ranking where id = '$oldfirst';");
-		my $oldcntsecond = $dbh->selectrow_array("select ratingcnt from ralph.icc_interface_ranking where id = '$oldsecond';");
+		my $oldcntfirst = $dbh->selectrow_array("select ratingcnt from interfaceranking where id = '$oldfirst';");
+		my $oldcntsecond = $dbh->selectrow_array("select ratingcnt from interfaceranking where id = '$oldsecond';");
 
-		my $cntrecs = $dbh->selectrow_array("select count(*) from ralph.icc_interface_ranking;");
+		my $cntrecs = $dbh->selectrow_array("select count(*) from interfaceranking;");
 
 		my $limit = $cntrecs - 2;
 		my $limit2 = $limit - 3;
 		
-		my @pool = $dbh->selectrow_array("select id from ralph.icc_interface_ranking ORDER BY ratingcnt LIMIT $limit OFFSET $limit2;");
+		my @pool = $dbh->selectrow_array("select id from interfaceranking ORDER BY ratingcnt LIMIT $limit OFFSET $limit2;");
 		@pool = shuffle(@pool);
 		my $cntpool = @pool;
 		my $first = $pool[0];
 
-		my @pool2 = $dbh->selectrow_array("select id from ralph.icc_interface_ranking ORDER BY ratingcnt LIMIT 5;");
+		my @pool2 = $dbh->selectrow_array("select id from interfaceranking ORDER BY ratingcnt LIMIT 5;");
 		@pool2 = shuffle(@pool2);
 		my $second = $pool2[0];
 		
@@ -67,12 +68,13 @@ get '/icc_interfaces/compare' => sub {
 #----------------------------------------
 get '/icc_interfaces/ranking/:ix' => sub {
 	#damit Dancer als Daemon gestartet werden kann, muss der $dbh Handle in der Sub aufgerufen werden, weil der $dbh beim Fork verloren geht
-	my $dbh = DBI->connect('dbi:Pg:dbname=ralph;host=localhost','rwuser','rwuser',{AutoCommit=>1,RaiseError=>1,PrintError=>0});
-	my $allcnt = $dbh->do("select count(*) from ralph.icc_interface_ranking");
+	#my $dbh = DBI->connect('dbi:Pg:dbname=ralph;host=localhost','rwuser','rwuser',{AutoCommit=>1,RaiseError=>1,PrintError=>0});
+    my $dbh = DBI->connect("dbi:SQLite:dbname=/root/www/ralphweb/db/icc/ICC_interfaces.db","","");
+	my $allcnt = $dbh->do("select count(*) from interfaceranking");
 	chomp($allcnt);
 	
 	my $ix = params->{ix};
-	my $sth = $dbh->prepare("select id, ratingcnt, rating from ralph.icc_interface_ranking order by rating DESC Limit 10 OFFSET $ix");
+	my $sth = $dbh->prepare("select id, ratingcnt, rating from interfaceranking order by rating DESC Limit 10 OFFSET $ix");
 	$sth->execute;
 	
 	my $json = '{}';
@@ -106,16 +108,17 @@ get '/icc_interfaces/ranking/:ix' => sub {
 get '/icc_interfaces/result/:winner/:loser' => sub {
 	
 	#damit Dancer als Daemon gestartet werden kann, muss der $dbh Handle in der Sub aufgerufen werden, weil der $dbh beim Fork verloren geht
-	my $dbh = DBI->connect('dbi:Pg:dbname=ralph;host=localhost','rwuser','rwuser',{AutoCommit=>1,RaiseError=>1,PrintError=>0});
+	#my $dbh = DBI->connect('dbi:Pg:dbname=ralph;host=localhost','rwuser','rwuser',{AutoCommit=>1,RaiseError=>1,PrintError=>0});
+    my $dbh = DBI->connect("dbi:SQLite:dbname=/root/www/ralphweb/db/icc/ICC_interfaces.db","","");
 	my $winner = params->{winner};
 	my $loser = params->{loser};
 	
-	my $ratingfirst = $dbh->selectrow_array("select rating from ralph.icc_interface_ranking where id = '$winner';");
-	my $ratingsecond = $dbh->selectrow_array("select rating from ralph.icc_interface_ranking where id = '$loser';");
+	my $ratingfirst = $dbh->selectrow_array("select rating from interfaceranking where id = '$winner';");
+	my $ratingsecond = $dbh->selectrow_array("select rating from interfaceranking where id = '$loser';");
 	chomp($ratingfirst, $ratingsecond);
 
-	my $cntfirst = $dbh->selectrow_array("select ratingcnt from ralph.icc_interface_ranking where id = '$winner';");
-	my $cntsecond = $dbh->selectrow_array("select ratingcnt from ralph.icc_interface_ranking where id = '$loser';");
+	my $cntfirst = $dbh->selectrow_array("select ratingcnt from interfaceranking where id = '$winner';");
+	my $cntsecond = $dbh->selectrow_array("select ratingcnt from interfaceranking where id = '$loser';");
 	chomp($cntfirst, $cntsecond);
 	
 	$cntfirst++;
@@ -127,8 +130,8 @@ get '/icc_interfaces/result/:winner/:loser' => sub {
 	my $newelo1 = ceil($new_elo[1]);
 	
 	
-	$dbh->do("UPDATE ralph.icc_interface_ranking set rating = '$newelo0', ratingcnt = '$cntfirst' where id = '$winner';");
-	$dbh->do("UPDATE ralph.icc_interface_ranking set rating = '$newelo1', ratingcnt = '$cntsecond' where id = '$loser';");
+	$dbh->do("UPDATE interfaceranking set rating = '$newelo0', ratingcnt = '$cntfirst' where id = '$winner';");
+	$dbh->do("UPDATE interfaceranking set rating = '$newelo1', ratingcnt = '$cntsecond' where id = '$loser';");
 	$dbh->disconnect;
 	
 	redirect '/icc_interfaces/compare';
