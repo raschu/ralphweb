@@ -1,0 +1,24 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2020.02.04"]
+[Round "-"]
+[White "heronness (WIM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White forfeits on time"]
+[WhiteElo "1457"]
+[BlackElo "1588"]
+[Opening "Caro-Kann: two knights variation"]
+[ECO "B11"]
+[NIC "CK.01"]
+[Time "16:14:29"]
+[TimeControl "300+0"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. d4 Bd6 7. Bd3
+O-O 8. Be3 Bg4 9. Qd2 Qc7 10. h3 Bxf3 11. gxf3 Re8 12. O-O-O Na6 13. c3 c5
+14. d5 c4 15. Bc2 Bc5 16. h4 Bxe3 17. fxe3 Nc5 18. h5 h6 19. Rhg1 Qe5 20. e4
+Nd3+ 21. Bxd3 cxd3 22. Qxd3 a6 23. Rh1 b5 24. Rdg1 Rac8 25. Rg2 b4 26. c4 a5
+27. Rc2 a4 28. c5 a3 29. Rhh2 Rxc5 30. bxa3 Qa1+ 31. Kd2 Rxc2+ 32. Qxc2 bxa3
+33. Kd3 Qf1+ 34. Qe2 Qc1 35. Qc2 Qf1+ 36. Qe2 Qxe2+ 37. Rxe2 Rb8 38. Kc3 Kf8
+39. Rd2 Ke7 40. f4 Kd6 41. e5+ fxe5 42. fxe5+ Kxe5 43. d6 Ke6 44. d7 Ke7
+{White forfeits on time} 0-1

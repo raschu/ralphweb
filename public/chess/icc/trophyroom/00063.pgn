@@ -1,0 +1,21 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2017.11.24"]
+[Round "-"]
+[White "heramb (WIM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White forfeits on time"]
+[WhiteElo "1625"]
+[BlackElo "1570"]
+[Opening "Alekhine's defense"]
+[ECO "B02"]
+[NIC "AL.10"]
+[Time "07:05:19"]
+[TimeControl "60+0"]
+
+1. e4 Nf6 2. Nc3 Ng8 3. d4 d6 4. Nf3 g6 5. Bc4 Bg7 6. Ng5 e6 7. f4 h6 8. Nf3
+Nc6 9. Be3 Nge7 10. O-O O-O 11. a3 d5 12. Bd3 dxe4 13. Nxe4 Bxd4 14. Nxd4
+Nxd4 15. Qe1 Ndf5 16. Bd2 b6 17. Bc3 Bb7 18. g4 Bxe4 19. Bxe4 Nd6 20. Bxa8
+Qxa8 21. g5 hxg5 22. fxg5 Ndf5 23. Qe5 f6 24. Qxe6+ Kg7 25. gxf6+ Rxf6 26.
+Qxf6+ Kh6 {White forfeits on time} 0-1

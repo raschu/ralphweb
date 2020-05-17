@@ -1,0 +1,21 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2016.11.10"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "Cleo (WIM)"]
+[Result "1-0"]
+[ICCResult "Black resigns"]
+[WhiteElo "1428"]
+[BlackElo "1478"]
+[Opening "QGD Slav: Slav gambit"]
+[ECO "D15"]
+[NIC "SL.03"]
+[Time "04:51:55"]
+[TimeControl "300+0"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. e4 b5 6. a4 c5 7. e5 cxd4 8.
+Qxd4 Qxd4 9. Nxd4 b4 10. exf6 bxc3 11. bxc3 exf6 12. Bxc4 Bc5 13. Be3 O-O
+14. O-O Bb7 15. Rab1 Be4 16. Rb5 Bxd4 17. cxd4 Nc6 18. f3 a6 19. Rb2 Bf5 20.
+d5 Ne5 21. Be2 Rfd8 22. f4 Ng4 23. Bxg4 Bxg4 24. h3 Be2 25. Rxe2 Rxd5 26.
+Rfe1 Ra5 27. Bb6 {Black resigns} 1-0

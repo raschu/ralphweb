@@ -1,0 +1,24 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2019.03.23"]
+[Round "-"]
+[White "ayman-ali (IM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White checkmated"]
+[WhiteElo "1794"]
+[BlackElo "1760"]
+[Opening "Benoni defense"]
+[ECO "A56"]
+[NIC "OI.06"]
+[Time "03:54:59"]
+[TimeControl "60+0"]
+
+1. d4 Nf6 2. c4 c5 3. Nc3 cxd4 4. Qxd4 Nc6 5. Qd1 g6 6. Nf3 Bg7 7. g3 O-O 8.
+Bg2 d6 9. O-O Be6 10. h4 Qd7 11. b3 Ng4 12. Bb2 Nge5 13. Nxe5 Nxe5 14. Nd5
+Bxd5 15. Bxd5 e6 16. Bg2 Nc6 17. Bxg7 Kxg7 18. Qd2 Rad8 19. Rfd1 Ne5 20. Qc3
+f6 21. Rd2 Qe7 22. Rad1 Rd7 23. Qb4 Rfd8 24. Kh2 Nc6 25. Bxc6 bxc6 26. e4 c5
+27. Qa5 Rb7 28. Kg2 Rb6 29. f3 Rc6 30. Qb5 Rdc8 31. Qa5 R8c7 32. Qc3 e5 33.
+g4 h5 34. Qe3 hxg4 35. fxg4 Qe6 36. Rf2 Qxg4+ 37. Qg3 Qxg3+ 38. Kxg3 Rf7 39.
+Rdf1 a5 40. Kg4 a4 41. Rf3 Ra6 42. h5 axb3 43. axb3 Ra2 44. hxg6 Rg2+ 45.
+Kh3 Rxg6 46. Rg3 Rxg3+ 47. Kxg3 Kf8 48. Kf3 Ke7 49. Kg4 Rg7+ 50. Kf5 Rg5# {White checkmated} 0-1

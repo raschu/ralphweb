@@ -1,0 +1,25 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2017.08.18"]
+[Round "-"]
+[White "giovana64 (WIM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White forfeits on time"]
+[WhiteElo "1670"]
+[BlackElo "1619"]
+[Opening "Sicilian: Nimzovich-Rossolimo attack (with ...g6, without ...d6)"]
+[ECO "B31"]
+[NIC "SI.31"]
+[Time "14:31:58"]
+[TimeControl "300+0"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. c3 Nf6 6. e5 Nd5 7. d4 Nc7 8.
+Bxc6 dxc6 9. Bg5 Bg4 10. Nbd2 O-O 11. h3 Bxf3 12. Nxf3 Ne6 13. Be3 Qb6 14.
+dxc5 Qxb2 15. Rb1 Qxc3 16. Rxb7 Rfe8 17. Bd4 Qc4 18. Qb3 Qxb3 19. axb3 Nxd4
+20. Nxd4 Bxe5 21. Nxc6 Bf6 22. b4 a6 23. Na5 Reb8 24. Rd1 Bc3 25. Rxb8+ Rxb8
+26. Nc6 Re8 27. Rd7 Kf8 28. Kf1 e6 29. Ke2 Ra8 30. Kd3 Be1 31. Kc4 a5 32. b5
+a4 33. b6 a3 34. b7 Re8 35. b8=Q Rxb8 36. Nxb8 Bxf2 37. Ra7 e5 38. Rxa3 e4
+39. c6 Bb6 40. Nd7+ Ke7 41. Nxb6 Kd6 42. Kb5 Kc7 43. Re3 f5 44. Ra3 g5 45.
+Ra7+ Kd6 46. Rxh7 e3 47. c7 e2 48. c8=Q e1=Q 49. Rd7+ Ke5 50. Qe8+ Kf4 51.
+Qxe1 g4 52. Qf2+ Kg5 53. Rf7 g3 {White forfeits on time} 0-1

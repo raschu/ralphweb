@@ -1,0 +1,20 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2016.12.02"]
+[Round "-"]
+[White "APetelin (IM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White forfeits on time"]
+[WhiteElo "1535"]
+[BlackElo "1490"]
+[Opening "Tennison (Lemberg, Zukertort) gambit"]
+[ECO "B01"]
+[NIC "VO.17"]
+[Time "07:36:54"]
+[TimeControl "60+0"]
+
+1. e4 d5 2. Nf3 dxe4 3. Ng5 Nf6 4. Bc4 e6 5. Nc3 Bb4 6. Ngxe4 Bxc3 7. Nxc3
+Qd4 8. d3 O-O 9. O-O b6 10. Nb5 Qh4 11. Qf3 c6 12. Nc7 Bb7 13. Nxa8 Bxa8 14.
+Bf4 Nbd7 15. Rfe1 c5 16. Qg3 Qh5 17. h3 Nd5 18. Bd6 Re8 19. Bb5 Rd8 20. Bc7
+Nxc7 21. Qxc7 Qg5 {White forfeits on time} 0-1

@@ -1,0 +1,23 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2017.04.22"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "lollipop (WFM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1429"]
+[BlackElo "1257"]
+[Opening "English: Caro-Kann defensive system"]
+[ECO "A11"]
+[NIC "EO.64"]
+[Time "02:50:39"]
+[TimeControl "60+0"]
+
+1. c4 c6 2. Nc3 d5 3. cxd5 cxd5 4. d4 e5 5. dxe5 Be6 6. g3 d4 7. Ne4 Nc6 8.
+Bg2 Qb6 9. Qc2 f5 10. exf6 Nxf6 11. Nxf6+ gxf6 12. Bxc6+ bxc6 13. Nf3 Bd5
+14. O-O Bd6 15. a3 O-O 16. b4 Rac8 17. Bb2 f5 18. Bxd4 Qc7 19. Bc5 f4 20.
+Nd4 fxg3 21. hxg3 Bxc5 22. Qxc5 Qg7 23. Nf3 Bxf3 24. exf3 Rxf3 25. Qc4+ Qf7
+26. Qxf7+ Rxf7 27. Rac1 Rf6 28. Rc3 Rcf8 29. Kg2 a5 30. bxa5 Rf5 31. a6 Ra5
+32. Rxc6 Rxa3 33. Rb1 Ra8 34. Rbb6 h6 35. Rxh6 Kg7 36. Rhg6+ Kf7 37. Rgc6
+Ke7 38. Rb7+ Kd8 39. a7 {Black forfeits on time} 1-0

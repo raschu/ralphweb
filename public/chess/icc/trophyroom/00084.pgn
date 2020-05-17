@@ -1,0 +1,27 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2019.10.27"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "ANplay (FM)"]
+[Result "1/2-1/2"]
+[ICCResult "Game drawn because neither player has mating material"]
+[WhiteElo "1709"]
+[BlackElo "1834"]
+[Opening "Queen's pawn game"]
+[ECO "D05"]
+[NIC "QP.08"]
+[Time "06:24:09"]
+[TimeControl "300+0"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 e6 4. Nbd2 Be7 5. Bd3 O-O 6. O-O b6 7. e4 dxe4 8.
+Nxe4 Bb7 9. Re1 Nbd7 10. Bg5 Nxe4 11. Bxe7 Qxe7 12. Bxe4 Bxe4 13. Rxe4 Nf6
+14. Re2 Rfd8 15. c3 c5 16. Ne5 Qc7 17. Rd2 cxd4 18. cxd4 Rac8 19. Nf3 h6 20.
+Qb3 Qc4 21. Qxc4 Rxc4 22. Rad1 Kf8 23. b3 Rc7 24. h3 Nd5 25. Ne5 f6 26. Nc4
+Rcd7 27. Ne3 Kf7 28. Rc1 Nf4 29. Rc4 b5 30. Rb4 a6 31. a4 bxa4 32. Rxa4 Rd6
+33. Nc4 Rc6 34. Na5 Rb6 35. g3 Nxh3+ 36. Kg2 Ng5 37. Rd3 f5 38. Rc3 Rd7 39.
+Rc8 Ne4 40. f3 Nd2 41. Nc6 Nxb3 42. Ne5+ Ke7 43. Nxd7 Kxd7 44. Ra8 a5 45.
+Ra7+ Kd6 46. Rxg7 Kd5 47. Rd7+ Kc6 48. Rh7 Kd5 49. Rxh6 Nxd4 50. Rxa5+ Kd6
+51. g4 Rb2+ 52. Kg3 Rb3 53. gxf5 Rxf3+ 54. Kg4 Rxf5 55. Rxf5 Nxf5 56. Kf4
+Nd4 57. Ke4 Nc6 58. Rh7 e5 59. Rh6+ Kc5 60. Rxc6+ Kxc6 61. Kxe5
+{Game drawn because neither player has mating material} 1/2-1/2

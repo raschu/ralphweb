@@ -1,0 +1,28 @@
+[Event "ICC 60 60 u"]
+[Site "Internet Chess Club"]
+[Date "2013.01.19"]
+[Round "1"]
+[White "voja (IM)"]
+[Black "PerlHacker"]
+[Result "1/2-1/2"]
+[ICCResult "Game drawn by mutual agreement"]
+[WhiteElo "2411"]
+[BlackElo "1680"]
+[Opening "Caro-Kann defense"]
+[ECO "B10"]
+[NIC "CK.01"]
+[Time "13:07:07"]
+[TimeControl "3600+60"]
+
+1. e4 c6 2. Ne2 d5 3. e5 Bf5 4. Ng3 Bg6 5. h4 h6 6. h5 Bh7 7. e6 fxe6 8. d4
+Qb6 9. Bd3 Nd7 10. f4 O-O-O 11. c3 Ngf6 12. b4 Bf5 13. Nxf5 exf5 14. Bxf5
+Re8 15. Bg6 Rd8 16. a4 e6 17. a5 Qc7 18. O-O Bd6 19. Qd3 Nf8 20. Be3 Nxg6
+21. Qxg6 Qd7 22. Nd2 Rhg8 23. Rf3 Qe8 24. Qxe8 Rdxe8 25. Rh3 Ng4 26. Nf1
+Nxe3 27. Rxe3 Bxf4 28. Rf3 Bg5 29. Re1 Kd7 30. Nh2 Rgf8 31. Rd3 Bf4 32. Nf3
+Rf6 33. Ne5+ Bxe5 34. Rxe5 Rf5 35. Rxf5 exf5 36. Rg3 Re7 37. a6 bxa6 38. Rg6
+Kc7 39. Kf2 Kb6 40. Kf3 Kb5 41. Kf4 Rc7 42. Kxf5 a5 43. bxa5 Kxa5 44. Ke6
+Kb6 45. Kd6 a5 46. Re6 Rf7 47. Re8 Rf6+ 48. Kd7 Kb5 49. Re7 Kc4 50. Rxg7
+Kxc3 51. Rg6 Rf2 52. Rxc6+ Kxd4 53. g4 Rg2 54. Rxh6 Rxg4 55. Ra6 Rh4 56. h6
+Ke3 57. Rxa5 d4 58. Ra6 d3 59. Re6+ Kf2 60. Rf6+ Ke1 61. Re6+ Kd1 62. Ke7 d2
+63. Kf7 Kc2 64. Rc6+ Kd3 65. Rd6+ Rd4 66. Rxd4+ Kxd4 67. h7 d1=Q 68. h8=Q+
+Kd3 {Game drawn by mutual agreement} 1/2-1/2

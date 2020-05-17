@@ -1,0 +1,22 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2017.08.02"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "NatiRibstein (IM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1686"]
+[BlackElo "1599"]
+[Opening "Nimzovich-Larsen attack"]
+[ECO "A01"]
+[NIC "VO.08"]
+[Time "04:24:08"]
+[TimeControl "60+0"]
+
+1. b3 a5 2. Bb2 a4 3. d3 e6 4. Nd2 Nf6 5. e3 c5 6. Ne2 Nc6 7. g3 d5 8. Bg2
+b5 9. O-O a3 10. Bxf6 Qxf6 11. c4 bxc4 12. dxc4 Nb4 13. cxd5 exd5 14. Nf3
+Bd6 15. Nh4 O-O 16. Nf4 Bxf4 17. exf4 Bb7 18. Re1 Rfe8 19. Rxe8+ Rxe8 20.
+Bf3 Nc2 21. Rc1 Re1+ 22. Qxe1 Nxe1 23. Rxe1 g6 24. Re5 Kg7 25. Bxd5 Bxd5 26.
+Rxd5 Qa1+ 27. Kg2 Qxa2 28. f5 Qxb3 29. Rxc5 a2 30. fxg6 a1=Q 31. gxh7 Qb7+
+32. Nf3 Qa3 33. Rf5 Qe4 34. Rf4 f5 35. Rxe4 {Black forfeits on time} 1-0

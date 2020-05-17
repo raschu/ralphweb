@@ -1,0 +1,25 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2015.05.22"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "JaqueMateus1"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1687"]
+[BlackElo "1790"]
+[Opening "English: symmetrical, Benoni formation"]
+[ECO "A31"]
+[NIC "EO.46"]
+[Time "09:34:42"]
+[TimeControl "60+0"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 e5 5. Nf3 Nc6 6. e3 d5 7. cxd5 Qxd5
+8. Qxd5 Nxd5 9. Be2 Bb4+ 10. Bd2 Bxd2+ 11. Nbxd2 O-O 12. O-O Bf5 13. e4 Nf4
+14. exf5 Nxe2+ 15. Kh1 Ned4 16. Nxd4 Nxd4 17. Rad1 f6 18. g4 Rfd8 19. Nc4 b5
+20. Ne3 Rac8 21. h3 a5 22. Rd2 h5 23. Kg2 b4 24. b3 hxg4 25. hxg4 Rc3 26.
+Rfd1 Rdc8 27. Nc4 a4 28. Nb6 axb3 29. Na4 Rc2 30. axb3 Rxd2 31. Rxd2 Nxb3
+32. Rd7 Ra8 33. Nb6 Nd4 34. Nd5 b3 35. Ne7+ Kh7 36. Rb7 Re8 37. Ng6 Rg8 38.
+Rb4 b2 39. Rxb2 e4 40. Rb7 Nf3 41. Kg3 Ng5 42. Kf4 Nh3+ 43. Kxe4 Nxf2+ 44.
+Kf4 Nh3+ 45. Kg3 Ng5 46. Rf7 Ne4+ 47. Kf4 Nd6 48. Nf8+ {Black forfeits on
+time} 1-0

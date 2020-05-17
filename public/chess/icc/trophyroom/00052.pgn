@@ -1,0 +1,24 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2017.03.26"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "reb (NM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1607"]
+[BlackElo "1657"]
+[Opening "English opening"]
+[ECO "A16"]
+[NIC "EO.64"]
+[Time "02:05:38"]
+[TimeControl "300+0"]
+
+1. c4 Nf6 2. Nc3 g6 3. g3 d6 4. Bg2 Bg7 5. d3 O-O 6. e4 c5 7. Nge2 Nc6 8.
+O-O Bg4 9. h3 Bxe2 10. Qxe2 Nd4 11. Qd2 Rb8 12. Ne2 Nxe2+ 13. Qxe2 a6 14. a3
+b5 15. cxb5 axb5 16. Bd2 b4 17. axb4 cxb4 18. b3 Ne8 19. Ra4 Bc3 20. Rc1 Rc8
+21. Bxc3 bxc3 22. Rc4 Rxc4 23. bxc4 Qa5 24. Qc2 Nc7 25. Qxc3 Qxc3 26. Rxc3
+Ne6 27. f4 Nd4 28. Kf2 Rb8 29. c5 dxc5 30. Rxc5 Rb2+ 31. Ke3 Rxg2 32. Kxd4
+Rxg3 33. Rc8+ Kg7 34. Rc7 e6 35. Ke5 Rxd3 36. f5 exf5 37. exf5 gxf5 38. Kxf5
+Rxh3 39. Kg4 Rh6 40. Rc8 Rg6+ 41. Kf5 h5 42. Rc4 Ra6 43. Rh4 Kh6 44. Rh1 Ra4
+45. Kf6 {Black forfeits on time} 1-0

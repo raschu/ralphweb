@@ -1,0 +1,23 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2019.11.10"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "lollipop (WFM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1507"]
+[BlackElo "1409"]
+[Opening "Queen's pawn game, Krause variation"]
+[ECO "D02"]
+[NIC "QP.08"]
+[Time "03:24:54"]
+[TimeControl "60+0"]
+
+1. d4 d5 2. Nf3 c5 3. e3 cxd4 4. exd4 Nc6 5. c3 Nf6 6. Bd3 e6 7. O-O Bd6 8.
+Nbd2 Qc7 9. Re1 Bd7 10. Nf1 O-O-O 11. Ng3 h5 12. Bg5 h4 13. Bxf6 hxg3 14.
+fxg3 gxf6 15. Qc2 Rdg8 16. Re2 Bxg3 17. hxg3 Qxg3 18. Rf1 Ne7 19. Qd2 Ng6
+20. Qe3 Nf4 21. Qf2 Nxe2+ 22. Bxe2 Qg6 23. Nh2 Rh5 24. Qxf6 Rg5 25. Qxg6
+R8xg6 26. g4 f5 27. Kh1 fxg4 28. Bxg4 e5 29. Bxd7+ Kxd7 30. Rf7+ Ke6 31. Rf1
+exd4 32. cxd4 Kd6 33. Re1 Rg2 34. Nf3 Rxb2 35. Ne5 Rh6+ 36. Kg1 Rxa2 37. Kf1
+{Black forfeits on time} 1-0

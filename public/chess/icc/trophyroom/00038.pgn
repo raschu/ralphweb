@@ -1,0 +1,25 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2016.01.02"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "lollipop (WFM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1408"]
+[BlackElo "1304"]
+[Opening "RÈti: King's Indian attack (Barcza system)"]
+[ECO "A07"]
+[NIC "QP.09"]
+[Time "03:42:16"]
+[TimeControl "60+0"]
+
+1. Nf3 d5 2. g3 d4 3. Bg2 e5 4. d3 f6 5. O-O c5 6. Nbd2 Nc6 7. Re1 Bd7 8. e4
+Qc8 9. b3 Bh3 10. Ba3 Bxg2 11. Kxg2 h5 12. h3 h4 13. g4 Nh6 14. Nc4 Nf7 15.
+Qd2 Ng5 16. Nxg5 fxg5 17. Qxg5 Be7 18. Qxg7 Rf8 19. Nxe5 Nxe5 20. Qxe5 Qd7
+21. Bxc5 O-O-O 22. Qxe7 Qc6 23. b4 Rfe8 24. Qf7 b6 25. Qf5+ Qe6 26. Qxe6+
+Rxe6 27. c3 bxc5 28. cxd4 cxd4 29. Rec1+ Kb7 30. Rc4 Rc6 31. Rac1 Rxc4 32.
+Rxc4 Rd6 33. f4 Rc6 34. Rxc6 Kxc6 35. g5 Kb5 36. g6 Kxb4 37. g7 Kc3 38. g8=Q
+Kxd3 39. Qd5 Ke3 40. e5 d3 41. e6 d2 42. e7 Ke2 43. e8=Q+ Kd1 44. Qed7 Kc1
+45. Qxd2+ Kb1 46. Qc6 a5 47. Qd1+ Kxa2 48. Qd2+ Kb3 49. Qcc3+ Ka4 50. Qdd4+
+Kb5 51. Qcc5+ {Black forfeits on time} 1-0

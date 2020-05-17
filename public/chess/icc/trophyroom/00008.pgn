@@ -1,0 +1,21 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2013.04.17"]
+[Round "-"]
+[White "PerlHacker"]
+[Black "Irus97 (IM)"]
+[Result "1-0"]
+[ICCResult "Black resigns"]
+[WhiteElo "1448"]
+[BlackElo "1483"]
+[Opening "QGD: semi-Slav"]
+[ECO "D10"]
+[NIC "SL.06"]
+[Time "00:46:39"]
+[TimeControl "300+0"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. Qc2 Nf6 5. Nf3 Be7 6. Bg5 Nbd7 7. e3 dxc4 8.
+Bxc4 b5 9. Bd3 Bb7 10. O-O a6 11. Rfe1 Rc8 12. Rad1 O-O 13. Nd2 Nd5 14.
+Bxh7+ Kh8 15. Bxe7 Qxe7 16. Be4 Nxc3 17. bxc3 Nf6 18. f4 Nxe4 19. Nxe4 f5
+20. Ng5 Qd6 21. Qe2 Rf6 22. Qh5+ Rh6 23. Qxh6+ gxh6 24. Nf7+ Kh7 25. Nxd6
+Rc7 26. Nxb7 Rxb7 27. e4 {Black resigns} 1-0

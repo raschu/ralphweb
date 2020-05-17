@@ -1,0 +1,22 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2017.12.02"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "A-1 (FM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1606"]
+[BlackElo "1603"]
+[Opening "Queen's pawn game"]
+[ECO "A45"]
+[NIC "QP.07"]
+[Time "12:42:24"]
+[TimeControl "60+0"]
+
+1. d4 Nf6 2. h4 c5 3. d5 b5 4. Bf4 Bb7 5. e3 Nxd5 6. Bg3 a6 7. Nf3 e6 8. c4
+bxc4 9. Bxc4 Nb6 10. Bb3 d5 11. O-O Nc6 12. a4 Be7 13. Ne5 Nxe5 14. Bxe5 O-O
+15. Qg4 Bf6 16. Bxf6 Qxf6 17. Nc3 a5 18. Bc2 Ba6 19. Qh5 g6 20. Qf3 Qxf3 21.
+gxf3 Bxf1 22. Rxf1 Nc4 23. Bd3 Nxb2 24. Be2 c4 25. Nb5 Rab8 26. f4 Nxa4 27.
+Nc7 Nc5 28. Nxe6 fxe6 29. Bg4 a4 30. Rb1 Rxb1+ 31. Kg2 a3 32. Kf3 a2 33.
+Bxe6+ {Black forfeits on time} 1-0

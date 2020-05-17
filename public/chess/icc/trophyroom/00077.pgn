@@ -1,0 +1,25 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2019.07.02"]
+[Round "-"]
+[White "SoftPlay (FM)"]
+[Black "PerlHackr"]
+[Result "1/2-1/2"]
+[ICCResult "White ran out of time and Black has no material to mate"]
+[WhiteElo "1584"]
+[BlackElo "1665"]
+[Opening "Tennison (Lemberg, Zukertort) gambit"]
+[ECO "B01"]
+[NIC "VO.17"]
+[Time "01:10:26"]
+[TimeControl "60+0"]
+
+1. e4 d5 2. Nf3 dxe4 3. Ng5 Nf6 4. Qe2 Bf5 5. Qb5+ Bd7 6. Qxb7 Bc6 7. Bb5
+Bxb5 8. Qxa8 h6 9. Nh3 e6 10. Qxa7 Bd6 11. Nc3 Bc6 12. O-O O-O 13. Qe3 Ng4
+14. Qe2 Nxh2 15. Re1 f5 16. d3 exd3 17. Qxe6+ Kh8 18. cxd3 Ng4 19. Bf4 Bxf4
+20. Nxf4 Qd6 21. Ng6+ Kh7 22. Nxf8+ Qxf8 23. Ne2 f4 24. Nd4 f3 25. Qf5+ Qxf5
+26. Nxf5 fxg2 27. f3 Nf6 28. Nd4 Nd5 29. Nxc6 Nxc6 30. Kxg2 Nd4 31. Re5 Nf4+
+32. Kg3 Nde6 33. Rxe6 Nxe6 34. d4 Nxd4 35. Rc1 Nc2 36. Rxc2 Kg6 37. Rxc7 h5
+38. Rc6+ Kg5 39. Rc4 h4+ 40. Kh3 Kg6 41. f4 Kh7 42. f5 Kg8 43. Kxh4 Kf7 44.
+Kg5 g6 45. Rc7+ Ke8 46. Rc6 Kd7 47. Kxg6 Kxc6 48. f6 Kd5 49. f7 Kd4 50. f8=Q
+Kd3 51. Qb4 Kc2 {White ran out of time and Black has no material to mate} 1/2-1/2

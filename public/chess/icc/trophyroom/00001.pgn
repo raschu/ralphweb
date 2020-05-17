@@ -1,0 +1,20 @@
+[Event "ICC 35 35 u"]
+[Site "Internet Chess Club"]
+[Date "2002.09.08"]
+[Round "-"]
+[White "Schroer (IM)"]
+[Black "mp3"]
+[Result "0-1"]
+[ICCResult "White resigns"]
+[WhiteElo "2708"]
+[BlackElo "1700"]
+[Opening "Sicilian: Najdorf, 6.Bg5"]
+[ECO "B94"]
+[NIC "SI.04"]
+[Time "11:19:55"]
+[TimeControl "2100+35"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nc6 7. Qd2 Qb6 8.
+O-O-O Ng4 9. Bh4 g6 10. f3 Bh6 11. Bg5 Bxg5 12. Qxg5 Nf2 13. Nd5 Qd8 14. Bc4
+Nxh1 15. Nb3 Nf2 16. Rf1 Nxe4 17. fxe4 Ne5 18. Be2 Be6 19. Nd4 Bxd5 20. exd5
+Qa5 21. Kb1 Qxd5 22. c3 Qe4+ 23. Ka1 h6 24. Bd1 hxg5 {White resigns} 0-1

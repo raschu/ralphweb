@@ -1,0 +1,30 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2017.06.18"]
+[Round "-"]
+[White "EdwinS (FM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White checkmated"]
+[WhiteElo "1741"]
+[BlackElo "1636"]
+[Opening "Nimzo-Indian: Kmoch variation"]
+[ECO "E20"]
+[NIC "NI.30"]
+[Time "01:49:03"]
+[TimeControl "300+0"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 O-O 5. a3 Bxc3+ 6. bxc3 d6 7. e4 Nc6 8.
+Bd3 e5 9. Bg5 h6 10. Bh4 exd4 11. cxd4 Nxd4 12. Ne2 Ne6 13. O-O Nc5 14. Bc2
+g5 15. Bf2 b6 16. Nd4 Bb7 17. Nf5 Kh7 18. e5 dxe5 19. Nd6+ Kg8 20. Bxc5 cxd6
+21. Bxd6 Re8 22. Qd3 e4 23. fxe4 Bxe4 24. Qc3 Qxd6 25. Rxf6 Qc5+ 26. Kh1
+Bxc2 27. Qxc2 Qe5 28. Rff1 Rac8 29. Qf2 f5 30. Rae1 Qc5 31. Rxe8+ Rxe8 32.
+h4 Qxf2 33. Rxf2 f4 34. hxg5 hxg5 35. Rd2 Re7 36. Rd5 Rg7 37. Kg1 Kf8 38.
+Kf2 Ke8 39. Kf3 Rc7 40. Rd4 Rc5 41. Kg4 Ke7 42. a4 Ke6 43. Re4+ Kd6 44. Rd4+
+Ke5 45. Rd7 a5 46. Kxg5 Ke4+ 47. Kg4 Rxc4 48. Re7+ Kd3 49. Kf3 Rxa4 50. Re6
+b5 51. Rd6+ Kc4 52. Kxf4 Kc5+ 53. Ke5 Rg4 54. Rd5+ Kc4 55. Rd8 Rxg2 56. Rc8+
+Kb4 57. Kd4 Rg4+ 58. Kd3 Rc4 59. Rb8 Rc1 60. Kd2 Rc6 61. Kd3 a4 62. Kd2 a3
+63. Ra8 Kb3 64. Rh8 a2 65. Rh3+ Kb2 66. Rh2 a1=Q 67. Kd3+ Kb1 68. Rh1+ Kb2
+69. Rxa1 Kxa1 70. Kd4 Rc8 71. Kd5 b4 72. Kd6 b3 73. Kd7 Rc2 74. Kd6 b2 75.
+Kd5 b1=Q 76. Ke4 Qb4+ 77. Kd3 Rc3+ 78. Kd2 Qb2+ 79. Kd1 Rc1# {White
+checkmated} 0-1

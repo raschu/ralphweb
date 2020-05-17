@@ -1,0 +1,25 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2019.08.26"]
+[Round "-"]
+[White "pugak (IM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White forfeits on time"]
+[WhiteElo "2075"]
+[BlackElo "1727"]
+[Opening "French: Steinitz, Boleslavsky variation"]
+[ECO "C11"]
+[NIC "FR.04"]
+[Time "01:03:46"]
+[TimeControl "60+0"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Qb6 8.
+Na4 Qa5+ 9. c3 cxd4 10. b4 Qc7 11. Nxd4 Nxd4 12. Bxd4 Be7 13. Bd3 Nb6 14.
+Nxb6 axb6 15. Qh5 g6 16. Qh6 Bf8 17. Qh4 Bg7 18. Qf2 O-O 19. Bxb6 Qxc3+ 20.
+Ke2 Qb2+ 21. Ke3 Qxf2+ 22. Kxf2 Bd7 23. Rhc1 f6 24. exf6 Bxf6 25. Ke3 Bxa1
+26. Rxa1 Ra3 27. Ke2 Rfa8 28. Bd4 Rxa2+ 29. Rxa2 Rxa2+ 30. Kf3 Ra3 31. Ke2
+Ra2+ 32. Kf3 Ra3 33. Ke2 b5 34. h4 Ra2+ 35. Kf3 Ra4 36. Ke2 Rxb4 37. Be3 Rb3
+38. Bd2 Rb2 39. Ke3 Rb3 40. g4 b4 41. Kd4 Bb5 42. Bxb5 Rb2 43. Bd7 Rxd2+ 44.
+Ke5 Re2+ 45. Kf6 Rf2 46. Bxe6+ Kf8 47. Kg5 Ke8 48. Bxd5 Ke7 49. Bg8 Kd6 50.
+Bxh7 Kc5 51. Bxg6 b3 52. h5 Kb4 {White forfeits on time} 0-1

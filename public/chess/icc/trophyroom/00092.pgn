@@ -1,0 +1,22 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2020.05.06"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "toothfairy (IM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1632"]
+[BlackElo "1681"]
+[Opening "QGD Slav: 4.Nc3"]
+[ECO "D15"]
+[NIC "SL.03"]
+[Time "00:42:43"]
+[TimeControl "300+0"]
+
+1. d4 d5 2. Nf3 c6 3. c4 Nf6 4. Nc3 Bg4 5. Qb3 Qb6 6. c5 Qxb3 7. axb3 Nbd7
+8. b4 e6 9. b5 Be7 10. bxc6 bxc6 11. b4 O-O 12. b5 cxb5 13. Nxb5 a5 14. Ra4
+Bxf3 15. gxf3 Nb8 16. Bd2 Nc6 17. e3 Rfb8 18. Bd3 Bd8 19. O-O Kf8 20. Rfa1
+Ke7 21. Nd6 g6 22. Bb5 Na7 23. Bd3 Nc6 24. e4 Kd7 25. e5 Ne8 26. Nxf7 Bc7
+27. Nd6 Rb3 28. Bb5 Bxd6 29. Bxc6+ Kxc6 30. cxd6 Rb5 31. Rxa5 Raxa5 32. Rxa5
+Rxa5 33. Bxa5 Ng7 34. Kg2 Nf5 35. Bc3 {Black forfeits on time} 1-0

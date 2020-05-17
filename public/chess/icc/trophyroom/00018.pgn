@@ -1,0 +1,29 @@
+[Event "ICC 3 0"]
+[Site "Internet Chess Club"]
+[Date "2015.04.05"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "EduardoLimp (IM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1457"]
+[BlackElo "1573"]
+[Opening "English: symmetrical, Botvinnik system"]
+[ECO "A36"]
+[NIC "EO.30"]
+[Time "00:49:48"]
+[TimeControl "180+0"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e4 d6 6. d3 e6 7. Nge2 Nge7 8.
+O-O O-O 9. f4 Rb8 10. a4 a6 11. Qc2 Nd4 12. Nxd4 Bxd4+ 13. Kh1 Nc6 14. Ne2
+Bg7 15. Bd2 b5 16. axb5 axb5 17. Bc3 bxc4 18. dxc4 Bxc3 19. Qxc3 Qb6 20.
+Rfb1 Qb4 21. e5 Bb7 22. exd6 Rfd8 23. Qxb4 Nxb4 24. Bxb7 Rxb7 25. Rd1 Nc2
+26. Ra6 Rxb2 27. d7 Ne3 28. Re1 Nxc4 29. Rc6 Nd2 30. Rc8 Rb8 31. Rxc5 Rxd7
+32. Rd1 Rbd8 33. Rc2 Nf3 34. Rxd7 Rxd7 35. Rc8+ Kg7 36. Kg2 Ne1+ 37. Kf2
+Nd3+ 38. Kf3 e5 39. fxe5 Nxe5+ 40. Kf4 Nd3+ 41. Kf3 Re7 42. Nf4 Ne5+ 43. Kg2
+g5 44. Nh5+ Kg6 45. g4 Nxg4 46. Ng3 Ne3+ 47. Kh3 h6 48. Rc6+ f6 49. Rb6 Nf5
+50. Nxf5 Kxf5 51. Rb5+ Kg6 52. Kg4 Re4+ 53. Kg3 Ra4 54. Rb7 h5 55. Kg2 h4
+56. Kh3 Ra3+ 57. Kg2 g4 58. Rb4 f5 59. Rb6+ Kg5 60. Rb8 Ra2+ 61. Kg1 h3 62.
+Rg8+ Kf4 63. Kf1 Kf3 64. Ke1 Rxh2 65. Rf8 Rh1+ 66. Kd2 f4 67. Kd3 g3 68. Kd4
+h2 69. Ke5 Re1+ 70. Kf5 h1=Q 71. Kg5 Qh3 72. Rxf4+ {Black forfeits on time}
+1-0

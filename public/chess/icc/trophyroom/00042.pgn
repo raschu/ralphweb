@@ -1,0 +1,17 @@
+[Event "ICC 45 30 u"]
+[Site "http://chessclub.com"]
+[Date "2016.04.10"]
+[White "Mrserious (IM) (2241)"]
+[Black "PerlHackr"]
+[Result "1/2-1/2"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "74"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "B14"]
+[Opening "Caro-Kann Defense: Panov Attack, Fianchetto Defense"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 g6 { B14 Caro-Kann Defense: Panov Attack, Fianchetto Defense } 6. Bg5 Bg7 7. Bxf6 Bxf6 8. cxd5 Nd7 9. Bb5 O-O 10. Nf3 Nb6 11. Qb3 Qd6 12. h3 Rd8 13. Ne4?! { (0.11 → -0.60) Inaccuracy. Best move was O-O. } (13. O-O Bf5 14. g4 Bc8 15. Rfe1 Qf4 16. Ne5 Qxd4 17. Rad1 Qf4 18. Re4 Qh6 19. Na4 Nxa4) 13... Qxd5 14. Nxf6+ exf6 15. O-O Be6 16. Qxd5 Bxd5 17. Nd2 Rac8 18. Rfc1 Rxc1+ 19. Rxc1 Bxa2 20. Ra1 Rxd4 21. Rxa2 Rxd2 22. Rxa7 Rxb2 23. Bd3 Nd5?! { (-1.50 → -0.65) Inaccuracy. Best move was Nd7. } (23... Nd7 24. Bc4 Nc5 25. f3 Kf8 26. g4 Ke7 27. Kf1 Rc2 28. Bd5 Rd2 29. Bc4 Rd4 30. Ba2) 24. Be4 Nc3 25. Rxb7 Rxb7 26. Bxb7 f5 27. g3 Kg7 28. h4 Kf6 29. Kg2 Ne4 30. Bd5 h5 31. f4 Ke7 32. Kf3 Nf6 33. Ba2 Ng4 34. Bb3 Nf6 35. Ba2 Ng4 36. Bb3 Nf6 37. Ba2 Ng4?! { Draw (-0.62 → 0.00) Inaccuracy. Best move was Ne4. } (37... Ne4 38. Bd5 Nc5 39. Ke3 Ne6 40. Bc4 Kd7 41. Kd3 Kd6 42. Kc3 Kc6 43. Bb3 Kc5 44. Bc4) 1/2-1/2

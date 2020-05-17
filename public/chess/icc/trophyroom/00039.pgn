@@ -1,0 +1,23 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2016.01.09"]
+[Round "-"]
+[White "deEbeck (FM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White resigns"]
+[WhiteElo "1852"]
+[BlackElo "1763"]
+[Opening "Scandinavian: Pytel-Wade variation"]
+[ECO "B01"]
+[NIC "SD.02"]
+[Time "05:39:32"]
+[TimeControl "300+0"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Nf3 Nf6 5. Bc4 a6 6. d4 Bg4 7. Qd3 e6 8.
+Ne5 Bf5 9. Qd1 Nc6 10. Bf4 Nxe5 11. Bxe5 Qb4 12. Bb3 Be7 13. Qf3 O-O 14. O-O
+Bg6 15. h3 Rac8 16. Rfe1 c5 17. a3 Qb6 18. dxc5 Rxc5 19. Na4 Qc6 20. Nxc5
+Qxc5 21. Rad1 Bh5 22. g4 Bg6 23. Qe3 Qc6 24. Rd2 Ne4 25. Rd3 Bc5 26. Bd4 Bd6
+27. c3 Nxf2 28. Kxf2 Bxd3 29. Qxd3 Rd8 30. Bc2 g6 31. Qe4 Qc7 32. b4 Bg3+
+33. Kg2 Bxe1 34. Qxe1 Rxd4 35. cxd4 Qxc2+ 36. Qf2 Qxf2+ 37. Kxf2 Kf8 38. Ke3
+Ke7 39. Ke4 f6 40. h4 Kd6 41. g5 f5+ 42. Kd3 Kd5 {White resigns} 0-1

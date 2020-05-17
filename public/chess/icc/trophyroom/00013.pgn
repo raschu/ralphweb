@@ -1,0 +1,21 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2013.11.25"]
+[Round "-"]
+[White "giovana64 (WIM)"]
+[Black "PerlHacker"]
+[Result "0-1"]
+[ICCResult "White resigns"]
+[WhiteElo "1425"]
+[BlackElo "1486"]
+[Opening "Queen's pawn"]
+[ECO "A40"]
+[NIC "QO.17"]
+[Time "00:58:29"]
+[TimeControl "300+0"]
+
+1. d4 c6 2. c4 d6 3. Nc3 Qc7 4. e4 Nf6 5. Be2 e5 6. Be3 Be7 7. g4 h6 8. h4
+Na6 9. f3 Bd7 10. Qd2 O-O-O 11. O-O-O Qa5 12. Nh3 Nb4 13. Kb1 c5 14. d5 Ba4
+15. b3 Bd7 16. Nf2 Qc7 17. g5 hxg5 18. hxg5 Nh5 19. f4 Ng3 20. Bg4 Bxg4 21.
+Rxh8 Bxd1 22. Rxd8+ Qxd8 23. Nfxd1 Qh8 24. Qg2 Qh4 25. Bf2 exf4 26. Ne2 Bxg5
+27. Nxg3 fxg3 28. Bxg3 Qg4 29. Qg1 Bf4 {White resigns} 0-1

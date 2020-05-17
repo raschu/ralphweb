@@ -1,0 +1,19 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2019.10.04"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "SoftPlay (FM)"]
+[Result "1-0"]
+[ICCResult "Black resigns"]
+[WhiteElo "1700"]
+[BlackElo "1634"]
+[Opening "King's Indian: East Indian defense"]
+[ECO "A48"]
+[NIC "QP.06"]
+[Time "01:57:35"]
+[TimeControl "60+0"]
+
+1. d4 Nf6 2. Nf3 g6 3. e3 Bg7 4. Bd3 O-O 5. c3 d5 6. Nbd2 Nc6 7. O-O Re8 8.
+e4 e5 9. exd5 Nxd5 10. dxe5 Nf4 11. Bc2 Nxe5 12. Nxe5 Bxe5 13. Qf3 Bd6 14.
+Ne4 Qh4 15. Bxf4 Bxf4 16. g3 {Black resigns} 1-0

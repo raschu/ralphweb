@@ -1,0 +1,22 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2017.07.23"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "A-1 (FM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1651"]
+[BlackElo "1477"]
+[Opening "King's Indian: East Indian defense"]
+[ECO "A48"]
+[NIC "QP.06"]
+[Time "06:12:27"]
+[TimeControl "60+0"]
+
+1. d4 Nf6 2. Nf3 g6 3. e3 Bg7 4. Bd3 c5 5. O-O O-O 6. c3 b6 7. Nbd2 Nc6 8.
+Re1 Qc7 9. Nf1 d5 10. dxc5 bxc5 11. e4 dxe4 12. Bxe4 Nxe4 13. Rxe4 Bf5 14.
+Re1 Rfd8 15. Qe2 Bd3 16. Qe3 c4 17. N1d2 Rab8 18. Ne4 Qb6 19. Qxb6 axb6 20.
+Neg5 h6 21. Nh3 e5 22. Be3 f5 23. g3 g5 24. Nhxg5 hxg5 25. Nxg5 e4 26. Ne6
+Rd7 27. Nxg7 Kxg7 28. Bf4 Rbd8 29. Rad1 Kf6 30. h4 Ne5 31. Bg5+ Ke6 32. Bxd8
+Nf3+ 33. Kg2 Nxe1+ 34. Rxe1 {Black forfeits on time} 1-0

@@ -1,0 +1,22 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2015.06.24"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "pupo (IM)"]
+[Result "1-0"]
+[ICCResult "Black disconnected and forfeits"]
+[WhiteElo "1528"]
+[BlackElo "1685"]
+[Opening "King's Indian: fianchetto without c4"]
+[ECO "A49"]
+[NIC "QP.06"]
+[Time "13:39:06"]
+[TimeControl "60+0"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. Bg5 Nbd7 7. Bxf6 Nxf6
+8. e3 Re8 9. c3 c6 10. Nbd2 Qc7 11. Re1 e5 12. Nf1 e4 13. N3d2 d5 14. f3
+exf3 15. Qxf3 Bf5 16. c4 Qd7 17. cxd5 cxd5 18. Nb3 b6 19. Rac1 Ne4 20. Qe2
+Rac8 21. Bxe4 Bxe4 22. Qf2 a5 23. Nfd2 Bf5 24. Nf3 a4 25. Nbd2 Rxc1 26. Rxc1
+Rc8 27. Rxc8+ Qxc8 28. Nh4 Bd3 29. Ndf3 Qc1+ 30. Kg2 Be4 31. Kh3 Qd1 32. Ng5
+Bd3 33. Qxf7+ {Black disconnected and forfeits} 1-0

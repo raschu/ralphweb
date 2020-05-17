@@ -1,0 +1,21 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2016.04.14"]
+[Round "-"]
+[White "morsa (FM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White resigns"]
+[WhiteElo "1450"]
+[BlackElo "1500"]
+[Opening "Caro-Kann: advance variation"]
+[ECO "B12"]
+[NIC "CK.04"]
+[Time "12:27:56"]
+[TimeControl "60+0"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. f4 e6 5. Ne2 c5 6. c3 Nc6 7. Ng3 Bg6 8. Be3
+Qb6 9. Qd2 cxd4 10. cxd4 Bb4 11. Nc3 Nge7 12. a3 Bxc3 13. bxc3 Nf5 14. Bf2
+Qc7 15. Rb1 b6 16. Bb5 O-O 17. O-O Na5 18. Rbc1 Rac8 19. Bd3 Nb3 20. Qe2
+Nxc1 21. Rxc1 Nxg3 22. hxg3 Bxd3 23. Qxd3 Qc4 24. Qf3 Rc7 25. Kh2 Rfc8 26.
+Be1 Qb3 27. Bd2 Qb2 28. Be3 Qxa3 29. g4 Rxc3 {White resigns} 0-1

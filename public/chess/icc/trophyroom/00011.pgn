@@ -1,0 +1,24 @@
+[Event "ICC 45 30 u"]
+[Site "Internet Chess Club"]
+[Date "2013.05.19"]
+[Round "1"]
+[White "joejan (FM)"]
+[Black "PerlHacker"]
+[Result "0-1"]
+[ICCResult "White resigns"]
+[WhiteElo "2088"]
+[BlackElo "1703"]
+[Opening "Caro-Kann: two knights variation"]
+[ECO "B11"]
+[NIC "CK.01"]
+[Time "10:56:28"]
+[TimeControl "2700+30"]
+
+1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Nf6 5. Ng3 Bg4 6. h3 Bxf3 7. Qxf3 Qd5
+8. Be2 e6 9. O-O Bd6 10. d3 Nbd7 11. Bd2 Ne5 12. Qxd5 cxd5 13. f4 Ng6 14.
+Nh5 Rc8 15. Nxf6+ gxf6 16. f5 Rxc2 17. Bc3 Rxe2 18. fxg6 Be5 19. Bxe5 fxe5
+20. Rxf7 hxg6 21. Rxb7 Rf8 22. Rg7 Rxb2 23. Rxg6 Rff2 24. h4 Kf7 25. Rg3
+Rxa2 26. Rxa2 Rxa2 27. h5 Ra4 28. Rg5 Kf6 29. Rg6+ Kf7 30. g4 Rd4 31. Rg5
+Rxd3 32. Rxe5 Rg3+ 33. Kf2 Rxg4 34. Re3 Rh4 35. Ra3 Rxh5 36. Rxa7+ Kf6 37.
+Kf3 Rh4 38. Ra8 Rb4 39. Rh8 Ke5 40. Rh5+ Kd6 41. Ke3 e5 42. Kd3 Rb3+ 43. Kc2
+Rg3 44. Kd2 e4 45. Rh8 Ke5 46. Rh5+ Kd4 {White resigns} 0-1

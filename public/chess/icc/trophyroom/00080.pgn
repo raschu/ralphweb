@@ -1,0 +1,26 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2019.08.25"]
+[Round "-"]
+[White "artus (IM)"]
+[Black "PerlHackr"]
+[Result "1/2-1/2"]
+[ICCResult "White ran out of time and Black has no material to mate"]
+[WhiteElo "1868"]
+[BlackElo "1672"]
+[Opening "QGD: 4.Nf3"]
+[ECO "D37"]
+[NIC "QI.01"]
+[Time "06:14:13"]
+[TimeControl "60+0"]
+
+1. Nf3 e6 2. d4 Nf6 3. c4 d5 4. Nc3 Be7 5. cxd5 exd5 6. Bg5 O-O 7. e3 c6 8.
+Bd3 Bg4 9. Qc2 h6 10. Bh4 Bxf3 11. gxf3 Nh7 12. Bg3 Ng5 13. Ke2 Nd7 14. h4
+Ne6 15. Rag1 Kh8 16. Kd2 g6 17. Bxg6 fxg6 18. Qxg6 Nf6 19. Qxh6+ Nh7 20.
+Be5+ Bf6 21. f4 Bxe5 22. dxe5 Qe7 23. Rg6 Qf7 24. Rxe6 Rae8 25. Rf6 Qg7 26.
+Qxg7+ Kxg7 27. Rg1+ Kh8 28. Rxf8+ Rxf8 29. Na4 Rg8 30. Rxg8+ Kxg8 31. Nc5 b6
+32. Ne6 Kf7 33. Ng5+ Nxg5 34. fxg5 Kg6 35. h5+ Kf5 36. e6 Kxe6 37. h6 Kf7
+38. f4 Kg6 39. Kd3 c5 40. b3 a6 41. Kc3 b5 42. a4 a5 43. axb5 Kh7 44. b6 Kg6
+45. b7 Kf5 46. b8=Q Ke4 47. Qe5+ Kf3 48. Qxd5+ Kf2 49. Qxc5 Kf1 50. Qxa5 Kg1
+51. Qd5 Kh2 52. e4 Kh3 53. Qd3+ Kh4
+{White ran out of time and Black has no material to mate} 1/2-1/2

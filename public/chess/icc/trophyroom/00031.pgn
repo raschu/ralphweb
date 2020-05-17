@@ -1,0 +1,22 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2015.09.20"]
+[Round "-"]
+[White "lollipop (WFM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White resigns"]
+[WhiteElo "1363"]
+[BlackElo "1496"]
+[Opening "Caro-Kann: advance variation"]
+[ECO "B12"]
+[NIC "CK.04"]
+[Time "03:47:46"]
+[TimeControl "60+0"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. c3 e6 5. f4 c5 6. Nf3 Nc6 7. Bb5 a6 8. Bxc6+
+bxc6 9. O-O cxd4 10. cxd4 Qb6 11. Nc3 c5 12. Kh1 cxd4 13. Nxd4 Bg6 14. f5
+exf5 15. Nxd5 Qc5 16. Nxf5 Bxf5 17. Rxf5 Ne7 18. Nxe7 Bxe7 19. Rf1 O-O 20.
+Qf3 Rac8 21. Bf4 Qc6 22. Qg3 Qe6 23. Rae1 f6 24. exf6 Qxf6 25. Be5 Qxf1+
+{White resigns}
+0-1
