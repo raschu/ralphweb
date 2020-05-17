@@ -84,6 +84,10 @@ get '/utube' => sub {
 get '/trophyroom' => sub {
 	template 'icc_trophyroom';
 };
+get '/trophyroom/:gameid' => sub {
+    my $gameid = params->{gameid};
+	template 'icc_trophyroom_game' , {gameid => $gameid};
+};
 get '/icc_social_network' => sub {
 	template 'icc_social';
 };
