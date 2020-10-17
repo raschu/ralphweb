@@ -1,0 +1,23 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2020.08.23"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "immie (IM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1599"]
+[BlackElo "1794"]
+[Opening "Old Indian: Tartakower (Wade) variation"]
+[ECO "A41"]
+[NIC "QO.17"]
+[Time "03:41:58"]
+[TimeControl "60+0"]
+
+1. d4 d6 2. Nf3 Bg4 3. c4 Nd7 4. Bg5 h6 5. Bh4 g5 6. Bg3 Bg7 7. h3 Bh5 8. e3
+c5 9. Be2 cxd4 10. Nxd4 Bxe2 11. Kxe2 Ngf6 12. Nc3 Rc8 13. Qd3 a6 14. b3 Nc5
+15. Qb1 Qd7 16. Nd5 O-O 17. Nxf6+ Bxf6 18. Qf5 Qxf5 19. Nxf5 Bxa1 20. Rxa1
+Rfe8 21. Nxh6+ Kg7 22. Nf5+ Kg6 23. Nd4 f5 24. Rd1 e5 25. Nc2 Ne4 26. Kf1 f4
+27. Bh2 Kf5 28. f3 Nc3 29. Rd3 Nxa2 30. e4+ Ke6 31. Ne1 b5 32. cxb5 axb5 33.
+Kf2 {Black forfeits on time} 1-0
+
