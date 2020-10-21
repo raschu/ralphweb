@@ -1,0 +1,26 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2020.10.21"]
+[Round "-"]
+[White "SoftPlay (FM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White forfeits on time"]
+[WhiteElo "1525"]
+[BlackElo "1690"]
+[Opening "Caro-Kann: two knights variation"]
+[ECO "B10"]
+[NIC "CK.01"]
+[Time "06:41:42"]
+[TimeControl "60+0"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 Bg4 6. d4 e6 7. Be2 Bd6 8.
+O-O Qc7 9. Bg5 Nbd7 10. Re1 h6 11. Be3 Nd5 12. Qd2 Nxe3 13. Qxe3 Nf6 14. Ne5
+Bxe5 15. dxe5 Nd5 16. Qd4 Bxe2 17. Rxe2 c5 18. Qc4 O-O-O 19. Ne4 Nb6 20. Qb5
+Qxe5 21. Nxc5 Qxe2 22. Qxe2 Rd5 23. Nd3 Rhd8 24. Qf3 Nc4 25. h3 Nd6 26. Qg3
+Nf5 27. Qf4 g5 28. Qb4 Rd4 29. Qc3+ Kb8 30. Re1 Rc8 31. Qb3 Rd6 32. Re5 Rb6
+33. Qa4 Nd6 34. Qd7 Rc7 35. Qd8+ Rc8 36. Qf6 Ne8 37. Qxf7 Nc7 38. Qg6 Rc6
+39. c3 a6 40. Nb4 Nb5 41. Nxc6+ Rxc6 42. Rxe6 Rc5 43. Qe8+ Ka7
+{White forfeits on time}
+0-1
+

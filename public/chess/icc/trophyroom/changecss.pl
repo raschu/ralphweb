@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #Hier wird der CSS String ersetzt, damit die Files in ralphschuler.ch Design passen
 use strict;
-use warnings;
+no warnings;
 
 my $file = $ARGV[0];
 
