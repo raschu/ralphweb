@@ -1,0 +1,29 @@
+[Event "ICC 3 0"]
+[Site "Internet Chess Club"]
+[Date "2020.10.29"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "Serg2008 (IM)"]
+[Result "1/2-1/2"]
+[ICCResult "Black ran out of time and White has no material to mate"]
+[WhiteElo "1529"]
+[BlackElo "1659"]
+[Opening "Dutch"]
+[ECO "A80"]
+[NIC "HD.12"]
+[Time "07:29:33"]
+[TimeControl "180+0"]
+
+1. d4 f5 2. Nf3 Nf6 3. c4 e6 4. Nc3 d5 5. Bg5 c6 6. cxd5 exd5 7. g4 Be7 8.
+gxf5 Bxf5 9. e3 O-O 10. Bd3 Bxd3 11. Qxd3 Nbd7 12. O-O-O Ne4 13. Bxe7 Qxe7
+14. Nxe4 Qxe4 15. Qxe4 dxe4 16. Ng5 Rae8 17. Rhf1 Rf5 18. Nh3 g5 19. Rg1 h6
+20. Nf4 Kh7 21. Nh5 Rxf2 22. Rd2 Ref8 23. Ng3 Rxd2 24. Kxd2 Nf6 25. Rf1 Kg6
+26. Nf5 Re8 27. Ng3 h5 28. Ne2 Ng4 29. h3 Nh2 30. Rf2 Nf3+ 31. Kd1 c5 32.
+Nc3 cxd4 33. Nxe4 Rxe4 34. Rxf3 g4 35. hxg4 hxg4 36. Rg3 Kf5 37. exd4 Rxd4+
+38. Kc2 Rf4 39. Kd3 Rf3+ 40. Rxf3+ gxf3 41. Ke3 Kg4 42. Kf2 Kf4 43. b3 Ke4
+44. Kf1 Ke3 45. Ke1 b5 46. b4 a6 47. a3 Kd3 48. Kf2 Kc3 49. Kxf3 Kb3 50. Ke4
+Kxa3 51. Kd3 Kxb4 52. Kc2 a5 53. Kb1 a4 54. Ka1 a3 55. Kb1 Ka4 56. Ka1 b4
+57. Kb1 b3 58. Ka1 Kb4 59. Kb1 Kc4 60. Ka1 Kd3 61. Kb1
+{Black ran out of time and White has no material to mate}
+1/2-1/2
+

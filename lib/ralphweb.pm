@@ -128,7 +128,7 @@ get '/download' => sub {
 
 	for (1..$cnttbls) {
 		
-		last if $_ == $cnttbls; #wenn Anzahl Boards / 4 aufgehen, sonst auskommentieren...
+		#last if $_ == $cnttbls; #wenn Anzahl Boards / 4 aufgehen, sonst auskommentieren...
 		
 		my $b1 = shift @boards;
 		my $b2 = shift @boards;
