@@ -1,0 +1,23 @@
+[Event "ICC 3 0"]
+[Site "Internet Chess Club"]
+[Date "2020.11.01"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "Serg2008 (IM)"]
+[Result "1-0"]
+[ICCResult "Black checkmated"]
+[WhiteElo "1501"]
+[BlackElo "1552"]
+[Opening "Dutch"]
+[ECO "A80"]
+[NIC "HD.12"]
+[Time "04:17:59"]
+[TimeControl "180+0"]
+
+1. d4 f5 2. Nf3 Nf6 3. c4 e6 4. Nc3 d5 5. Bg5 Be7 6. g4 Nxg4 7. Bxe7 Qxe7 8.
+h3 Nf6 9. Ne5 Nbd7 10. f4 Nb6 11. e3 c6 12. cxd5 exd5 13. Be2 Be6 14. Bh5+
+g6 15. Be2 O-O-O 16. a4 Ne4 17. Nxe4 dxe4 18. a5 Nd5 19. a6 Nxe3 20. axb7+
+Kc7 21. Rxa7 Rb8 22. Nxc6 Kxc6 23. Qc1+ Kb6 24. Ra6+ Kxb7 25. Qc6#
+{Black checkmated}
+1-0
+
