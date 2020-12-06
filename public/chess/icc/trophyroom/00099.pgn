@@ -1,0 +1,21 @@
+[Event "ICC 1 0"]
+[Site "Internet Chess Club"]
+[Date "2020.12.06"]
+[Round "-"]
+[White "Gael (FM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White forfeits on time"]
+[WhiteElo "1614"]
+[BlackElo "1695"]
+[Opening "Caro-Kann defense"]
+[ECO "B12"]
+[NIC "CK.02"]
+[Time "10:25:00"]
+[TimeControl "60+0"]
+
+1. e4 c6 2. d4 d5 3. f4 dxe4 4. Nc3 Nf6 5. Bc4 Bg4 6. Nge2 e6 7. h3 Bxe2 8.
+Qxe2 Bb4 9. Bd2 Bxc3 10. Bxc3 Nbd7 11. g4 Nb6 12. Bb3 Nbd5 13. O-O Nxc3 14.
+bxc3 Nd5 15. Qxe4 Nxc3 16. Qd3 Nd5 17. c4 Nf6 18. Rad1 Qb6 19. Kh2 Rd8 20.
+Bc2 O-O 21. Qc3 c5 22. g5 cxd4 23. Qd3 Nh5 {White forfeits on time} 0-1
+
