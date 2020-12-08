@@ -1,0 +1,22 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2020.12.08"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "talbotvinnik (FM)"]
+[Result "1-0"]
+[ICCResult "Black checkmated"]
+[WhiteElo "1534"]
+[BlackElo "1382"]
+[Opening "Queen's pawn"]
+[ECO "A40"]
+[NIC "QO.17"]
+[Time "01:39:15"]
+[TimeControl "300+0"]
+
+1. d4 e6 2. Nf3 c5 3. c3 cxd4 4. cxd4 Nf6 5. Bg5 Be7 6. Nc3 d6 7. e4 a6 8.
+Bd3 h6 9. Bh4 Nbd7 10. O-O b5 11. e5 dxe5 12. dxe5 Nh7 13. Bxe7 Qxe7 14. Ne4
+Nxe5 15. Nxe5 Bb7 16. f3 f5 17. Ng6 fxe4 18. Nxe7 exd3 19. Qxd3 Kxe7 20. Qg6
+Rag8 21. Rac1 Nf8 22. Rc7+ Kd6 23. Qf7 Bd5 24. Qe7+ Ke5 25. Re1+ Kd4 26.
+Qc5+ Kd3 27. Qc3# {Black checkmated} 1-0
+
