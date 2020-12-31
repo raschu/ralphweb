@@ -1,0 +1,39 @@
+	<div id="wrap">
+
+			<!--header -->
+			<div id="header">			
+
+				<h1 id="logo-text"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h1>				
+			
+
+				<% INCLUDE mainmenu.tt %>	
+
+			</div>
+
+			<!-- menu -->	
+			<div  id="menu">
+			</div>		
+				<!-- content-wrap starts here -->
+				<div id="content-wrap">
+
+					<div id="main">
+						<h2>Round-Robin Turniere auf lichess.org</h2>
+
+					<p>
+						
+						<ul>
+                            <li><a href="/chess/roundrobin/20201230.htm">Round-Robin Turnier vom 30.12.2020</a></li>
+                            <li><a href="/chess/roundrobin/20201216.htm">Round-Robin Turnier vom 16.12.2020</a></li>
+						</ul>
+						</p>
+						
+						
+						
+						
+					</div>
+
+				<!-- content-wrap ends here -->	
+				</div>
+
+				<% INCLUDE footer.tt %>
+

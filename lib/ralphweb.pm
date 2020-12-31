@@ -65,6 +65,10 @@ get '/gcc' => sub {
 	template 'gcc';
 };
 
+get '/rrt' => sub {
+	template 'rrt';
+};
+
 get '/sdg' => sub {
 	redirect '/chess/sdg2.0/sdg_2016.html';
 };
