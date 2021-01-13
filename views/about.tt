@@ -44,7 +44,7 @@
 <p>
 In my spare time, I love to play chess online, coding software and listen music.<br>I play regular blitz chess and Fischer random chess (Chess960). My favorite openings are Queen's Gambit, Trompowsky-Attack, Dutch Stonewall and Alekhine's Defence.<br>My main programming language is <a href="http://www.perl.org">Perl</a>, but I have some experience with Python, PHP, Ruby, VB.NET, VBA, VBS, C#, C, C++, Objective-C and Java.<br>Most of the time I listen music on <a href="http://www.lastfm.de/user/huiimthal/library">last.fm</a>.</p>
 <p>
-This whole site is running on <a href="http://perldancer.org">Perl Dancer</a> as webserver, <a href="http://nginx.org/en/">nginx</a> as load balancer and reverse proxy on a 64-bit <a href="http://www.debian.org/">Debian GNU/Linux</a> 7.9 (wheezy). Both bots Chartbot and SCBot, which deliver data, are written in Perl. As database backend I am using <a href="http://www.sqlite.org/">SQLite</a> and <a href="http://www.postgresql.org/">PostgreSQL</a>.</p>
+This whole site is running on <a href="http://perldancer.org">Perl Dancer</a> as webserver, <a href="http://nginx.org/en/">nginx</a> as load balancer and reverse proxy on a 64-bit <a href="https://www.centos.org/">CentOS Linux</a> release 8.1.1911 (Core) . Both bots Chartbot and SCBot, which deliver data, are written in Perl. As database backend I am using <a href="http://www.sqlite.org/">SQLite</a> and <a href="http://www.postgresql.org/">PostgreSQL</a>.</p>
 
 <p>
 Here are some of my accounts:
