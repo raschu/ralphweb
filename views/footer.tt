@@ -1,7 +1,7 @@
 <!--footer starts here-->
 				<div id="footer">
 		            <p>
-				    &copy; 1997-2020 <strong>Ralph Schuler</strong>
+				    &copy; 1997-2021 <strong>Ralph Schuler</strong>
 		            &nbsp;&nbsp;&nbsp;&nbsp;
 				Powered by <a href="http://perldancer.org/">Dancer</a> <% dancer_version %>
 	            </p>
