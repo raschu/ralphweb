@@ -1,0 +1,47 @@
+body {
+    background: #00304E;
+    color: #99ACB8;
+}
+
+h2, h1 {
+  font-family: monospace;
+}
+a {
+  color: #99ACB8;
+}
+#results {
+  font-family: monospace;
+  border-collapse: collapse;
+  width: 600px;
+}
+#ranking {
+  font-family: monospace;
+  border-collapse: collapse;
+  width: 300px;
+}
+#results td, #results th {
+  padding: 2px;
+}
+#ranking td, #ranking th {
+  padding: 2px;
+}
+
+tr.dark { 
+  background: #000000;
+}
+
+
+#results th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: left;
+  background-color: #000000;
+  color: #99ACB8;
+}
+#ranking th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: left;
+  background-color: #000000;
+  color: #99ACB8;
+}
