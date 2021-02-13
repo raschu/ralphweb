@@ -7,3 +7,5 @@ public/chess/icc/heatmap.gif
 public/chess/icc/lastflag.txt
 public/chess/icc/lastgame.pgn
 public/chess/icc/lastgame0.html
+public/chess/roundrobin/tournament.sqlite
+

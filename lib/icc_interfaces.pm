@@ -70,7 +70,7 @@ get '/icc_interfaces/ranking/:ix' => sub {
 	#damit Dancer als Daemon gestartet werden kann, muss der $dbh Handle in der Sub aufgerufen werden, weil der $dbh beim Fork verloren geht
 	#my $dbh = DBI->connect('dbi:Pg:dbname=ralph;host=localhost','rwuser','rwuser',{AutoCommit=>1,RaiseError=>1,PrintError=>0});
     my $dbh = DBI->connect("dbi:SQLite:dbname=/root/www/ralphweb/db/icc/ICC_interfaces.db","","");
-	my $allcnt = $dbh->do("select count(*) from interfaceranking");
+	my $allcnt = $dbh->selectrow_array("select count(*) from interfaceranking");
 	chomp($allcnt);
 	
 	my $ix = params->{ix};
