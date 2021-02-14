@@ -1,0 +1,33 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2021.02.14"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "talbotvinnik (FM)"]
+[Result "1-0"]
+[ICCResult "Black checkmated"]
+[WhiteElo "1573"]
+[BlackElo "1673"]
+[Opening "Old Benoni defense"]
+[ECO "A43"]
+[NIC "OI.09"]
+[Time "04:29:34"]
+[TimeControl "300+0"]
+
+1. d4 c5 2. d5 e6 3. c4 d6 4. Nc3 Nf6 5. Nf3 g6 6. Bg5 Bg7 7. h4 O-O 8. h5
+exd5 9. Nxd5 Re8 10. Qd3 Bf5 11. Qb3 b6 12. O-O-O Nc6 13. Nh4 Na5 14. Qf3
+Be4 15. Bxf6 Bxf3 16. Bxd8 Bxd5 17. Rxd5 Raxd8 18. b3 Nc6 19. hxg6 hxg6 20.
+Nf3 Ne5 21. Nxe5 Rxe5 22. Rxe5 Bxe5 23. g3 Bg7 24. Bg2 Re8 25. Bf3 Re5 26.
+Rd1 Bf8 27. Rd5 Rxd5 28. Bxd5 Kg7 29. Kd2 Kf6 30. f4 Bh6 31. e3 Ke7 32. Kd3
+f5 33. e4 Kf6 34. exf5 gxf5 35. Ke3 Bf8 36. Bf3 Be7 37. Kf2 Kg6 38. Ke3 Bf6
+39. Kf2 Bd4+ 40. Kg2 Kf6 41. Kh3 Be3 42. Kg2 Bd4 43. Kh3 Bb2 44. Kg2 Bc1 45.
+Kh3 a6 46. a4 b5 47. axb5 axb5 48. cxb5 Bd2 49. b6 Ba5 50. b7 Bc7 51. Bd5
+Kg6 52. g4 fxg4+ 53. Kxg4 Kf6 54. f5 Bb8 55. Be4 Bc7 56. Kf4 Bb8 57. Ke3 Bc7
+58. Kd3 Bb8 59. Kc4 Bc7 60. Kd5 Bb8 61. Kc6 Ke5 62. Bc2 Kf6 63. Kd7 d5 64.
+Kc8 Be5 65. b8=Q Bxb8 66. Kxb8 c4 67. bxc4 dxc4 68. Kc7 c3 69. Kc6 Ke5 70.
+Kc5 Kf6 71. Kc4 Ke5 72. Kxc3 Kf6 73. Kc4 Ke5 74. Kc5 Kf6 75. Kd6 Kf7 76. Ke5
+Ke7 77. Bb3 Kf8 78. Kd6 Kg7 79. Ke7 Kh8 80. f6 Kh7 81. f7 Kg7 82. f8=Q+ Kg6
+83. Ke6 Kg5 84. Ke5 Kg6 85. Bc2+ Kg5 86. Qg8+ Kh4 87. Kf4 Kh5 88. Qg5#
+{Black checkmated}
+1-0
+
