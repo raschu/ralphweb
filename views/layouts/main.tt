@@ -10,7 +10,7 @@
 <meta name="Robots" content="index,follow" />
 <!-- Website Template by styleshout http://www.styleshout.com -->
 <link rel="stylesheet" href="/css/Envision.css" type="text/css" />
-<title>ralphschuler.ch</title>
+<title>ralphschuler.ch<%pagetitle%></title>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

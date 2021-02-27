@@ -62,11 +62,11 @@ get '/about' => sub {
 };
 
 get '/gcc' => sub {
-	template 'gcc';
+	template 'gcc', {pagetitle => ' | Gersau Cuba-Cup'};
 };
 
 get '/rrt' => sub {
-	template 'rrt';
+	template 'rrt', {pagetitle => ' | Round-Robin Turniere auf lichess.org'};
 };
 
 get '/sdg' => sub {
