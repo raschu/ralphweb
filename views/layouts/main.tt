@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<meta name="Description" content="ralphschuler.ch" />
+<meta name="Description" content="ralphschuler.ch<%pagetitle%>" />
 <meta name="Keywords" content="Ralph Schuler Ralf Kantonsrangliste Ski Challenge Kantonsranking sc15 sc16 SC:14 SC:15 SC:16 Höfli Schach Hoefli Schachturnier Schwyz" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="Distribution" content="Global" />
