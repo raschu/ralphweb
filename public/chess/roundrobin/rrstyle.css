@@ -4,18 +4,18 @@ body {
 }
 
 h2, h1 {
-  font-family: monospace;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 a {
   color: #99ACB8;
 }
 #results {
-  font-family: monospace;
+  font-family: 'Trebuchet MS', sans-serif;
   border-collapse: collapse;
   width: 600px;
 }
 #ranking {
-  font-family: monospace;
+  font-family: 'Trebuchet MS', sans-serif;
   border-collapse: collapse;
   width: 300px;
 }
