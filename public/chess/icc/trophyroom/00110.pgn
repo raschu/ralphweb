@@ -1,0 +1,24 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2021.07.06"]
+[Round "-"]
+[White "PerlHackr"]
+[Black "toothfairy (IM)"]
+[Result "1-0"]
+[ICCResult "Black forfeits on time"]
+[WhiteElo "1583"]
+[BlackElo "1513"]
+[Opening "Queen's pawn game"]
+[ECO "D02"]
+[NIC "QP.08"]
+[Time "00:30:49"]
+[TimeControl "300+0"]
+
+1. d4 d5 2. Nf3 Bf5 3. c4 e6 4. Nc3 c6 5. Qb3 Qb6 6. c5 Qc7 7. Ne5 Nd7 8.
+Bf4 Qc8 9. e3 Ngf6 10. Be2 Nxe5 11. Bxe5 Nd7 12. Bg3 b6 13. cxb6 axb6 14.
+O-O Be7 15. Rac1 Qb7 16. a4 O-O 17. Ra1 Rfc8 18. a5 b5 19. Rfc1 Bd8 20. Qa2
+Rxa5 21. Qb3 Rca8 22. Rxa5 Rxa5 23. h3 Nb6 24. Bd6 Qa6 25. Bb4 Ra1 26. Rxa1
+Qxa1+ 27. Kh2 Nc4 28. Bxc4 dxc4 29. Qa3 Qxa3 30. Bxa3 Bc7+ 31. g3 e5 32. d5
+Bd7 33. e4 Bb6 34. Bd6 f6 35. f3 c5 36. Kg2 b4 37. Nd1 Ba4 38. Ne3 c3 39.
+bxc3 b3 40. Nc4 {Black forfeits on time} 1-0
+
