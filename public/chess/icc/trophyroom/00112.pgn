@@ -1,0 +1,19 @@
+[Event "ICC 5 0"]
+[Site "Internet Chess Club"]
+[Date "2021.09.03"]
+[Round "-"]
+[White "talbotvinnik (FM)"]
+[Black "PerlHackr"]
+[Result "0-1"]
+[ICCResult "White resigns"]
+[WhiteElo "1520"]
+[BlackElo "1666"]
+[Opening "Caro-Kann: two knights variation"]
+[ECO "B10"]
+[NIC "CK.01"]
+[Time "00:34:57"]
+[TimeControl "300+0"]
+
+1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng3 Bg4 6. Be2 e6 7. d4 Bd6 8.
+O-O Qc7 9. Ne4 Nxe4 {White resigns} 0-1
+
